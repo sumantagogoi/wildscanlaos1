@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2.5dp"
+    android:layout_marginRight="2.5dp"
+    android:orientation="vertical" >
+
+	<Button 
+	    android:id="@+id/reportWizardBtnCapture"
+	    android:text="@string/report_wizard_screen_1_capture_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_marginBottom="1.25dp"
+	    android:drawableTop="@drawable/report_capture"
+	    android:padding="45dp"
+	    android:gravity="center"
+	    android:background="@color/report_btn_bg"
+	    android:textColor="@color/report_btn_text"
+	    android:textSize="@dimen/report_text_size"
+	    android:onClick="onClickBtnCapture" />
+
+	<Button 
+		android:id="@+id/reportWizardBtnBrowse"
+		android:text="@string/report_wizard_screen_1_browse_label"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:layout_marginTop="1.25dp"
+		android:drawableTop="@drawable/report_browse"
+		android:padding="45dp"
+		android:gravity="center"
+		android:background="@color/report_btn_bg"
+		android:textColor="@color/report_btn_text"
+		android:textSize="@dimen/report_text_size"
+		android:onClick="onClickBtnBrowse" />
+</LinearLayout>

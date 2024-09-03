@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/pref_screen_title" >
+<!--     <CheckBoxPreference 
+        android:key="org.freeland.Wildscan.Prefs.SyncWifiOnly"  
+        android:title="@string/pref_label_sync"
+        android:summary="@string/pref_summary_sync" />
+ -->
+    <CheckBoxPreference 
+        android:key="org.freeland.Wildscan.Prefs.SaveReport" 
+        android:title="@string/pref_label_save_report" 
+        android:summary="@string/pref_summary_save_report"/>
+    <CheckBoxPreference 
+        android:key="org.freeland.Wildscan.Prefs.ShowWarning" 
+        android:title="@string/pref_label_show_warning" 
+        android:summary="@string/pref_summary_show_warning"
+        android:defaultValue="true"/>
+    <ListPreference 
+        android:key="org.freeland.Wildscan.Prefs.SpeciesDefaultView" 
+        android:title="@string/pref_label_gallery_view"
+        android:summary="@string/pref_summary_gallery_view" 
+        android:entries="@array/pref_gallery_view_entries"
+        android:entryValues="@array/pref_gallery_view_values" />
+    <ListPreference 
+        android:key="org.freeland.Wildscan.Prefs.ContentLanguage" 
+        android:title="@string/pref_label_language"
+        android:summary="@string/pref_summary_language" />
+    <MultiSelectListPreference 
+        android:key="org.freeland.Wildscan.Prefs.AutoContacts" 
+        android:title="@string/pref_label_auto_contacts"
+        android:summary="@string/pref_summary_auto_contacts"  />
+    
+
+</PreferenceScreen>

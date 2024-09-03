@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportWizardActivity" >
+
+	<TextView
+	    android:id="@+id/reportWizardHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_margin="2.5dp"
+	    android:background="@color/header_item_bg_dark"
+        android:clickable="false"
+        android:focusable="false"
+	    android:gravity="left|center_vertical"
+	    android:padding="5dp"
+	    android:text="@string/report_wizard_screen_1_title"
+	    android:textColor="@color/header_item_fg"
+	    android:textSize="16sp" />
+	
+    <!-- <TextView
+        android:id="@+id/reportWizardTipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reportWizardHeader"
+        android:clickable="false"
+        android:focusable="false"
+	    android:gravity="center_vertical"
+        android:text="@string/report_wizard_screen_1_tip"
+        android:textSize="12sp" /> -->
+		
+
+    <FrameLayout
+        android:id="@+id/reportWizardDisplayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/reportWizardHeader"
+        android:layout_above="@+id/reportWizardFooter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp" >
+    </FrameLayout>        
+    
+    <LinearLayout
+        android:id="@id/reportWizardFooter"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="2.5dp" >
+        <Button
+            android:id="@+id/reportWizardBtnCancel"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/header_item_fg"
+            android:background="@color/header_item_bg_med"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:onClick="onClickBtnCancel"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/reportWizardBtn2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/header_item_fg"
+            android:background="@color/header_item_bg_light"
+            android:textSize="12sp"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/reportWizardBtn3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/header_item_fg"
+            android:background="@color/header_item_bg_dark"
+            android:textSize="12sp"
+            style="?android:attr/borderlessButtonStyle" />
+        
+        <Button
+            android:id="@+id/reportWizardBtnNext"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/header_item_fg"
+            android:background="@color/btn_submit_bg"
+            android:textSize="12sp"
+            android:visibility="gone"
+            style="?android:attr/borderlessButtonStyle" />
+        
+	</LinearLayout>
+</RelativeLayout>

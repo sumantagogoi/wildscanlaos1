@@ -1,0 +1,5 @@
+include ':google-play-services_lib'
+include ':google-play-apk-expansion-zip-file_lib'
+include ':google-play-apk-expansion-downloader_lib'
+include ':google-play-licensing_lib'
+include ':wildscanlaos'

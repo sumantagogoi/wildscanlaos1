@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="species_types">
+        <item>All</item>
+        <item>Mammal</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Reptile</item>
+        <item>Amphibian</item>
+        <item>Invertebrate</item>
+        <item>Plant</item>
+        <item>Product</item>
+        </string-array>
+    
+    <string-array name="species_filters">
+        <item>All types</item>
+        <item>Mammals</item>
+        <item>Birds</item>
+        <item>Fish</item>
+        <item>Reptiles</item>
+        <item>Amphibians</item>
+        <item>Invertebrates</item>
+        <item>Plants</item>
+        <item>Derivative products</item>
+        <item>Close Species</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Creative Commons Attribution-Share Alike 2.0 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 2.5 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 3.0 Unported</item>
+        <item>GNU Free Documentation License</item>
+        <item>Public Domain</item>
+        <item>FREELAND photo license</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>Is it an intact animal (live or deceased), or an animal part/derivative product?</item>
+        <item>What is the primary covering of the animal\'s body?</item>
+        <item>How many legs does the animal have?</item>
+        <item>What is the main color of the animal?</item>
+        <item>What is the approximate size of the animal?</item>
+        <item>Does the animal have any special features?\n(check all that apply)</item>
+        <item>What is the apparent purpose of the part/product?</item>
+        <item>What material is the part/product made of?</item>
+        <item>Which part of the animal\'s body is it?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Intact animal</item>
+        <item>Animal part / product</item>
+    	</string-array>
+    <string-array name="id_wizard_prod_ani_filters">
+        <item>animal</item>
+        <item>product</item>
+    	</string-array>
+    <array name="id_wizard_prod_ani_drawables">
+        <item>@drawable/id_q_prod_ani_animal</item>
+        <item>@drawable/id_q_prod_ani_product</item>
+    	</array>
+    
+    <string-array name="id_wizard_covering">
+        <item>Scales</item>
+        <item>Fur</item>
+        <item>Feathers</item>
+        <item>Skin</item>
+		<item>Other/Not sure</item>
+    	</string-array>
+    <string-array name="id_wizard_covering_filters">
+        <item>scales</item>
+        <item>fur</item>
+        <item>feathers</item>
+        <item>skin</item>
+    	</string-array>
+    <array name="id_wizard_covering_drawables">
+        <item>@drawable/id_q_cover_scales</item>
+        <item>@drawable/id_q_cover_fur</item>
+        <item>@drawable/id_q_cover_feathers</item>
+        <item>@drawable/id_q_cover_skin</item>
+        <item>@drawable/id_unk</item>
+        </array>
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>More</item>
+    	</string-array>
+    <string-array name="id_wizard_num_legs_filters">
+        <item>0legs</item>
+        <item>2legs</item>
+        <item>4legs</item>
+        <item>6legs</item>
+		<item>many_legs</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_color">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+		<item>Blue</item>
+        <item>Purple</item>
+		<item>Gray</item>
+        <item>Brown</item>
+        <item>White</item>
+        <item>Black</item>
+		<item>Other/Not sure</item>
+		</string-array>
+    <string-array name="id_wizard_color_filters">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+		<item>blue</item>
+        <item>purple</item>
+		<item>gray/grey</item>
+        <item>brown</item>
+        <item>white</item>
+        <item>black</item>
+    	</string-array>
+    <array name="id_wizard_color_drawables">
+        <item>@drawable/id_q_color_red</item>
+        <item>@drawable/id_q_color_orange</item>
+        <item>@drawable/id_q_color_yellow</item>
+        <item>@drawable/id_q_color_green</item>
+		<item>@drawable/id_q_color_blue</item>
+        <item>@drawable/id_q_color_purple</item>
+		<item>@drawable/id_q_color_gray</item>
+        <item>@drawable/id_q_color_brown</item>
+        <item>@drawable/id_q_color_white</item>
+        <item>@drawable/id_q_color_black</item>
+        <item>@drawable/id_unk</item>
+       	</array>
+    
+    <string-array name="id_wizard_size">
+		<item>Smaller than your hand</item>
+		<item>Smaller than an average dog</item>
+		<item>Smaller than you</item>
+		<item>Larger than you</item>
+		<item>Not sure</item>
+    	</string-array>
+    <string-array name="id_wizard_size_filters">
+		<item>tiny</item>
+		<item>small</item>
+		<item>medium</item>
+		<item>large</item>
+    	</string-array>
+    <array name="id_wizard_size_drawables">
+        <item>@drawable/id_q_size_tiny</item>
+        <item>@drawable/id_q_size_small</item>
+        <item>@drawable/id_q_size_medium</item>
+        <item>@drawable/id_q_size_large</item>
+        <item>@drawable/id_q_size_unk</item>
+       	</array>
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Smaller than your hand</item>
+		<item>Larger than your hand but smaller than an average dog</item>
+		<item>Larger than an average dog but smaller than you</item>
+		<item>Larger than you</item>
+		<item>Not sure</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>Tail</item>
+        <item>Wings</item>
+        <item>Beak</item>
+        <item>Shell</item>
+		<item>Fins</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    <string-array name="id_wizard_features_filters">
+        <item>tail</item>
+        <item>wings</item>
+        <item>beak</item>
+        <item>shell</item>
+		<item>fins</item>
+		</string-array>
+    
+    <string-array name="id_wizard_purpose">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Jewelry</item>
+        <item>Trophy/ornament</item>
+		<item>Medicine</item>
+		<item>Other/Not sure</item>
+		</string-array>
+    <string-array name="id_wizard_purpose_filters">
+        <item>food</item>
+        <item>clothing</item>
+        <item>jewelry</item>
+        <item>trophy/ornament</item>
+		<item>medicine</item>
+		</string-array>
+    
+    <string-array name="id_wizard_material">
+        <item>Bone</item>
+        <item>Pelt/leather</item>
+        <item>Shell</item>
+        <item>Powder</item>
+		<item>Meat</item>
+		<item>Other/Not sure</item>
+		</string-array>
+    <string-array name="id_wizard_material_filters">
+        <item>bone</item>
+        <item>pelt/leather</item>
+        <item>shell</item>
+        <item>powder</item>
+		<item>meat</item>
+		</string-array>
+    <array name="id_wizard_material_drawables">
+        <item>@drawable/id_q_material_bone</item>
+        <item>@drawable/id_q_material_leather</item>
+        <item>@drawable/id_q_material_shell</item>
+        <item>@drawable/id_q_material_powder</item>
+		<item>@drawable/id_q_material_meat</item>
+		<item>@drawable/id_unk</item>
+		</array>
+    
+    <string-array name="id_wizard_part">
+        <item>Horn</item>
+        <item>Tusk</item>
+        <item>Skin</item>
+        <item>Paw</item>
+		<item>Tooth/claw</item>
+		<item>Other/Not sure</item>
+		</string-array>
+    <string-array name="id_wizard_part_filters">
+        <item>horn</item>
+        <item>tusk</item>
+        <item>skin</item>
+        <item>paw</item>
+		<item>tooth/claw</item>
+		</string-array>
+    <array name="id_wizard_part_drawables">
+        <item>@drawable/id_q_part_horn</item>
+        <item>@drawable/id_q_part_tusk</item>
+        <item>@drawable/id_q_part_skin</item>
+        <item>@drawable/id_q_part_paw</item>
+		<item>@drawable/id_q_part_tooth</item>
+		<item>@drawable/id_unk</item>
+		</array>
+
+    <string-array name="info_section_titles">
+		<item>@string/info_about</item>
+		<item>@string/info_eula</item>
+		<item>@string/info_consumer</item>
+		<item>@string/info_responder</item>
+		<item>@string/info_law_enforcement</item>
+		<item>@string/info_national_laws</item>
+		<item>@string/info_credits</item>
+		<item>@string/info_contributors</item>
+		</string-array>
+    
+    <string-array name="sync_progress">
+        <item>Checking for pending reports&#8230;</item>
+        <item>Updating content&#8230;</item>
+        <item>Updating contacts&#8230;</item>
+        <item>Updating species&#8230;</item>
+        <item>Updating species&#8230;</item>
+        <item>Checking for new events&#8230;</item>
+        <item>Updating translations&#8230;</item>
+        <item>Verifying photos&#8230;</item>
+    </string-array>
+    
+    <string-array name="report_units">
+        <item>@string/report_wizard_screen_2_amount_unit_label</item>
+        <item>@string/report_wizard_screen_2_amount_weight_label</item>
+    </string-array>
+    
+    <string-array name="report_condition">
+        <item>@string/report_wizard_screen_2_condition_alive_label</item>
+        <item>@string/report_wizard_screen_2_condition_dead_label</item>
+        <item>@string/report_wizard_screen_2_condition_mixed_label</item>
+    </string-array>
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Gallery</item>
+        <item>List</item>
+        <item>As I left it</item>
+    </string-array>
+    <string-array name="pref_gallery_view_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="contact_labels_lang">
+        <item>vn</item>
+        <item>th</item>
+    </string-array>
+    <string-array name="contact_labels_email">
+        <item>Email</item>
+        <item>อีเมล</item>
+    </string-array>
+    <string-array name="contact_labels_phone">
+        <item>Điện thoại</item>
+        <item>โทรศัพท์</item>
+    </string-array>
+</resources>

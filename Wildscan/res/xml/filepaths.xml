@@ -1,0 +1,6 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="email_reports" path="reports"/>
+    <external-path name="email_reports" path="Wildscan/reports"/>
+</paths>
+
+<!--     <files-path name="reports" path="reports"/> -->

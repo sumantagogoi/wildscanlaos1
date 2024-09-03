@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <string name="blank"></string>
+
+    
+    
+    <string name="action_synchronize">Mfumo wa data</string>
+    <string name="action_info">Msaada &amp; Taarifa</string>
+    <string name="action_settings">Mazingira</string>
+    <string name="info_title">Taarifa Wildscan</string>
+    <string name="info_about">Kuhusu Wildscan</string>
+    <string name="info_eula">Mtumiaji leseni ya makubaliano ya</string>
+    <string name="info_consumer">General ushauri kwa Wateja</string>
+    <string name="info_responder">Jumla ya ushauri kwa wa kwanza</string>
+    <string name="info_law_enforcement">Ujumla wa ushauri kwa wanasheria</string>
+    <string name="info_national_laws">Sheria za Wanyamapori ya Kitaifa</string>
+    <string name="info_contributors">kuchangia Mashirika</string>
+    <string name="info_credits">Mikopo</string>
+  
+    <string name="species_lib_header_title">Maktaba aina</string>
+    <string name="species_lib_header_btn_favorites">Nzuri</string>
+    <string name="species_lib_header_btn_gallery">Nyumba ya sanaa mtazamo</string>
+    <string name="species_lib_header_btn_search">Chungua/Uchunguzi</string>
+    <string name="species_lib_search_by_name_hint">Kuingia jina aina</string>
+    <string name="species_lib_search_set_filter">Chujio kwa aina</string>
+    <string name="species_lib_select_dlg_text">Kuchagua aina kwa maelezo ripoti au mtazamo aina?</string>
+    <string name="species_lib_select_dlg_btn_select">Chagua aina</string>
+    <string name="species_lib_select_dlg_btn_details">Mtazamo maelezo</string>
+    <string name="species_details_label_cites">CITES/ANATOA</string>
+    <string name="species_details_label_cites_appendix_1">Kiambatisho ya kwanza</string>
+    <string name="species_details_label_cites_appendix_2">Kiambatisho ya pili</string>
+    <string name="species_details_label_cites_appendix_3">Kiambatisho ya tatu</string>
+    <string name="species_details_label_status">Hali ya IUCN Redlist</string>
+    <string name="species_details_label_status_lc">WD- Wasiwasi ndogo</string>
+    <string name="species_details_label_status_nt">KK- Karibu Kutishwa</string>
+    <string name="species_details_label_status_vu">MM- Mazingira Magumu</string>
+    <string name="species_details_label_status_en">H- Hatarini</string>
+    <string name="species_details_label_status_cr">KH- Kina hatarini</string>
+    <string name="species_details_label_status_ew">KWP- Kutokuwako kwa wanyama pori</string>
+    <string name="species_details_label_status_ex">Haiko</string>
+    <string name="species_details_label_status_na">HI- Habari isiyokuwa kamilivu</string>
+    <string name="species_details_label_warning">Onyo</string>
+    <string name="species_details_label_warning_disease_risk">Hatari ya ugonjwa</string>
+    <string name="species_details_label_warning_disease_risk_low">Chini</string>
+    <string name="species_details_label_warning_disease_risk_medium">Wastani</string>
+    <string name="species_details_label_warning_disease_risk_high">Refu</string>
+    <string name="species_details_label_warning_dangerous">Hatari</string>
+    <string name="species_details_label_warning_poisonous">Sumu</string>
+    <string name="species_details_label_warning_nocturnal">Usiku</string>
+    <string name="species_details_label_id_clues">Dalili ya msingi wa Kitambulisho</string>
+    <string name="species_details_label_similar">Wanyama sawa</string>
+    <string name="species_details_label_enforcement">Utekelezaji wa ushauri</string>
+    <string name="species_details_label_consumer">Matumishi ya ushauri</string>
+    <string name="species_details_label_responder">Jibu la kwanza (Aina maalum)</string>
+    <string name="species_details_label_traded_as">Kufanyiwa Biashara Kama Bidhaa Kawaida Mbinu ya biashara</string>
+    <string name="species_details_label_common_methods">Mbinu za kawaida ya biashara</string>
+    <string name="species_details_label_aka">Pia anayojulikana kama</string>
+    <string name="species_details_label_distribution">
+Usambazaji</string>
+    <string name="species_details_label_size">Wastani wa ukubwa na uzito</string>
+    <string name="species_details_label_habitat">Makazi</string>
+    <string name="species_details_label_diseases">Magonjwa</string>
+    <string name="species_details_label_notes">Maelezo/Noti</string>
+    <string name="species_details_photo_license">
+Leseni picha:\n%1$s</string>
+    <string name="species_details_failed_set_fav">Alishindwa kuweka Kizuri zaidi</string>
+    <string name="species_details_no_images">Hakuna picha aina sasa inapatikana</string>
+
+    <string name="contacts_list_header_title">Mawasiliano Saraka</string>
+    <string name="contacts_list_header_btn_favorites">Nzuri</string>
+    <string name="contacts_list_header_btn_search">Chungua/Uchunguzi</string>
+    <string name="contacts_list_search_by_name_hint">Kuingia jina mawasiliano</string>
+    <string name="contacts_list_label_email">Barua pepe</string>
+    <string name="contacts_list_label_phone">Simu</string>
+    
+    <string name="events_list_header_title">
+Matukio orodha</string>
+    <string name="events_list_header_btn_favorites">Nzuri</string>
+    <string name="events_list_header_btn_show_on_map">Onyesha kwenye ramani</string>
+    <string name="events_list_header_btn_view_more">Ona zaidi</string>
+    <string name="events_list_fragment_title">Matukio ya hivi karibuni</string>
+    <string name="events_list_fragment_tag_on_home">Matukio orodha fragment kwenye screen nyumbani</string>
+    <string name="events_list_fragment_tag">Matukio orodha fragment</string>
+    <string name="events_list_loading_text">Kurejesha matukio&#8230;</string>
+    <string name="events_list_empty_text">Hakuna matukio</string>
+    <string name="event_hint_country">Nchi haijulikani</string>
+    <string name="event_hint_date">Tarehe isiyojulikana</string>
+    <string name="event_hint_species">Aina isiyotambulika</string>
+    <string name="event_hint_description">Tukio hilo maelezo ni tupu</string>
+    <string name="events_map_header_title">Matukio ramani</string>
+    <string name="events_map_header_btn_next">Ijayo</string>
+    <string name="events_map_header_btn_show_list">
+Show Orodha</string>
+    <string name="event_details_offense_label">Kosa</string>
+    <string name="event_details_address_label">Mitaani</string>
+    <string name="event_details_country_label">Nchi</string>
+    <string name="event_details_datetime_label">Tarehe/Saa</string>
+    <string name="event_details_species_label">Aina</string>
+    <string name="event_details_amount_label">Kiasi</string>
+    <string name="event_details_condition_label">Hali</string>
+    <string name="event_details_unknown">Haijulikani</string>
+    <string name="no_network_connection_toast">Hakuna uhusiano wa mtandao kupatikana</string>
+    <string name="species_id_wizard_header_title">Kutambua aina</string>
+    <string name="report_wizard_screen_1_title">Tukio Ripoti (1) - Kuu Picha</string>
+    <string name="report_wizard_screen_2_title">Tukio Ripoti (2) - Basic Info</string>
+    <string name="report_wizard_screen_3_title">Ripoti tukio (3) - Maelezo zaidi</string>
+    <string name="report_wizard_screen_4_title">Tukio Ripoti (4) - Review na Kuwasilisha</string>
+    <string name="report_wizard_location_pick_title">Tukio Ripoti - Chagua Eneo/ Mahali</string>
+    <string name="report_wizard_screen_1_capture_label">Piga picha</string>
+    <string name="report_wizard_screen_1_browse_label">Kuchagua zilizopo Picha</string>
+    <string name="report_wizard_screen_2_time_label">Tarehe &amp; Muda</string>
+    <string name="report_wizard_screen_2_location_label">Eneo Weka eneo</string>
+    <string name="report_wizard_screen_2_offense_label">Kosa</string>
+    <string name="report_wizard_screen_2_offense_hint">Muhtasari eleza kosa. Kwa mfano: \' Kuuza reptilia kulindwa.\'</string>
+    <string name="report_wizard_screen_2_species_label">Aina</string>
+    <string name="report_wizard_screen_2_species_hint">Aina jina la kawaida</string>
+    <string name="report_wizard_screen_2_amount_label">Kiasi</string>
+    <string name="report_wizard_screen_2_amount_unit_label">Watu</string>
+    <string name="report_wizard_screen_2_amount_weight_label">Kilo</string>
+    <string name="report_wizard_screen_2_condition_label">Hali</string>
+    <string name="report_wizard_screen_2_condition_alive_label">Hai</string>
+    <string name="report_wizard_screen_2_condition_dead_label">Wafu</string>
+    <string name="report_wizard_screen_2_condition_mixed_label">
+Mchanganyiko</string>
+    <string name="report_wizard_screen_3_offense_details_label">Kosa maelezo ya kina</string>
+    <string name="report_wizard_screen_3_offense_details_hint">Kutoa maelezo ya kina ya kosa (hadi 1024)</string>
+    <string name="report_wizard_screen_3_method_label">Njia</string>
+    <string name="report_wizard_screen_3_method_hint">Kuelezea mbinu kutumika kutenda kosa (hadi 1024)</string>
+    <string name="report_wizard_screen_3_value_label">Thamani Kadiria</string>
+    <string name="report_wizard_screen_3_value_usd">$ Marekani</string>
+    <string name="report_wizard_screen_3_zero_cents">.00</string>
+    <string name="report_wizard_screen_3_route_label">Njia</string>
+    <string name="report_wizard_screen_3_origin_label">Mwanzo</string>
+    <string name="report_wizard_screen_3_destination_label">Marudio</string>
+    <string name="report_wizard_screen_3_vessel_label">Offending gari / maelezo chombo</string>
+    <string name="report_wizard_screen_3_vessel_description_label">Maelezo</string>
+    <string name="report_wizard_screen_3_vessel_id_label">Leseni #</string>
+    <string name="report_wizard_screen_3_vessel_name_label">Jina chombo</string>
+    <string name="report_wizard_screen_4_share_title">Kushiriki chaguzi</string>
+    <string name="report_wizard_screen_4_add_contact">Kuongeza mawasiliano</string>
+    <string name="report_wizard_screen_4_recipients_label">Mawasiliano</string>
+    <string name="report_wizard_screen_4_share_text">Ripoti yako watapelekwa timu WildScan ambayo itakuwa mbele yake kwa mamlaka husika. Unaweza pia kuongeza mawasiliano maalum kwamba watapata ripoti hiyo.</string>
+    <string name="report_wizard_screen_4_share_email_label">Kushiriki ripoti kupitia barua pepe</string>
+    <string name="report_wizard_screen_4_share_email_text">
+Kama kufunguliwa , email yako mteja programu utafunguliwa na ujumbe mpya zenye maelezo Ripoti</string>
+    <string name="report_wizard_screen_4_photos_label">Picha</string>
+    <string name="report_wizard_screen_4_add_photo_label">Picha hizi zitakuwa katika ripoti hiyo. Click kuongeza picha nyingine (upeo 3)</string>
+    <string name="report_wizard_screen_4_private_label">
+Ripoti hiyo Mark kama binafsi</string>
+    <string name="report_wizard_screen_4_private_text">
+ripoti Private haitashirikishwa kwa watumiaji wengine WildScan</string>
+    <string name="report_wizard_confirm_discard_title">ripoti hiyo Discard?</string>
+    <string name="report_wizard_confirm_discard_message">
+Taarifa zote itakuwa kuondolewa</string>
+    <string name="report_wizard_warning_dialog_title">Onyo!</string>
+    <string name="report_wizard_warning_dialog_message">Taarifa ulanguzi wa wanyamapori na uhalifu ina uwezo wa kuwa hatari. Watumiaji wa WildScan lazima daima zoezi tahadhari wakati picha uhalifu watuhumiwa wanyamapori na kamwe wanajiweka katika hatari kuripoti uhalifu kama huo.</string>
+    <string name="report_wizard_location_loading">Kurejesha anuani&#8230;</string>
+    <string name="report_wizard_location_hint">
+Kuingia Eneo</string>
+
+    <string name="report_submit_dialog_title">Tunga</string>
+    <string name="report_submit_message">Kuwasilisha ripoti kwa wildscan&#8230;</string>
+    <string name="report_submit_success">
+Ripoti iliyowasilishwa mafanikio na itakuwa upya na WildScan</string>
+    <string name="report_submit_fail">
+Kujitoa alishindwa. Ripoti hiyo yatawasilishwa wakati wa maingiliano ya pili</string>
+
+    <string name="report_email_title">
+Ripoti Wildscan App Moja kwa moja [%1$s]</string>
+	<string name="report_email_section_name_datetime">
+Tarehe / Saa</string>
+	<string name="report_email_section_name_location_lat">Eneo Huru</string>
+	<string name="report_email_section_name_location_lon">Eneo Longitudo</string>
+	<string name="report_email_section_name_description">Tukio</string>
+	<string name="report_email_section_name_species">Aina</string>
+	<string name="report_email_section_name_amount">Nambari</string>
+	<string name="report_email_section_name_condition">Hali</string>
+	<string name="report_email_section_name_details">Maelezo ya Makosa</string>
+	<string name="report_email_section_name_method">Njia</string>
+	<string name="report_email_section_name_value">Makadirio ya Thamani (Dola ya Marekani)</string>
+	<string name="report_email_section_name_origin_address">Anwani Asili</string>
+	<string name="report_email_section_name_origin_lat">Uhuru Asili</string>
+	<string name="report_email_section_name_origin_lon">Longitudo Asili</string>
+	<string name="report_email_section_name_dest_address">Anwani ya Mwisho wa Safari</string>
+	<string name="report_email_section_name_dest_lat">Mwisho wa uhuru</string>
+	<string name="report_email_section_name_dest_lon">Mwisho wa Longitudo</string>
+	<string name="report_email_section_name_vessel_description">Maelezo ya gari/chombo</string>
+	<string name="report_email_section_name_vessel_id">Leseni ya gari/chombo</string>
+	<string name="report_email_section_name_vessel_name">Jina la gari/chombo</string>
+    
+    <string name="location_picker_map_target_title">Tukio hilo eneo</string>
+    <string name="date_time_picker_dialog_title">Tukio hilo eneo</string>
+
+    <string name="sync_wifi_unavailable">Mtandao wa Wifi  haupatikani. Tafadhali ungana na wifi kufanya upatanishi.</string>
+    <string name="sync_initial_starting_message">Maonyesho ya kwanza wakati maingiliano, hii inaweza kuchukua dakika kadhaa kutegemea kasi ya uhusiano wako</string>
+    <string name="sync_starting_message">Synchronizing data</string>
+    
+    <string name="sign_in_request_message">WildScan inahitaji kila mtumiaji kuingia katika programu ili kuhakikisha usalama wa taarifa kutumwa kwa njia ya ripoti. Tafadhali kuthibitisha utambulisho wako kwa kusaini katika akaunti yako ya Google</string>
+    <string name="status_signing_in">Kusaini katika&#8230;</string>
+    <string name="status_signed_out">Saini nje</string>
+    <string name="status_signed_in_as">Saini nje %1$s</string>
+    <string name="status_sign_in_hint">Ishara-katika hali ya</string>
+    <string name="status_play_services_error">Makosa ya huduma ya kucheza ya Google</string>
+    <string name="status_retrieve_id">Jirejea/sahihisha kitambulisho ya google</string>
+    <string name="status_registration_fail">Usajili Akaunti ulishindwa</string>
+    <string name="status_new_user_signin_fail">Mtumiaji mpya alishindwa, tafadhali jaribu kuanzisha upya programu</string>
+    <string name="status_login_failed">Kuingia kumeshindwa</string>
+    <string name="status_server_error">Hitilafu ya seva. Tafadhali jaribu tena baadae</string>
+    <string name="status_server_error_code">Hitilafu ya seva. (%1$d)</string>
+    <string name="status_registering">Kusajili akaunti na WildScan</string>
+    <string name="status_signup_failed">Jiunge alishindwa</string>
+    <string name="status_signin_failed_abort">Jiunge alishindwa</string>
+    <string name="status_verification_failed">Uhakiki mtumiaji alishindwa</string>
+    <string name="status_verify">Kuthibitisha akaunti</string>
+    <string name="status_apk_exp_dl_fail_abort">FAlishindwa kushusha APK faili upanuzi. Programu atamaliza</string>
+    <string name="status_apk_exp_download">Kupakua APK faili upanuzi (s) (%1$d%%)</string>
+    
+    <string name="pref_screen_title">Mazingira Wildscan</string>
+    <string name="pref_label_sync">Mipangilio ya upatanishi</string>
+    <string name="pref_summary_sync">Kuruhusu upatanishi tu wakati wa kushikamana na Wifi</string>
+    <string name="pref_label_gallery_view">Default aina mtazamo nyumba ya sanaa</string>
+    <string name="pref_summary_gallery_view">Kuchagua tabia default ya maktaba ya aina</string>
+    <string name="pref_label_language">Kuweka lugha ya maudhui</string>
+    <string name="pref_summary_language">Lugha ya maudhui ya programu ya kuonyesha kuchagua</string>
+    <string name="pref_entry_device_language">Kutumia lugha kifaa</string>
+    <string name="pref_entry_current_supported">%1$s tu ambayo ni sasa inapatikana </string>
+    <string name="pref_label_auto_contacts">Mpokeaji ripoti puuza</string>
+    <string name="pref_summary_auto_contacts">Kutaja majina kwamba itakuwa aliongeza na kupuuza kwa orodha ya wapokeaji ripoti</string>
+    <string name="pref_label_save_report">Okoa Ripoti</string>
+    <string name="pref_summary_save_report">Kurejesha nakala hifadhi ya ripoti baada ya kuwasilisha usikivu</string>
+    <string name="pref_label_show_warning">Onyesha onyo ya ripoti</string>
+    <string name="pref_summary_show_warning">Kuonyesha onyo \'popup\' wakati kuanzia ripoti mpya</string>
+    
+    <string name="msg_map_no_events">Hakuna matukio ya kuonyesha kwenye ramani</string>
+    <string name="msg_contact_fav_empty">Hakuna mazuri kuweka, kuonyesha mawasiliano yote</string>
+    <string name="msg_species_lib_no_close_events">Hakuna matukio ya hivi karibuni karibu na, kuonyesha aina zote</string>
+    <string name="msg_species_lib_no_location">Haiwezi kurejesha eneo la sasa, kuonyesha aina zote</string>
+    <string name="msg_species_lib_wizard_empty">Hakuna aina mechi majibu yako, tafadhali jaribu tena au kuwasilisha ripoti haijulikani aina</string>
+    <string name="msg_species_lib_filter_empty">Hakuna aina mechi chujio kuchaguliwa, tafadhali chagua aina nyingine</string>
+    <string name="msg_species_lib_list_empty">Aina orodha ni tupu</string>
+    <string name="msg_species_lib_fav_empty">Hakuna mazuri kuweka, kuonyesha aina zote</string>
+    <string name="msg_species_lib_search_not_found">Aina haikuonekana katika orodha (je, una mkusanyiko?)</string>
+    <string name="msg_report_contact_no_email">Mawasiliano %1$s hayana anwani ya barua pepe na si kuongezwa kwa mpokeaji email </string>
+    <string name="msg_report_gallery_photo_added">Kinga ya ziada ya picha kutoka nyumba ya sanaa aliongeza kuripoti</string>
+    <string name="msg_no_adress_found">Hakuna anwani kupatikana</string>
+    <string name="msg_no_adress_for_location">Hakuna anwani kupatikana kwa anuani ya\n(lat: %1$5.2f, lon: %2$5.2f)</string>
+    <string name="msg_crc_check_fail">Fatal: CRC kuangalia alishindwa, kwa hiari</string>
+    
+    <!-- button text labels -->
+    <string name="OK">Sawa</string>
+    <string name="yes">Ndiyo</string>
+    <string name="no">Hakuna</string>
+    <string name="apply">Kuomba</string>
+    <string name="cancel">Kufuta</string>
+    <string name="close">Karibu</string>
+    <string name="skip">Ruka</string>
+    <string name="next">Ijayo</string>
+    <string name="capture">Kuchukua picha</string>
+    <string name="recapture">Kupiga picha nyingine</string>
+    <string name="browse">Kuchagua zilizopo Picha</string>
+    <string name="rebrowse">Kuchagua mwingine zilizopo</string>
+    <string name="identify">Kutambua</string>
+    <string name="back">Nyuma</string>
+    <string name="submit">Kuwasilisha ripoti</string>
+    <string name="details">Maelezo zaidi</string>
+    <string name="set">Kuweka</string>
+    <string name="done">Alifanya</string>
+    <string name="discard">Tupa</string>
+    <string name="dismiss">Kumfukuza</string>
+    <string name="do_not_show">Hawaonyeshi ujumbe huu tena</string>
+    <string name="error">Kosa</string>
+    <string name="exit">Toka</string>
+    <string name="retry">Jaribu tena</string>
+
+    <!--Region Dialog text-->
+    <string name="region_dialog_title">Kuchagua Kanda yako</string>
+    <string name="region_dialog_heading1">Yako Mkoa Taarifa</string>
+    <string name="region_dialog_heading2">Aina na Mawasiliano wa Kanda</string>
+    <string name="region_dialog_sub_title">Shusha ziada mkoa aina maalum na Mawasiliano</string>
+    <string name="region_dialog_global">Kimataifa</string>
+    <string name="region_dialog_south_asia">Asia ya Kusini</string>
+    <string name="region_dialog_africa">Afrika</string>
+    <string name="region_dialog_south_america">Amerika Kusini</string>
+    <string name="region_species">Aina</string>
+    <string name="region_contacts">Mawasiliano</string>
+    <string name="text_coming_soon">Kuja haraka</string>
+    <string name="pass1">9oB8y2yd17U1nE7217Sq2UoX80ol0I82MB617E2e</string>
+    <string name="action_region">Mabadiliko Mkoa</string>
+    <string name="region_global">Kimataifa</string>
+    <string name="region_south_east_asia">Asia ya Kusini</string>
+    <string name="region_africa">Afrika</string>
+    <string name="region_south_america">Amerika Kusini</string>
+    <string name="dialog_tutorial_message">Unaweza kushusha aina ya ziada na mawasiliano hapa.</string>
+
+
+</resources>

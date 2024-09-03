@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    tools:context=".LocationPickerActivity" >
+		    
+	<TextView
+	    android:id="@+id/locationPickerHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_margin="2.5dp"
+	    android:background="@color/header_item_bg_dark"
+        android:clickable="false"
+        android:focusable="false"
+	    android:gravity="left|center_vertical"
+	    android:padding="5dp"
+	    android:text="@string/report_wizard_location_pick_title"
+    	android:textColor="@color/header_item_fg"
+	    android:textSize="16sp" />
+	
+	<FrameLayout
+	    android:layout_below="@id/locationPickerHeader"
+        android:layout_alignParentBottom="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+    
+	   	<fragment 
+			android:id="@+id/locationPickerMap"
+			android:name="com.google.android.gms.maps.MapFragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	   	
+	   	<LinearLayout 
+	   	    android:id="@+id/locationPickerFooter"
+	   	    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom|left" >
+	
+	        <Button
+	            android:id="@+id/locationPickerBtnCancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:background="@color/header_item_bg_light"
+	            android:text="@string/cancel"
+	            android:textColor="@color/header_item_fg"
+	            android:textSize="14sp"
+	            android:onClick="onClickBtnCancel"
+	            style="?android:attr/borderlessButtonStyle" />   	    	    	    
+
+	        <Button
+	            android:id="@+id/locationPickerBtnSet"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:gravity="center"
+	            android:text="@string/set"
+	            android:textColor="@color/header_item_fg"
+	            android:background="@color/header_item_bg_med"
+	            android:textSize="14sp"
+	            android:onClick="onClickBtnSet"
+	            style="?android:attr/borderlessButtonStyle" />
+	   	</LinearLayout>
+   	</FrameLayout>
+</RelativeLayout>

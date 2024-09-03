@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_bg">@android:color/white</color>
+    <color name="app_green">#319848</color>
+
+    <color name="textColorPrimaryDialog">#000000</color>
+    <color name="textColorSecondaryDialog">#000000</color>
+
+    <color name="header_item_fg">@android:color/white</color>
+    <color name="header_item_bg_dark">#323232</color>
+    <color name="header_item_bg_med">#4e4e4e</color>
+    <color name="header_item_bg_light">#666666</color>
+    
+    <color name="list_item_text_bg">#e79f00</color>
+    <color name="list_item_text_bg_alt">#32994a</color>
+    <color name="list_item_text_fg">#453302</color>  
+    <color name="list_item_text_fg_alt">@android:color/white</color>
+    <color name="list_item_text_fg_header">#0c4212</color>
+    
+    <color name="search_popup_hint">@android:color/white</color>
+    
+    <color name="species_details_bg_yellow">#ffc800</color>
+    <color name="species_details_bg_gray">#919191</color>
+    <color name="species_details_outline_green">#19642a</color>
+    <color name="species_details_main_image_bg">#919191</color>
+    <color name="species_details_selected_thumb_bg">@android:color/white</color>
+    <color name="species_details_copyright_text">#f0c100</color>
+    <color name="species_details_text">@android:color/black</color>
+    
+    <color name="report_label_text">#fffefd</color>
+    <color name="report_edit_bg">#fed984</color>
+    <color name="report_btn_bg">#e8a100</color>
+    <color name="report_btn_bg_pressed">#cc8e00</color>
+    <color name="report_btn_text">#414042</color>
+
+    <color name="btn_submit_bg">#00862f</color>
+
+    <color name="about_btn_bg">#4e4e4e4e</color>
+    <color name="about_text">#12401b</color>
+    <color name="about_content_bg">#40f8f8f8</color>
+    <color name="about_title_bg">#20f8f8f8</color>
+    <color name="dark_gray">#c0000000</color>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/reportWizardFooter"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/reportWizardHeader"
+    android:layout_marginLeft="2.5dp"
+    android:layout_marginRight="2.5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/report_background"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/reportWizardPhotosLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white" >
+
+            <TextView
+                android:id="@+id/reportWizardPhotosLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="left"
+                android:paddingBottom="2.5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="@string/report_wizard_screen_4_photos_label"
+                android:textSize="@dimen/report_section_label_size" />
+
+            <LinearLayout
+                android:id="@+id/reportWizardThumbnails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardPhotosLabel"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/report_photo_thumbnail_margin"
+                    android:layout_marginRight="@dimen/report_photo_thumbnail_margin"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/reportWizardPhotoThumb1"
+                        android:layout_width="@dimen/report_photo_thumbnail_height"
+                        android:layout_height="@dimen/report_photo_thumbnail_height"
+                        android:padding="5dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/empty_photo" />
+
+                    <ImageButton
+                        android:id="@+id/reportWizardBtnDeletePhoto1"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="top|right"
+                        android:layout_marginRight="12.5dp"
+                        android:background="@null"
+                        android:scaleType="center"
+                        android:src="@drawable/btn_remove_photo"
+                        android:tag="0" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/report_photo_thumbnail_margin"
+                    android:layout_marginRight="@dimen/report_photo_thumbnail_margin"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/reportWizardPhotoThumb2"
+                        android:layout_width="@dimen/report_photo_thumbnail_height"
+                        android:layout_height="@dimen/report_photo_thumbnail_height"
+                        android:padding="5dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/empty_photo" />
+
+                    <ImageButton
+                        android:id="@+id/reportWizardBtnDeletePhoto2"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="top|right"
+                        android:layout_marginRight="12.5dp"
+                        android:background="@null"
+                        android:scaleType="center"
+                        android:src="@drawable/btn_remove_photo"
+                        android:tag="1" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/report_photo_thumbnail_margin"
+                    android:layout_marginRight="@dimen/report_photo_thumbnail_margin"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/reportWizardPhotoThumb3"
+                        android:layout_width="@dimen/report_photo_thumbnail_height"
+                        android:layout_height="@dimen/report_photo_thumbnail_height"
+                        android:padding="5dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/empty_photo" />
+
+                    <ImageButton
+                        android:id="@+id/reportWizardBtnDeletePhoto3"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="top|right"
+                        android:layout_marginRight="12.5dp"
+                        android:background="@null"
+                        android:scaleType="center"
+                        android:src="@drawable/btn_remove_photo"
+                        android:tag="2" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reportWizardPhotosBtnLayout"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardThumbnails"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/reportWizardBtnAddPhotoCapture"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@color/header_item_bg_dark"
+                    android:gravity="center"
+                    android:text="@string/capture"
+                    android:textColor="@color/header_item_fg"
+                    android:textSize="@dimen/report_text_size" />
+
+                <Button
+                    android:id="@+id/reportWizardBtnAddPhotoBrowse"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@color/header_item_bg_med"
+                    android:gravity="center"
+                    android:text="@string/browse"
+                    android:textColor="@color/header_item_fg"
+                    android:textSize="@dimen/report_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/reportWizardPrivateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2.5dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/reportWizardChkPrivate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:checked="true"
+                android:text="@string/report_wizard_screen_4_private_label"
+                android:textSize="@dimen/report_text_size" />
+
+            <TextView
+                android:id="@+id/reportWizardPrivateText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="left"
+                android:hint="@string/report_wizard_screen_4_private_text"
+                android:padding="5dp"
+                android:textSize="@dimen/report_text_size" />
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:id="@+id/reportWizardShareLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2.5dp"
+            android:background="@android:color/white" >
+
+            <TextView
+                android:id="@+id/reportWizardShareTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="left"
+                android:paddingBottom="2.5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="@string/report_wizard_screen_4_share_title"
+                android:textSize="@dimen/report_section_label_size" />
+
+             <CheckBox
+                android:id="@+id/reportWizardChkShareViaEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardShareTitle"
+                android:padding="5dp"
+                android:text="@string/report_wizard_screen_4_share_email_label"
+                android:textSize="@dimen/report_text_size" />
+
+            <TextView
+                android:id="@+id/reportWizardChkShareViaEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardChkShareViaEmail"
+                android:gravity="left"
+                android:hint="@string/report_wizard_screen_4_share_email_text"
+                android:padding="5dp"
+                android:textSize="@dimen/report_text_size" />
+            
+            <TextView
+                android:id="@+id/reportWizardAdditionalContactsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardChkShareViaEmailText"
+                android:gravity="left"
+                android:paddingBottom="2.5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="@string/report_wizard_screen_4_recipients_label"
+                android:textSize="@dimen/report_section_label_size" />
+            
+            <TextView
+                android:id="@+id/reportWizardAdditionalContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reportWizardAdditionalContactsLabel"
+                android:gravity="left"
+                android:padding="5dp"
+                android:enabled="false"
+                android:scrollbars="vertical"
+                android:text="@string/report_wizard_screen_4_share_text"
+                android:textSize="@dimen/report_text_size" />
+
+            <ImageButton
+                android:id="@+id/reportWizardBtnAddContacts"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignBottom="@id/reportWizardAdditionalContacts"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/reportWizardAdditionalContacts"
+                android:layout_below="@id/reportWizardShareTitle"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_action_add_contact"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/reportWizardContactsList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/reportWizardAdditionalContacts"
+                android:layout_margin="10dp"
+                android:background="#f0f0f0" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

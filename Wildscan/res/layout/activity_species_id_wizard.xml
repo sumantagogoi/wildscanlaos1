@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeciesIdWizardActivity" >
+
+	<TextView
+	    android:id="@+id/speciesIdWizardHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:background="@color/header_item_bg_dark"
+	    android:gravity="center_vertical"
+	    android:padding="5dp"
+	    android:text="@string/species_id_wizard_header_title"
+	    android:textColor="@color/header_item_fg"
+	    android:textSize="18sp" />
+
+   <RelativeLayout
+        android:id="@+id/speciesIdWizardDisplayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/speciesIdWizardHeader"
+        android:layout_above="@+id/spciesIdWizardFooter"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/id_background"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/speciesIdWizardQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white" />
+        
+        <GridView 
+            android:id="@+id/speciesIdWizardAnswersGrid"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/speciesIdWizardQuestion"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:verticalSpacing="10dp" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@id/spciesIdWizardFooter"
+        android:orientation="horizontal"
+        android:layout_margin="2.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" >
+    
+        <Button
+            android:id="@+id/speciesIdWizardBtnCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/header_item_fg"
+            android:background="@color/header_item_bg_light"
+            android:textSize="14sp"
+            android:onClick="onClickBtnCancel"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/speciesIdWizardBtnIdentify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_submit_bg"
+            android:text="@string/identify"
+            android:textColor="@color/header_item_fg"
+            android:textSize="14sp"
+            android:onClick="onClickBtnIdentify"
+            style="?android:attr/borderlessButtonStyle" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="species_filters">
+		<item>ทุกชนิด</item>
+		<item>สัตว์เลี้ยงลูกด้วยนม</item>
+		<item>นก</item>
+		<item>ปลา</item>
+		<item>สัตว์เลื้อยคลาน</item>
+		<item>สัตว์สะเทิ้นน้ำสะเทิ้นบก</item>
+		<item>สัตว์ไม่มีกระดูกสันหลัง</item>
+		<item>พืช</item>
+		<item>ผลิตภัณฑ์ที่ได้จากสัตว์</item>
+		<item>ปิดชนิดพันธุ์สัตว์</item>
+		</string-array>
+
+	<string-array name="species_photo_license">
+		<item></item>
+		<item>สิทธิการใช้งานรูปของ Creative Commons Attribution-Share Alike 2.0 Generic</item>
+		<item>สิทธิการใช้งานรูปของ Creative Commons Attribution-Share Alike 2.5 Generic</item>
+		<item>สิทธิการใช้งานรูปของ Creative Commons Attribution-Share Alike 3.0 Unported</item>
+		<item>สัญญาอนุญาตเอกสารเสรีของกนู</item>
+		<item>โดเมนสาธารณะ</item>
+		<item>รูปภายใต้สิทธิการใข้งานของฟรีแลนด์</item>
+		</string-array>
+
+	<string-array name="id_wizard_questions">
+		<item>สิ่งของนั้นเป็นสัตว์ทั้งตัว (มีชีวิตหรือตาย) หรืออวัยวะสัตว์/ผลิตภัณฑ์ที่ได้จากสัตว์?</item>
+		<item>สิ่งที่ปกคลุมตัวของสัตว์ชนิดนี้คืออะไร?</item>
+		<item>สัตว์ชนิดนี้มีจำนวนกี่ขา?</item>
+		<item>สีส่วนใหญ่ของสัตว์คือสีอะไร?</item>
+		<item>สัตว์มีขนาดโดยประมาณเท่าไร?</item>
+		<item>สัตว์มีคุณลักษณะพิเศษหรือไม่?\n(ทำเครื่องหมายทุกข้อที่ใช่)</item>
+		<item>จุดประสงค์การใช้งานอวัยวะสัตว์/ผลิตภัณฑ์ที่ได้จากสัตว์คืออะไร?</item>
+		<item>ชิ้นส่วน/สินค้าชนิดนี้ทำมาจากวัสดุใด?</item>
+		<item>สิ่งนี้เป็นอวัยวะส่วนใดของสัตว์?</item>
+		</string-array>
+
+	<string-array name="id_wizard_prod_ani">
+		<item>สัตว์ทั้งตัว</item>
+		<item>อวัยวะสัตว์/ผลิตภัณฑ์ที่ได้จากสัตว์</item>
+		</string-array>
+
+	<string-array name="id_wizard_covering">
+		<item>เกล็ด</item>
+		<item>ขนสัตว์</item>
+		<item>ขนนก</item>
+		<item>หนัง</item>
+		<item>อื่นๆ/ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="id_wizard_color">
+		<item>แดง</item>
+		<item>ส้ม</item>
+		<item>เหลือง</item>
+		<item>เขียว</item>
+		<item>น้ำเงิน</item>
+		<item>ม่วง</item>
+		<item>เทา</item>
+		<item>น้ำตาล</item>
+		<item>ขาว</item>
+		<item>ดำ</item>
+		<item>อื่นๆ/ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="id_wizard_size">
+		<item>เล็กกว่ามือของคุณ</item>
+		<item>เล็กกว่าสุนัขทั่วไป</item>
+		<item>เล็กกว่าตัวคุณ</item>
+		<item>ใหญ่กว่าตัวคุณ</item>
+		<item>ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="id_wizard_features">
+		<item>หาง</item>
+		<item>ปีก</item>
+		<item>จะงอยปาก</item>
+		<item>กระดอง</item>
+		<item>ครีบ</item>
+		</string-array>
+
+	<string-array name="id_wizard_purpose">
+		<item>อาหาร</item>
+		<item>เสื้อผ้า</item>
+		<item>เครื่องประดับ</item>
+		<item>สัตว์สต๊าปเพื่อสะสม/ของตกแต่ง</item>
+		<item>ยา</item>
+		<item>อื่นๆ/ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="id_wizard_material">
+		<item>กระดูก</item>
+		<item>หนัง</item>
+		<item>กระดอง</item>
+		<item>แป้ง</item>
+		<item>เนื้อ</item>
+		<item>อื่นๆ/ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="id_wizard_part">
+		<item>เขา/นอ</item>
+		<item>งา</item>
+		<item>หนัง</item>
+		<item>อุ้งเท้า</item>
+		<item>ฟัน/เขี้ยว</item>
+		<item>อื่นๆ/ไม่แน่ใจ</item>
+		</string-array>
+
+	<string-array name="sync_progress">
+		<item>กำลังตรวจสอบรายงานที่ค้างอยู่</item>
+		<item>กำลังอัพเดทข้อมูล&#8230;</item>
+		<item>กำลังอัพเดทรายชื่อติดต่อ&#8230;</item>
+		<item>กำลังอัพเดทชนิดพันธุ์&#8230;</item>
+		<item>กำลังอัพเดทชนิดพันธุ์&#8230;</item>
+		<item>กำลังตรวจสอบเหตุการณ์ใหม่&#8230;</item>
+		<item>กำลังอัพเดทชนิดแปล&#8230;</item>
+		<item>กำลังตรวจสอบรูป&#8230;</item>
+		</string-array>
+
+	<string-array name="pref_gallery_view_entries">
+		<item>แกลเลอรี่</item>
+		<item>รายการ</item>
+		<item>อย่างที่ฉันตั้งค่าไว้</item>
+		</string-array>
+
+</resources>

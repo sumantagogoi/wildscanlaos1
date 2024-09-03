@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>Aina zote</item>
+        <item>Mamalia</item>
+        <item>Ndege</item>
+        <item>Samaki</item>
+        <item>Reptilia</item>
+        <item>Amfibia</item>
+        <item>uti wa mgongo</item>
+        <item>Mimea</item>
+        <item>bidhaa zitokanazo</item>
+        <item>Aina karibu</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Ubunifu wa kawaida 2.0</item>
+        <item>Ubunifu wa kawaida 2.5</item>
+        <item>Ubunifu wa kawaida 3.0</item>
+        <item>Leseni ya Gnu</item>
+        <item>Uwanja wa Umma</item>
+        <item>Hati miliki ya Freeland</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>Je, ni intact wanyama (live au marehemu) , au mnyama sehemu / derivative bidhaa?</item>
+        <item>Ni kufunika msingi ya mwili wa mnyama ni nini?</item>
+        <item>Jinsi miguu wengi haina wanyama na?</item>
+        <item>Nini rangi kuu ya wanyama?</item>
+        <item>Nini ni takriban ukubwa wa mnyama ?</item>
+        <item>Je, wanyama kuwa na sifa yoyote ya pekee? (Angalia zote zinazotumika)</item>
+        <item>Ni lengo dhahiri ya sehemu / bidhaa ni nini?</item>
+        <item>Nini ni nyenzo bidhaa alifanya ya?</item>
+        <item>Ambayo ni sehemu ya mwili wa mnyama ni nini?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Intact wanyama</item>
+        <item>Wanyama sehemu/bidhaa</item>
+    	</string-array>
+   
+    
+    
+    <string-array name="id_wizard_covering">
+        <item>Mizani</item>
+        <item>Fur</item>
+        <item>Feathers</item>
+        <item>Ngozi</item>
+		<item>mengine/Sina uhakika</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>More</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>Nyekundu</item>
+        <item>Machungwa</item>
+        <item>Mjano</item>
+        <item>Kijani</item>
+		<item>Bluu</item>
+        <item>Zambarau</item>
+		<item>Gray</item>
+        <item>Brown</item>
+        <item>Nyeupe</item>
+        <item>Nyeusi</item>
+		<item>Mengine/Sina uhakika</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>Ndogo kuliko mkono wako</item>
+		<item>Ndogo kuliko mbwa wastani</item>
+		<item>Ndogo kuliko wewe</item>
+		<item>Kubwa kuliko wewe</item>
+		<item>Sina uhakika</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Ndogo kuliko mkono wako</item>
+		<item>Ndogo kuliko mbwa wastani</item>
+		<item>Ndogo kuliko wewe</item>
+		<item>Kubwa kuliko wewe</item>
+		<item>Sina uhakika</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>mkia</item>
+        <item>mbawa</item>
+        <item>mdomo</item>
+        <item>ganda</item>
+		<item>fins</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>Food</item>
+        <item>mavazi</item>
+        <item>kujitia</item>
+        <item>Trophy/Ornament</item>
+		<item>Tiba</item>
+		<item>Nyingine / Si uhakika</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>Mfupa</item>
+        <item>Ngozi</item>
+        <item>Ganda/susu</item>
+        <item>Poda/unga</item>
+		<item>Nyama</item>
+		<item>Nyingine / Si uhakika</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>Pembe</item>
+        <item>Tusk</item>
+        <item>ngozi</item>
+        <item>Paw</item>
+		<item>Jino / claw</item>
+		<item>Nyingine / Si uhakika</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>Kuangalia kwa ripoti inasubiri&#8230;</item>
+        <item>Ubora ya yaliyomo&#8230;</item>
+        <item>Uboreshaji ya mawasiliano&#8230;</item>
+        <item>Uboreshaji ya aina&#8230;</item>
+        <item>Uboreshaji ya aina&#8230;</item>
+        <item>Kuangalia kwa matukio mapya&#8230;</item>
+        <item>Uboreshaji wa tafsiri&#8230;</item>
+        <item>Kuthibitisha picha&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Nyumba ya sanaa</item>
+        <item>Orodha</item>
+        <item>Kama mimi kushoto ni</item>
+    </string-array>
+   
+    
+    
+    
+</resources>

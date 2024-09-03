@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/reportWizardFooter"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/reportWizardHeader"
+    android:layout_marginLeft="2.5dp"
+    android:layout_marginRight="2.5dp"
+    android:background="@drawable/report_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/reportWizardOffenseDetailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/reportWizardOffenseDetailsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_offense_details_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardOffenseDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/reportWizardOffenseDetailsLabel"
+            android:background="@color/report_edit_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:hint="@string/report_wizard_screen_3_offense_details_hint"
+            android:inputType="text|textMultiLine"
+            android:lines="4"
+            android:maxLength="2048"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scrollbars="vertical"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportWizardMethodLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardMethodLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_method_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/reportWizardMethodLabel"
+            android:background="@color/report_edit_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:hint="@string/report_wizard_screen_3_method_hint"
+            android:inputType="text|textMultiLine"
+            android:lines="3"
+            android:maxLength="1024"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scrollbars="vertical"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportWizardOffenseValueLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardValueLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:lines="2"
+            android:text="@string/report_wizard_screen_3_value_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reportWizardValueUSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@id/reportWizardValueLabel"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="left"
+            android:lines="2"
+            android:paddingRight="3dp"
+            android:text="@string/report_wizard_screen_3_value_usd"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size" />
+
+        <EditText
+            android:id="@+id/reportWizardValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/reportWizardValueCents"
+            android:layout_toRightOf="@id/reportWizardValueUSD"
+            android:background="@color/report_edit_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:inputType="number|numberDecimal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+
+        <TextView
+            android:id="@id/reportWizardValueCents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_zero_cents"
+            android:textColor="@color/report_label_text"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/report_edit_bg"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:paddingBottom="2.5dp"
+        android:paddingTop="2.5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp"
+        android:text="@string/report_wizard_screen_3_route_label"
+        android:textColor="@color/report_label_text"
+        android:textSize="@dimen/report_section_label_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/reportWizardOriginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardOriginLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_origin_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/reportWizardBtnEditOrigin"
+            android:layout_toRightOf="@id/reportWizardOriginLabel"
+            android:background="@color/report_edit_bg"
+            android:gravity="left"
+            android:inputType="text|textPostalAddress"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:singleLine="false"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+
+        <ImageButton
+            android:id="@id/reportWizardBtnEditOrigin"
+            style="@style/ReportImageButtonStyle"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_edit_location" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportWizardDestinationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardDestinationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_destination_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/reportWizardBtnEditDestination"
+            android:layout_toRightOf="@id/reportWizardDestinationLabel"
+            android:background="@color/report_edit_bg"
+            android:gravity="left"
+            android:inputType="text|textPostalAddress"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:singleLine="false"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+
+        <ImageButton
+            android:id="@id/reportWizardBtnEditDestination"
+            style="@style/ReportImageButtonStyle"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_edit_location" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/report_edit_bg"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:paddingBottom="2.5dp"
+        android:paddingTop="2.5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp"
+        android:text="@string/report_wizard_screen_3_vessel_label"
+        android:textColor="@color/report_label_text"
+        android:textSize="@dimen/report_section_label_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/reportWizardVesselDescriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardVesselDescriptionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical|left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_vessel_description_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardVesselDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/reportWizardVesselDescriptionLabel"
+            android:background="@color/report_edit_bg"
+            android:gravity="left"
+            android:inputType="text|textMultiLine"
+            android:lines="2"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scrollHorizontally="true"
+            android:singleLine="false"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportWizardVesselIdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardVesselIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_vessel_id_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardVesselId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/reportWizardVesselIdLabel"
+            android:background="@color/report_edit_bg"
+            android:gravity="left"
+            android:inputType="text"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportWizardVesselNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2.5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp" >
+
+        <TextView
+            android:id="@+id/reportWizardVesselNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|left"
+            android:clickable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:gravity="left"
+            android:text="@string/report_wizard_screen_3_vessel_name_label"
+            android:textColor="@color/report_label_text"
+            android:textSize="@dimen/report_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reportWizardVesselName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/reportWizardVesselNameLabel"
+            android:background="@color/report_edit_bg"
+            android:gravity="left"
+            android:inputType="text"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/report_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

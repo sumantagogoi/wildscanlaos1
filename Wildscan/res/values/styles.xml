@@ -1,0 +1,61 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+	    <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+	    <item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
+    </style>
+
+	<style name="MyDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+
+	</style>
+
+    <style name="ListStyle" parent="@android:style/Widget.Holo.ListView">
+	    <item name="android:divider">@null</item>
+    </style>
+	<style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+	    <item name="android:textColor">#00FF00</item>
+	</style>
+	
+	<style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+	    <item name="android:textColor">@color/header_item_fg</item>
+	    <item name="android:popupBackground">@null</item>
+	    <item name="android:background">@color/header_item_bg_light</item>
+	</style>    
+    
+	<style name="AboutButtonStyle" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small" >
+	    <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">25dp</item>
+		<item name="android:layout_marginRight">25dp</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:textColor">@color/about_text</item>
+		<item name="android:background">@color/about_btn_bg</item>
+		<item name="android:gravity">left</item>
+		<item name="android:padding">15dp</item>
+	</style>
+	<style name="ReportImageButtonStyle" parent="android:Widget.Holo.Light.ImageButton">
+		<item name="android:scaleType">center</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">@dimen/report_btn_size</item>
+		<item name="android:layout_height">@dimen/report_btn_size</item>
+		<item name="android:contentDescription">@string/blank</item>
+	</style>
+
+
+
+</resources>

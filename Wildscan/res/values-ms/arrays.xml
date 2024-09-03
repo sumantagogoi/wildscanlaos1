@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>Semua jenis</item>
+        <item>Haiwan mamalia</item>
+        <item>Burung</item>
+        <item>Ikan</item>
+        <item>Reptilia</item>
+        <item>Haiwan Amfibia</item>
+        <item>Haiwan invertebrata</item>
+        <item>Tanaman</item>
+        <item>Produk derivatif</item>
+        <item>Menutupkan spesies</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Creative Commons Attribution-Share Alike 2.0 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 2.5 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 3.0 Unported</item>
+        <item>Lesen Gnu</item>
+        <item>Domain awam</item>
+        <item>Hak cipta Freeland</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>Adakah haiwan dalam keadaan baik (hidup atau mati), atau bahagian haiwan / produk derivatif?</item>
+        <item>Apakah penutup utama badan haiwan?</item>
+        <item>How many legs does the animal have?</item>
+        <item>Apakah warna utama haiwan?</item>
+        <item>Apakah saiz anggaran haiwan?</item>
+        <item>Adakah haiwan mempunyai ciri-ciri khas? (Sila tandakan semua yang berkenaan)</item>
+        <item>Apakah tujuan yang jelas daripada bahagian / produk?</item>
+        <item>Bahan produk diperbuat daripada apa?</item>
+        <item>Yang manakah dari bahagian badan haiwan itu?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Haiwan dalam keadaan baik</item>
+        <item>Bahagian / produk haiwan</item>
+    	</string-array>
+   
+    
+    
+    <string-array name="id_wizard_covering">
+        <item>Sisik</item>
+        <item>Bulu</item>
+        <item>Bulu Pelepah</item>
+        <item>kulit</item>
+		<item>Lain / tidak pasti</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>Lebih lanjut</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>Merah</item>
+        <item>Oren</item>
+        <item>Kuning</item>
+        <item>Hijau</item>
+		<item>Biru</item>
+        <item>Ungu</item>
+		<item>Kelabu</item>
+        <item>Cokelat</item>
+        <item>Putih</item>
+        <item>Hitam</item>
+		<item>Lain / tidak pasti</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>Lebih kecil daripada tangan anda</item>
+		<item>Lebih kecil daripada anjing purata</item>
+		<item>Lebih kecil daripada anda</item>
+		<item>Lebih besar daripada anda</item>
+		<item>Tidak pasti</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Smaller than your hand</item>
+		<item>Larger than your hand but smaller than an average dog</item>
+		<item>Larger than an average dog but smaller than you</item>
+		<item>Larger than you</item>
+		<item>Not sure</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>Ekor</item>
+        <item>Sayap</item>
+        <item>Paruh</item>
+        <item>Cangkerang</item>
+		<item>Sirip</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>Makanan</item>
+        <item>Pakaian</item>
+        <item>Perhiasan</item>
+        <item>Trofi/ Ornamen</item>
+		<item>Perubatan</item>
+		<item>Lain / Tidak pasti</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>Tulang</item>
+        <item>Kulit bulu</item>
+        <item>Kulit</item>
+        <item>Serbuk</item>
+		<item>Daging</item>
+		<item>Lain-lain</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>Tanduk</item>
+        <item>Gading</item>
+        <item>Kulit</item>
+        <item>Tapak kaki</item>
+		<item>Gigi / kuku</item>
+		<item>Lain / Tidak pasti</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>Memeriksa laporan yang belum selesai&#8230;</item>
+        <item>Pengemaskinian kandungan&#8230;</item>
+        <item>Pengemaskinian Kenalan&#8230;</item>
+        <item>Pengemaskinian Spesies&#8230;</item>
+        <item>Pengemaskinian Spesies&#8230;</item>
+        <item>Semakan untuk acara-acara baru&#8230;</item>
+        <item>Pengemaskinian Terjemahan&#8230;</item>
+        <item>Pengesahan  foto&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Galeri</item>
+        <item>Senarai</item>
+        <item>Seperti yang saya meninggalkannya</item>
+    </string-array>
+   
+    
+    
+    
+</resources>

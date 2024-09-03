@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>គ្រប់ប្រភេទទាំងអស់</item>
+        <item>ថនិកសត្វ</item>
+        <item>បក្សី</item>
+        <item>ត្រី</item>
+        <item>ល្មូន</item>
+        <item>សត្វឆ្អឹងកង</item>
+        <item>សត្វឥតឆ្អឹងខ្នង</item>
+        <item>រុក្ខជាតិ</item>
+        <item>ផលិតផលដែលយកចេញពីសត្វ</item>
+        <item>បិទប្រភេទសត្វ</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Creative Commons Attribution-Share Alike 2.0 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 2.5 Generic</item>
+        <item>Creative Commons Attribution-Share Alike 3.0 Unported</item>
+        <item>អាជ្ញាបណ្ណ័ Gnu</item>
+        <item>របស់សាធារណៈ</item>
+        <item>រក្សាសិទ្ឋិដោយ Freeland</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>តើវាគឺជាសត្វទាំងមូល(រស់ឬស្លាប់) ឬក៏ជាផ្នែករបស់សត្វ/ផលិតផលចេញមកពីសត្វ?</item>
+        <item>តើអ្វីគ្របដណ្តបចម្បងនៅលើរាងកាយរបស់សត្វ?</item>
+        <item>How many legs does the animal have?</item>
+        <item>តើពណ៌សំខាន់របស់សត្វគឺជាពណ៌អ្វី?</item>
+        <item>តើទំហំសត្វប្រហែលប៉ុន្មាន?</item>
+        <item>តើសត្វមានលក្ខណៈពិសេសអ្វីទេ? (សូមត្រួតពិនិត្យមើលទាំងអស់)</item>
+        <item>តើអ្វីគឺជាគោលបំណងជាក់ស្តែងនៃផ្នែក/ផលិតផល?</item>
+        <item>តើផលិតផលផលិតមកពីអ្វី? </item>
+        <item>តើផ្នែកសរីរាង្គរបស់សត្វមួយណា?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>សត្វទាំងមូល</item>
+        <item>ផលិតផលសត្វ /​ ផ្នែករបស់សត្វ </item>
+    	</string-array>
+   
+    
+    
+    <string-array name="id_wizard_covering">
+        <item>ស្រកា</item>
+        <item>រោម</item>
+        <item>ស្លាប</item>
+        <item>ស្បែក</item>
+		<item>ដទៃទៀត/មិនច្បាស់</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>More</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>ពណ៌ក្រហម</item>
+        <item>ពណ៌ទឹកក្រូច</item>
+        <item>ពណ៌លឿង</item>
+        <item>ពណ៌បៃតង</item>
+		<item>ពណ៌ខៀវ</item>
+        <item>ពណ៌ស្វាយ</item>
+		<item>ពណ៌ប្រផេះ</item>
+        <item>ពណ៌ត្នោត</item>
+        <item>ពណ៌ស</item>
+        <item>ពណ៌ខ្មៅ</item>
+		<item>ដទៃទៀត/មិនច្បាស់</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>តូចជាងដៃរបស់អ្នក</item>
+		<item>តូចជាង   សត្វឆ្កែដែល </item>
+		<item>មានទំហំមធ្យម តូចជាងអ្នក</item>
+		<item>ធំជាងអ្នក</item>
+		<item>មិនច្បាស់</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>តូចជាងដៃរបស់អ្នក</item>
+		<item>តូចជាង   សត្វឆ្កែដែល</item>
+		<item>មានទំហំមធ្យម តូចជាងអ្នក</item>
+		<item>ធំជាងអ្នក</item>
+		<item>មិនច្បាស់</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>កន្ទុយ</item>
+        <item>ស្លាប</item>
+        <item>ចំពុះ</item>
+        <item>សំបក</item>
+		<item>ព្រុយ</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>អាហារ</item>
+        <item>ខោអាវ គ្រឿងអលង្កា</item>
+        <item>ពាន់</item>
+        <item>រង្វាន់ /  គ្រឿងតុបតែង</item>
+		<item>ថ្នាំពេទ្យ</item>
+		<item>ដទៃទៀត/ មិនច្បាស់</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>ឆ្អឹង</item>
+        <item>ស្បែក</item>
+        <item>ស្នូក</item>
+        <item>ម្សៅ</item>
+		<item>សាច់</item>
+		<item>ផ្សេងទៀត</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>ស្នែង</item>
+        <item>ភ្លុក</item>
+        <item>ស្បែក</item>
+        <item>ក្រញាំ</item>
+		<item>ធ្មេញ / ក្រញាំ</item>
+		<item>ដទៃទៀត/ មិន  ច្បាស់</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>ពិនិត្យមើលរបាយការណ៍ដែលមិនទាន់សម្រេច&#8230;</item>
+        <item>ការធ្វើបច្ចុប្បន្នភាពមាតិកា&#8230;</item>
+        <item>ការធ្វើបច្ចុប្បន្នភាពទំនាក់ទំនង&#8230;</item>
+        <item>ការធ្វើបច្ចុប្បន្នភាពប្រភេទសត្វ&#8230;</item>
+        <item>ការធ្វើបច្ចុប្បន្នភាពប្រភេទសត្វ&#8230;</item>
+        <item>ការត្រួតពិនិត្យមើលព្រឹត្តិការណ៍ថ្មី&#8230;</item>
+        <item>ការធ្វើបច្ចុប្បន្នភាពការបកប្រែ&#8230;</item>
+        <item>ការផ្ទៀងផ្ទាត់រូបថត&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>វិចិត្រសាល</item>
+        <item>បញ្ជី</item>
+        <item>ដូចដែលខ្ញុំបានចាកចេញពីវា</item>
+    </string-array>
+   
+    
+    
+    
+</resources>

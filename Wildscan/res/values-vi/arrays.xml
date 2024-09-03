@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="species_filters">
+		<item>Tất cả các loại</item>
+		<item>Bộ thú</item>
+		<item>Bộ chim</item>
+		<item>Bộ cá</item>
+		<item>Bò sát</item>
+		<item>Động vật lưỡng cư</item>
+		<item>Động vật không xương sống</item>
+		<item>Thực vật</item>
+		<item>Sản phẩm</item>
+		<item>Đóng mục Thư viện loài</item>
+		</string-array>
+
+	<string-array name="species_photo_license">
+		<item></item>
+		<item>Giấy phép Creative Commons Attribution-Chia sẻ tương tự 2.0 Chung</item>
+		<item>Giấy phép Creative Commons Attribution-Chia sẻ tương tự 2.5 Chung</item>
+		<item>Giấy phép Creative Commons Attribution-Chia sẻ tương tự 3.0 Chưa chuyển đổi</item>
+		<item>Giấy phép GNU</item>
+		<item>Tên miền công cộng</item>
+		<item>Bản quyền hình ảnh FREELAND</item>
+		</string-array>
+
+	<string-array name="id_wizard_questions">
+		<item>Đây là một cá thể nguyên vẹn (còn sống hoặc đã chết)@ hoặc một Bộ phận/Sản phẩm từ động vật hoang dã?</item>
+		<item>Lớp bao phủ chính trên cơ thể động vật là gì?</item>
+		<item>unused</item>
+		<item>Màu sắc chính của động vật?</item>
+		<item>Kích thước của động vật?</item>
+		<item>Động vật có các đặc điểm đặc biệt không?\n(Đánh dấu tất cả các mục phù hợp)</item>
+		<item>Mục đích sử dụng chính của bộ phận/sản phẩm ĐVHD?</item>
+		<item>Bộ phận/Sản phẩm làm từ chất liệu gì?</item>
+		<item>Đây là bộ phận nào trên cơ thể ĐVHD?</item>
+		</string-array>
+
+	<string-array name="id_wizard_prod_ani">
+		<item>Cá thể nguyên vẹn</item>
+		<item>Bộ phận/Sản phẩm ĐVHD</item>
+		</string-array>
+
+	<string-array name="id_wizard_covering">
+		<item>Vảy</item>
+		<item>Lông</item>
+		<item>Lông vũ</item>
+		<item>Da</item>
+		<item>Khác/Không rõ</item>
+		</string-array>
+
+	<string-array name="id_wizard_color">
+		<item>Đỏ</item>
+		<item>Da cam</item>
+		<item>Vàng</item>
+		<item>Xanh lá cây</item>
+		<item>Xanh nước biển</item>
+		<item>Tím</item>
+		<item>Xám</item>
+		<item>Nâu</item>
+		<item>Trắng</item>
+		<item>Đen</item>
+		<item>Khác/Không rõ</item>
+		</string-array>
+
+	<string-array name="id_wizard_size">
+		<item>Nhỏ hơn tay bạn</item>
+		<item>Nhỏ hơn một con chó cỡ trung bình</item>
+		<item>Nhỏ hơn bạn</item>
+		<item>Lớn hơn bạn</item>
+		<item>Không rõ</item>
+		</string-array>
+
+	<string-array name="id_wizard_features">
+		<item>Đuôi</item>
+		<item>Cánh</item>
+		<item>Mỏ</item>
+		<item>Vảy</item>
+		<item>Vây</item>
+		</string-array>
+
+	<string-array name="id_wizard_purpose">
+		<item>Thực phẩm</item>
+		<item>Quần áo</item>
+		<item>Trang sức</item>
+		<item>Chiến lợi phẩm/Đồ trang trí</item>
+		<item>Thuốc</item>
+		<item>Khác/Không rõ</item>
+		</string-array>
+
+	<string-array name="id_wizard_material">
+		<item>Xương</item>
+		<item>Vỏ/Da</item>
+		<item>Vảy</item>
+		<item>Bột</item>
+		<item>Thịt</item>
+		<item>Khác/Không rõ</item>
+		</string-array>
+
+	<string-array name="id_wizard_part">
+		<item>Sừng</item>
+		<item>Ngà</item>
+		<item>Da</item>
+		<item>Chân</item>
+		<item>Răng/Móng vuốt</item>
+		<item>Khác/Không rõ</item>
+		</string-array>
+
+	<string-array name="sync_progress">
+		<item>Kiểm tra các</item>
+		<item>Cập nhật nội dung&#8230;</item>
+		<item>Cập nhật liên hệ&#8230;</item>
+		<item>Cập nhật loài&#8230;</item>
+		<item>Cập nhật loài&#8230;</item>
+		<item>Kiểm tra sự kiện mới&#8230;</item>
+		<item>Cập nhật dịch&#8230;</item>
+		<item>Xác minh ảnh&#8230;</item>
+		</string-array>
+
+	<string-array name="pref_gallery_view_entries">
+		<item>Thư viện ảnh</item>
+		<item>Danh sách</item>
+		<item>Giữ nguyên trạng thái như trước khi đóng ứng dụng</item>
+		</string-array>
+
+</resources>

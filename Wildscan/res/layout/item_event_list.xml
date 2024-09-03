@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:id="@+id/eventPhoto"
+        android:layout_width="@dimen/event_list_thumbnail_width"
+        android:layout_height="@dimen/event_list_thumbnail_width"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+		android:paddingRight="2dp"
+		android:src="@drawable/empty_avatar" />
+<!--         android:background="@color/list_item_text_bg" -->
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_item_text_bg" >
+        
+	    <TextView
+	        android:id="@+id/eventCountry"
+	        android:hint="@string/event_hint_country"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@+id/eventDate"
+	        android:background="@color/list_item_text_bg"
+	        android:textColor="@color/list_item_text_fg_header"
+	        android:gravity="left"
+	        android:lines="1"
+	        android:paddingBottom="2dp"
+	        android:paddingLeft="7.5dp"
+	        android:paddingRight="2.5dp"
+	        android:paddingTop="2dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <TextView
+	        android:id="@+id/eventSpecies"
+	        android:hint="@string/event_hint_species"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@id/eventDate"
+	        android:layout_below="@id/eventCountry"
+	        android:background="@color/list_item_text_bg"
+	        android:textColor="@color/list_item_text_fg"
+	        android:gravity="left"
+	        android:lines="1"
+	        android:paddingBottom="2dp"
+	        android:paddingLeft="7.5dp"
+	        android:paddingRight="2.5dp"
+	        android:paddingTop="2dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    	
+	    <TextView
+	        android:id="@+id/eventDate"
+	        android:hint="@string/event_hint_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:background="@color/list_item_text_bg"
+	        android:textColor="@color/list_item_text_fg_header"
+	        android:gravity="right"
+	        android:lines="1"
+	        android:paddingBottom="2dp"
+	        android:paddingLeft="2.5dp"
+	        android:paddingRight="7.5dp"
+	        android:paddingTop="2dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+<!-- 	    android:hint="YYYY-MM-DD" -->
+	    	
+	    <TextView
+	        android:id="@+id/eventDescription"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/eventSpecies"
+	        android:layout_gravity="bottom|left"
+	        android:background="@color/list_item_text_bg"
+	        android:focusable="false"
+	        android:gravity="bottom|left"
+	        android:hint="@string/event_hint_description"
+	        android:lines="2"
+	        android:paddingBottom="5dp"
+	        android:paddingLeft="7.5dp"
+	        android:paddingRight="2.5dp"
+	        android:paddingTop="2dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="@color/list_item_text_fg" />
+
+<!--        android:ems="60" -->
+<!-- 	    android:hint="event description" -->
+	    	
+	</RelativeLayout>
+</LinearLayout>

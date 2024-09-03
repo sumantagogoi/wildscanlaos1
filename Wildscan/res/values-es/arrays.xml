@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>Todos los tipos</item>
+        <item>Mamíferos</item>
+        <item>Aves</item>
+        <item>Pez</item>
+        <item>Reptiles</item>
+        <item>Anfibios</item>
+        <item>Invertebrados</item>
+        <item>Plantas</item>
+        <item>Productos derivados</item>
+        <item>Cerrar Especies</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Creative commons 2.0</item>
+        <item>Creative commons 2.5</item>
+        <item>Creative commons 3.0</item>
+        <item>Licencia GNU</item>
+        <item>Dominio Público</item>
+        <item>Derechos del Autor Freeland</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>Es un animal intacto ( vivo o muerto) , o un producto de origen animal parte / derivado ?</item>
+        <item>¿Qué es la cubierta primaria del cuerpo del animal?</item>
+        <item>¿Cuántas patas tiene el animal?</item>
+        <item>¿Cuál es el color principal del animal ?</item>
+        <item>¿Cuál es el tamaño aproximado del animal ?</item>
+        <item>¿Tiene el animal tiene alguna característica especial ? (Marque todo lo que corresponda)</item>
+        <item>¿Cuál es el propósito aparente de la pieza / producto?</item>
+        <item>¿De qué material está hecho el producto?</item>
+        <item>¿Qué parte del cuerpo del animal es?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Animal intacto</item>
+        <item>Parte animal / Producto</item>
+    	</string-array>
+
+
+
+    <string-array name="id_wizard_covering">
+        <item>Escalas</item>
+        <item>Piel</item>
+        <item>Plumas</item>
+        <item>Piel</item>
+		<item>Otros / no está seguro</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>Mas</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+		<item>Azul</item>
+        <item>Púrpura</item>
+		<item>Gris</item>
+        <item>Moreno</item>
+        <item>Blanco</item>
+        <item>Negro</item>
+		<item>Otros / no está seguro</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>Más pequeño que la mano</item>
+		<item>Más pequeño que el perro promedio</item>
+		<item>Más pequeña de lo que</item>
+		<item>Más grande de lo que</item>
+		<item>No es seguro</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Más pequeño que la mano</item>
+		<item>Larger than your hand but smaller than an average dog</item>
+		<item>Larger than an average dog but smaller than you</item>
+		<item>Larger than you</item>
+		<item>No es seguro</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>Cola</item>
+        <item>Alas</item>
+        <item>Pico</item>
+        <item>Cáscara</item>
+		<item>Aletas</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>Alimentación</item>
+        <item>Ropa</item>
+        <item>la joyería</item>
+        <item>Trofeo / ornamento</item>
+		<item>Medicina</item>
+		<item>Otros / No está seguro</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>Hueso</item>
+        <item>Piel</item>
+        <item>Concha</item>
+        <item>Polvo</item>
+		<item>Carne</item>
+		<item>Otros</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>Cuerno</item>
+        <item>Colmillo</item>
+        <item>Piel</item>
+        <item>Pata</item>
+		<item>Diente / garra</item>
+		<item>Otros / No está seguro</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>Verificando informes disponibles&#8230;</item>
+        <item>Actualización de contenidos&#8230;</item>
+        <item>Actualización de contactos&#8230;</item>
+        <item>Actualización de las especies&#8230;</item>
+        <item>Actualización de las especies&#8230;</item>
+        <item>Verificando nuevos eventos&#8230;</item>
+        <item>Actualizando Traducciones&#8230;</item>
+        <item>Verificando las fotos&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Galería</item>
+        <item>Lista</item>
+        <item>Como lo dejé</item>
+    </string-array>
+   
+    
+    
+    
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    
+    <dimen name="global_header_height">50dp</dimen>
+    <dimen name="global_header_title_text_size">18sp</dimen>
+    <dimen name="global_header_button_text_size">13sp</dimen>
+    
+    <dimen name="home_event_list_title_text_size">14sp</dimen>
+    <dimen name="home_event_list_button_text_size">12sp</dimen>
+    
+    <dimen name="contact_list_avatar_width">100dp</dimen>
+    <dimen name="contact_list_item_text_size">13sp</dimen>
+    <dimen name="contact_list_item_website_text">14sp</dimen>
+    <dimen name="contact_list_fav_width">30dp</dimen>
+    
+    <dimen name="species_list_thumbnail_width">100dp</dimen>
+    <dimen name="species_list_text">15sp</dimen>    
+    <dimen name="species_list_fav_width">24dp</dimen>
+    
+    <dimen name="species_gallery_thumbnail_width">270dp</dimen>
+    <dimen name="species_gallery_text">16sp</dimen>    
+    <dimen name="species_gallery_fav_width">24dp</dimen>
+    
+    <dimen name="species_details_image_height">600dp</dimen>
+    <dimen name="species_details_thumbnail_height">100dp</dimen>
+    <dimen name="species_details_image_copyright_text_size">15sp</dimen>
+    <dimen name="species_details_excerpt_text_size">16sp</dimen>
+    <dimen name="species_details_info_text_size">15sp</dimen>
+    <dimen name="species_details_fav_width">32dp</dimen>
+    
+    <dimen name="event_list_thumbnail_width">100dp</dimen>
+    <dimen name="event_details_image_height">600dp</dimen>
+    
+    <dimen name="report_footer_text">13sp</dimen>
+    <dimen name="report_footer_small_text">12sp</dimen>
+    <dimen name="report_photo_thumbnail_height">150dp</dimen>
+    <dimen name="report_photo_thumbnail_margin">20dp</dimen>
+    <dimen name="report_section_label_size">16sp</dimen>
+    <dimen name="report_text_size">15sp</dimen>
+    <dimen name="report_radio_btn_text_size">14sp</dimen>
+    <dimen name="report_btn_size">48dp</dimen>
+    
+    <dimen name="id_answer_image_width">250dp</dimen>
+    <dimen name="id_answer_grid_spacing">25dp</dimen>
+    
+    <dimen name="search_dropdown_text_size">16sp</dimen>
+    <dimen name="search_popup_width">300dp</dimen>
+
+</resources>

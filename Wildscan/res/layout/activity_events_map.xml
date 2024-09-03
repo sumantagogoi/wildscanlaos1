@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    tools:context=".EventMapActivity" >
+    <RelativeLayout
+        android:id="@+id/eventsMapHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/global_header_height" >
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:layout_alignParentTop="true" > -->
+
+        <TextView
+            android:id="@+id/eventsMapHeaderTitle"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/eventsMapHeaderBtnShowList"
+            android:background="@color/header_item_bg_dark"
+            android:gravity="center_vertical"
+            android:text="@string/events_map_header_title"
+            android:textColor="@color/header_item_fg"
+            android:textSize="@dimen/global_header_title_text_size" />
+
+        <Button
+            android:id="@id/eventsMapHeaderBtnShowList"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/eventsMapHeaderBtnNext"
+        	android:paddingLeft="10dp"            
+        	android:paddingRight="10dp"            
+            android:background="@color/header_item_bg_med"
+            android:gravity="center"
+            android:onClick="onClickHeaderBtnShowList"
+            android:text="@string/events_map_header_btn_show_list"
+            android:textColor="@color/header_item_fg"
+            android:textSize="@dimen/global_header_button_text_size" />
+<!--             android:scaleType="fitCenter"
+            android:src="@drawable/selector_header_fav"
+ -->        
+        <Button
+            android:id="@id/eventsMapHeaderBtnNext"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+        	android:paddingLeft="10dp"            
+        	android:paddingRight="10dp"            
+            android:background="@color/header_item_bg_light"
+            android:onClick="onClickHeaderBtnNext"
+            android:text="@string/events_map_header_btn_next"
+            android:textColor="@color/header_item_fg"
+            android:textSize="@dimen/global_header_button_text_size" />
+<!--             android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_header_search"
+ -->
+ 		</RelativeLayout>
+ 		
+    
+<!--     <TextView
+	    android:id="@+id/eventsMapHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:layout_alignParentTop="true"
+	    android:background="@color/header_item_bg_dark"
+        android:clickable="false"
+        android:focusable="false"
+	    android:gravity="center_vertical"
+	    android:text="@string/events_list_header_title"
+	    android:textColor="@color/header_item_fg"
+	    android:textSize="18sp" />
+ -->
+
+   	<fragment
+   	    android:id="@+id/eventsMapFragment"
+   	    android:name="com.google.android.gms.maps.MapFragment"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="1"
+   	    android:layout_margin="4dp"
+   	    android:padding="4dp"/>
+
+<!--    	    android:layout_below="@id/eventsMapHeaderLayout"/> -->
+
+   	<ViewStub
+   	    android:id="@+id/stub_currentEvent"
+   	    android:inflatedId="@+id/currentEvent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"  	    
+   	    layout="@layout/item_event_list" />
+<!--	android:layout_below="@id/eventsMapFragment"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_alignParentLeft="true"
+ -->   	
+</LinearLayout>

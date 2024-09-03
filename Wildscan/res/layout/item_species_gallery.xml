@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fixed_aspect="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <org.freeland.wildscan.widget.FixedAspectImageView
+        android:id="@+id/speciesListThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black"
+        android:scaleType="centerInside"
+        fixed_aspect:ratio="1.0"
+        fixed_aspect:mode="fix_width"
+        android:src="@drawable/empty_species" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/speciesListName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@+id/btns"
+            android:background="@color/list_item_text_bg"
+            android:gravity="center_vertical"
+            android:lines="3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="7.5dp"
+            android:paddingRight="2.5dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/list_item_text_fg"
+            android:textSize="@dimen/species_gallery_text" />
+
+        <LinearLayout
+            android:id="@+id/btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/speciesListName"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/speciesListName"
+            android:background="@color/list_item_text_bg"
+            android:orientation="vertical"
+            android:paddingLeft="2.5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/speciesListBtnFav"
+                android:layout_width="@dimen/species_gallery_fav_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/list_item_text_bg"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_list_fav" />
+
+            <ImageButton
+                android:id="@+id/speciesListBtnReport"
+                android:layout_width="@dimen/species_gallery_fav_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/list_item_text_bg"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_action_report" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

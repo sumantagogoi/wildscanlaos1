@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_marginTop="2dp"
+	    android:layout_marginBottom="2dp"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginRight="4dp"
+        android:background="@color/list_item_text_bg"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:contentDescription="@string/blank"
+            android:id="@+id/contactsListAvatar"
+            android:layout_width="@dimen/contact_list_avatar_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_alignParentTop="true"
+            android:background="@color/list_item_text_bg"
+            android:padding="10dp"
+            android:scaleType="fitStart" />
+
+        <ImageButton
+            android:contentDescription="@string/blank"
+            android:id="@+id/listBtnFav"
+            android:layout_width="@dimen/contact_list_fav_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/contactsListAvatar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="top|right"
+            android:background="@color/list_item_text_bg"
+            android:focusable="false"
+            android:paddingLeft="2dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/selector_list_fav" />
+
+        <TextView
+            android:id="@+id/contactsListDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/contactsListAvatar"
+            android:layout_toLeftOf="@+id/listBtnFav"
+            android:layout_toRightOf="@id/contactsListAvatar"
+            android:background="@color/list_item_text_bg"
+            android:gravity="center_vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/list_item_text_fg"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/contact_list_item_text_size" />
+
+        <TextView
+            android:id="@+id/contactsListWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/contactsListDetails"
+            android:layout_alignRight="@+id/contactsListDetails"
+            android:layout_below="@id/contactsListDetails"
+            android:background="@color/list_item_text_bg"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="2dp"
+            android:paddingTop="0dp"
+            android:textColor="@color/about_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/contact_list_item_website_text" />
+    </RelativeLayout>
+
+</FrameLayout>

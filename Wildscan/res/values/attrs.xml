@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FixedAspect">
+        <attr name="ratio" format="float"/>
+        <attr name="mode">
+            <enum name="fix_width" value="0" />
+            <enum name="fix_hight" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
