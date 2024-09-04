@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.freeland.wildscanlaos"
+    android:versionCode="100"
+    android:versionName="1.00">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.location" />
+    
+    <supports-screens android:smallScreens="false"
+	                     />
+
+    <permission
+        android:name="org.freeland.wildscanlaos.permission.SYNC"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <application
+        android:name="org.freeland.wildscanlaos.App"
+        android:configChanges="orientation|screenSize"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/logo_new"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="none"
+        android:allowBackup="false"
+        android:fullBackupContent="false">
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCIMo2oSkY0xK4lm59VbE0zTUEzUz3T3bk" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="org.freeland.wildscanlaos.data.provider.WildscanDataProvider"
+            android:authorities="org.freeland.wildscanlaos.data.provider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider_authorities"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <provider
+            android:name="org.freeland.wildscanlaos.data.provider.StubSyncProvider"
+            android:authorities="@string/sync_provider_authorities"
+            android:exported="false"
+            android:syncable="true" >
+        </provider>
+
+        <receiver
+            android:name="org.freeland.wildscanlaos.data.WildscanDownloaderService$AlarmReceiver" />
+        <receiver
+            android:name="org.freeland.wildscanlaos.data.WildscanDataManager$AppReplacedReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="org.freeland.wildscanlaos.data.WildscanDownloaderService" />
+        <service
+            android:name="org.freeland.wildscanlaos.authenticator.WildscanAuthenticator$AuthenticatorService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+        <service
+            android:name="org.freeland.wildscanlaos.data.sync.WildscanSyncAdapter$SyncService"
+            android:exported="false"
+            android:permission="org.freeland.wildscanlaos.permission.SYNC" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+
+        <activity
+            android:name="org.freeland.wildscanlaos.WildscanLaunchActivity"
+            android:label= "@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.SignInActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.WildscanMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.ContactListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.EventDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.EventListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.EventMapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.LocationPickerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.ReportWizardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.SpeciesDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.SpeciesIdWizardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.freeland.wildscanlaos.SpeciesLibActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity android:name="org.freeland.wildscanlaos.PrefsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="59e95e824613cfc882a7dfd08fc11de6ee8c08a2" />
+    </application>
+
+</manifest>

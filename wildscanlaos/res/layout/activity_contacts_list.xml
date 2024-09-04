@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contactsListHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/global_header_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/contactsListHeader"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/contactsListHeaderBtnFavorites"
+            android:background="@color/header_item_bg_dark"
+            android:gravity="center_vertical"
+            android:text="@string/contacts_list_header_title"
+            android:textColor="@color/header_item_fg"
+            android:textSize="@dimen/global_header_title_text_size" />
+
+        <ImageButton
+            android:id="@id/contactsListHeaderBtnFavorites"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/contactsListHeaderBtnSearch"
+            android:background="@color/header_item_bg_light"
+            android:gravity="center"
+            android:onClick="onClickHeaderBtnFavorites"
+            android:src="@drawable/selector_header_fav"
+            android:text="@string/contacts_list_header_btn_favorites"
+            android:textColor="@color/header_item_fg"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@id/contactsListHeaderBtnSearch"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/header_item_bg_med"
+            android:onClick="onClickHeaderBtnSearch"
+            android:src="@drawable/ic_action_header_search"
+            android:text="@string/contacts_list_header_btn_search"
+            android:textColor="@color/header_item_fg"
+            android:scaleType="fitCenter" />
+        
+    </RelativeLayout>
+
+    <FrameLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/contactsListHeaderLayout"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true" >
+
+	    <ListView
+	        android:id="@+id/contactsListDisplayLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/white"
+	        android:layout_marginBottom="0dp" />
+	    
+	    <org.freeland.wildscanlaos.widget.SearchAutoCompleteView
+	        android:id="@+id/searchAutocomplete"
+	        android:layout_width="@dimen/search_popup_width"
+	        android:layout_height="wrap_content"
+	        android:dropDownWidth="@dimen/search_popup_width"
+    	    android:dropDownHeight="@dimen/search_dropdown_height"
+	        android:layout_gravity="top|right"
+	        android:padding="10dp"
+	        android:visibility="invisible"
+	        android:singleLine="true"
+	        android:textSize="@dimen/search_dropdown_text_size"
+	        android:textColor="@android:color/white"
+	        android:background="@color/header_item_bg_med"
+	        android:inputType="text|textNoSuggestions"
+	        android:imeOptions="actionNone"
+	        android:hint="@string/contacts_list_search_by_name_hint" />
+	    
+	</FrameLayout>  
+
+</RelativeLayout>

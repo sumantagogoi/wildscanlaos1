@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "965336769969",
+    "firebase_url": "https://wildscan-be24c.firebaseio.com",
+    "project_id": "wildscan-be24c",
+    "storage_bucket": "wildscan-be24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965336769969:android:600438bf0487c235",
+        "android_client_info": {
+          "package_name": "org.freeland.wildscanlaos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965336769969-51ff3log5b644dqdvkjsasmvhd7ebv93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4m9jAZtVXsykbut8aa2jNxgiLGR0NR0g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

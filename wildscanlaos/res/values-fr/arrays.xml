@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>Tous les types</item>
+        <item>Mammiferes</item>
+        <item>Des oiseaux</item>
+        <item>Poisson</item>
+        <item>Reptiles</item>
+        <item>Amphibiens</item>
+        <item>Invertébrés</item>
+        <item>Plantes</item>
+        <item>Produits dérivés</item>
+        <item>Fermer les espèces</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Créatif Commons 2.0</item>
+        <item>Créatif Commons 2.5</item>
+        <item>Créatif commons 3.0</item>
+        <item>Licence GNU</item>
+        <item>Domaine public</item>
+        <item>Freeland copyright</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>Est-ce un animal intact (vivant ou décédé) , ou une partie / produit dérivé d\' animaux?</item>
+        <item>De quoi est couvert le corps de l\’animal?</item>
+        <item>Combien de pattes ne l\'animal at-il?</item>
+        <item>Quelle est la couleur principale de l\'animal?</item>
+        <item>Quelle est la taille approximative de l\'animal?</item>
+        <item>Est-ce que l\’animal possède des caractéristiques particulières? (Cochez toutes les cases))</item>
+        <item>Quel serait l\’usage possible de la partie / du produit de l\’animal?</item>
+        <item>De quelle matière est faite la partie de l\’animal?</item>
+        <item>De quelle partie du corps de l\’animal s’agit-il?</item>
+        <item>Sous quelle forme?</item>
+        <item>Quel est son utilité?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Animal intact</item>
+        <item>Animal partie / produit</item>
+        <item>Plante</item>
+    	</string-array>
+   
+    
+    
+    <string-array name="id_wizard_covering">
+        <item>Écailles</item>
+        <item>Fourrure</item>
+        <item>Plumes</item>
+        <item>Peau</item>
+		<item>Autre / ne sait pas</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>More</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+		<item>Bleu</item>
+        <item>Violet</item>
+		<item>Gris</item>
+        <item>Brun</item>
+        <item>Blanc</item>
+        <item>Noir</item>
+		<item>Autre / ne sait pas</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>Plus petit que votre main</item>
+		<item>Plus petit que le chien moyen</item>
+		<item>Plus petit que vous</item>
+		<item>Plus grand que vous</item>
+		<item>Pas sûr</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Plus petit que votre main</item>
+		<item>Plus petit que le chien moyen</item>
+		<item>Plus grand que le chien moyen mais plus petit que vous</item>
+		<item>Plus grand que vous</item>
+		<item>Pas sûr</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>Queue</item>
+        <item>Ailes</item>
+        <item>Le bec</item>
+        <item>Carapace</item>
+		<item>Ailettes</item>
+<!-- 		<item>None</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>Alimentation</item>
+        <item>Vêtements</item>
+        <item>Bijoux</item>
+        <item>Trophée/ornement</item>
+		<item>Médicament</item>
+		<item>Autre / Pas sûr</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>Os</item>
+        <item>Peau</item>
+        <item>Carapace</item>
+        <item>Poudre</item>
+		<item>Viande</item>
+		<item>Autre</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>Corne</item>
+        <item>Défense d\'éléphant</item>
+        <item>Peau</item>
+        <item>Patte</item>
+		<item>Dent/griffe</item>
+		<item>Autre</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>Vérification des rapports en attente&#8230;</item>
+        <item>Mise à jour du contenu&#8230;</item>
+        <item>Mise à jour des contacts&#8230;</item>
+        <item>Mise à jour des espèces&#8230;</item>
+        <item>Mise à jour des espèces&#8230;</item>
+        <item>Vérification de nouveaux événements&#8230;</item>
+        <item>Mise à jour des traductions&#8230;</item>
+        <item>Vérification des photos&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Galerie</item>
+        <item>Liste</item>
+        <item>Comme je l\'ai laissé</item>
+    </string-array>
+
+    <string-array name="id_wizard_p_purpose">
+        <item>Nourriture</item>
+        <item>Meubles</item>
+        <item>Ornement</item>
+        <item>Médicament</item>
+        <item>Autre / Ne sait pas</item>
+    </string-array>
+
+    <string-array name="id_wizard_form">
+        <item>Intact</item>
+        <item>Le bois</item>
+        <item>Article</item>
+        <item>Autre / Ne sait pas</item>
+    </string-array>
+    
+</resources>

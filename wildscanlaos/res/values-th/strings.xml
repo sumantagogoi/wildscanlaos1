@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_synchronize">เชื่อมโยงข้อมูล</string>
+    <string name="action_info">ความช่วยเหลือและข้อมูล</string>
+    <string name="action_settings">การตั้งค่า</string>
+
+    <string name="info_title">ข้อมูล WildScan</string>
+    <string name="info_about">เกี่ยวกับ WildScan</string>
+    <string name="info_eula">ข้อตกลงสำหรับผู้ใช้</string>
+    <string name="info_consumer">การแนะนำทั่วไปสำหรับผู้บริโภค</string>
+    <string name="info_responder">การแนะนำทั่วไปสำหรับผู้ดูแลเบื้องต้น</string>
+    <string name="info_law_enforcement">การแนะนำทั่วไปสำหรับผู้บังคับใช้กฎหมาย</string>
+    <string name="info_national_laws">กฎหมายด้านสัตว์ป่าและพืชป่า</string>
+    <string name="info_contributors">องค์กรที่ให้การสนับสนุน</string>
+    <string name="info_credits">ลิขสิทธิ์</string>
+
+    <string name="species_lib_header_title">คลังข้อมูลชนิดพันธุ์สัตว์</string>
+    <string name="species_lib_search_by_name_hint">ป้อนชื่อชนิดพันธุ์สัตว์</string>
+    <string name="species_lib_select_dlg_text">เลือกชนิดพันธุ์สำหรับการรายงานหรือเลือกดูข้อมูลชนิดพันธุ์</string>
+    <string name="species_lib_select_dlg_btn_select">เลือกชนิดพันธุ์</string>
+    <string name="species_lib_select_dlg_btn_details">ดูข้อมูลชนิดพันธุ์</string>
+    <string name="species_lib_search_show_all">แสดงทั้งหมด</string>
+
+    <string name="species_details_label_cites">บัญชีอนุสัญญาไซเตส</string>
+    <string name="species_details_label_cites_appendix_1">บัญชีที่ 1 ของบัญชีท้ายอนุสัญญา CITES</string>
+    <string name="species_details_label_cites_appendix_2">บัญชีที่ 2 ของบัญชีท้ายอนุสัญญา CITES</string>
+    <string name="species_details_label_cites_appendix_3">บัญชีที่ 3 ของบัญชีท้ายอนุสัญญา CITES</string>
+    <string name="species_details_label_status">สถานะบัญชีแดงของสหภาพเพื่อการอนุรักษ์ธรรมชาติ (บัญชีแดง)</string>
+    <string name="species_details_label_status_lc">มีความเสี่ยงต่ำต่อการสูญพันธุ์</string>
+    <string name="species_details_label_status_nt">เกือบอยู่ในข่ายเสี่ยงต่อการสูญพันธุ์</string>
+    <string name="species_details_label_status_vu">เกือบอยู่ในข่ายใกล้การสูญพันธุ์</string>
+    <string name="species_details_label_status_en">ใกล้การสูญพันธุ์</string>
+    <string name="species_details_label_status_cr">มีความเสี่ยงขั้นวิกฤติต่อการสูญพันธุ์</string>
+    <string name="species_details_label_status_ew">Extinct in the Wild</string>
+    <string name="species_details_label_status_ex">Extinct</string>
+    <string name="species_details_label_status_na">ยังไม่ได้รับการประเมินความเสี่ยง</string>
+    <string name="species_details_label_warning">คำเตือน</string>
+    <string name="species_details_label_warning_disease_risk">ความเสี่ยงโรคสัตว์สู่คน</string>
+    <string name="species_details_label_warning_disease_risk_low">ต่ำ</string>
+    <string name="species_details_label_warning_disease_risk_medium">ปานกลาง</string>
+    <string name="species_details_label_warning_disease_risk_high">สูง</string>
+    <string name="species_details_label_warning_dangerous">อันตราย</string>
+    <string name="species_details_label_warning_poisonous">มีพิษ</string>
+    <string name="species_details_label_warning_nocturnal">การออกหากินเวลากลางคืน</string>
+    <string name="species_details_label_id_clues">ลักษณะบ่งชี้สายพันธุ์</string>
+    <string name="species_details_label_similar">สปีชีส์อื่นที่มีความคล้ายคลึง</string>
+    <string name="species_details_label_enforcement">การแนะนำสำหรับผู้บังคับใช้กฎหมาย</string>
+    <string name="species_details_label_consumer">การแนะนำสำหรับผู้บริโภค</string>
+    <string name="species_details_label_responder">การแนะนำสำหรับผู้ดูแลเบื้องต้น</string>
+    <string name="species_details_label_traded_as">ถูกค้าในลักษณะ</string>
+    <string name="species_details_label_common_methods">วิธีการลักลอบที่มักพบ</string>
+    <string name="species_details_label_aka">รู้จักกันในนามว่า</string>
+    <string name="species_details_label_distribution">การกระจาย</string>
+    <string name="species_details_label_size">น้ำหนักและขนาดโดยเฉลี่ย</string>
+    <string name="species_details_label_habitat">ถิ่นอาศัย</string>
+    <string name="species_details_label_diseases">โรคที่มากับสัตว์</string>
+    <string name="species_details_label_notes">หมายเหตุ</string>
+    <string name="species_details_failed_set_fav">การตั้งค่าเป็นชื่นชอบล้มเหลว</string>
+    <string name="species_details_photo_license">สิทธิการใช้งานรูป\n%1$s</string>
+
+    <string name="species_id_wizard_header_title">ระบุชนิดพันธุ์สัตว์</string>
+<string name="species_details_no_images">
+ไม่มีภาพที่ สายพันธุ์ที่ มีอยู่ในปัจจุบัน</string>
+
+    <string name="contacts_list_header_title">สมุดรายชื่อหน่วยงานติดต่อ</string>
+    <string name="contacts_list_search_by_name_hint">ป้อนหน่วยงานติดต่อ</string>
+    <!-- 	<string name="contacts_list_label_email">อีเมล</string> -->
+    <!-- 	<string name="contacts_list_label_phone">โทรศัพท์</string> -->
+
+    <string name="events_list_header_title">รายการเหตุการณ์</string>
+    <string name="events_list_header_btn_show_on_map">แสดงบนแผนที่</string>
+    <string name="events_list_header_btn_view_more">ดูเพิ่มเติม</string>
+    <string name="events_list_fragment_title">เหตุการณ์เร็วๆนี้</string>
+    <string name="events_list_loading_text">กำลังค้นข้อมูลเหตุการณ์&#8230;</string>
+    <string name="events_list_empty_text">ไม่มีเหตุการณ์</string>
+    <string name="event_hint_country">ไม่ทราบประเทศ</string>
+    <string name="event_hint_date">ไม่ทราบวัน</string>
+    <string name="event_hint_species">ไม่ทราบชนิดพันธุ์</string>
+    <string name="event_hint_description">ไม่มีคำบรรยายเหตุการณ์</string>
+
+    <string name="events_map_header_title">แผนที่เหตุการณ์</string>
+    <string name="events_map_header_btn_next">ถัดไป</string>
+    <string name="events_map_header_btn_show_list">แสดงรายการ</string>
+
+    <string name="event_details_offense_label">การกระทำผิด</string>
+    <string name="event_details_address_label">ที่อยู่</string>
+    <string name="event_details_country_label">ประเทศ</string>
+    <string name="event_details_datetime_label">วันที่และเวลา</string>
+    <string name="event_details_species_label">ชนิดพันธุ์</string>
+    <string name="event_details_amount_label">จำนวน</string>
+    <string name="event_details_condition_label">สภาพ</string>
+    <string name="event_details_unknown">ไม่ทราบข้อมูล</string>
+
+    <string name="report_wizard_screen_1_title">การแจ้งเหตุที่เกิดขึ้น (1) - ภาพถ่ายหลัก</string>
+    <string name="report_wizard_screen_2_title">การแจ้งเหตุที่เกิดขึ้น (2) - ข้อมูลพื้นฐาน</string>
+    <string name="report_wizard_screen_3_title">การแจ้งเหตุที่เกิดขึ้น (3) - รายละเอียดเพิ่มเติม</string>
+    <string name="report_wizard_screen_4_title">การแจ้งเหตุที่เกิดขึ้น (4) - ทบทวนและส่งข้อมูล</string>
+    <string name="report_wizard_location_pick_title">การแจ้งเหตุที่เกิดขึ้น - สถานที่รับของ</string>
+    <string name="report_wizard_screen_1_capture_label">ถ่ายภาพ</string>
+    <string name="report_wizard_screen_1_browse_label">เลือกภาพถ่ายที่มีอยู่</string>
+    <string name="report_wizard_screen_2_time_label">วันและเวลา</string>
+    <string name="report_wizard_screen_2_location_label">สถานที่</string>
+    <string name="report_wizard_screen_2_offense_label">การกระทำผิด</string>
+    <string name="report_wizard_screen_2_offense_hint">อธิบายการกระทำผิดโดยสังเขป ตัวอย่างเช่น \'การขายสัตว์เลื้อยคลานที่ได้รับความคุ้มครอง\'</string>
+    <string name="report_wizard_screen_2_species_label">ชนิดพันธุ์</string>
+    <string name="report_wizard_screen_2_species_hint">พิมพ์ชื่อสามัญของชนิดพันธุ์สัตว์</string>
+    <string name="report_wizard_screen_2_amount_label">จำนวน</string>
+    <string name="report_wizard_screen_2_amount_unit_label">ตัว</string>
+    <string name="report_wizard_screen_2_amount_weight_label">กก.</string>
+    <string name="report_wizard_screen_2_condition_label">สภาพ</string>
+    <string name="report_wizard_screen_2_condition_alive_label">มีชีวิตอยู่</string>
+    <string name="report_wizard_screen_2_condition_dead_label">ตาย</string>
+    <string name="report_wizard_screen_2_condition_mixed_label">รวมกัน</string>
+    <string name="report_wizard_screen_3_offense_details_label">รายละเอียดการกระทำผิดเพิ่มเติม</string>
+    <string name="report_wizard_screen_3_offense_details_hint">ให้รายละเอียดเพิ่มเติมเกี่ยวกับการกระทำผิด (สูงสุดไม่เกิน 2048 ตัวอักษร)</string>
+    <string name="report_wizard_screen_3_method_label">วิธีการ</string>
+    <string name="report_wizard_screen_3_method_hint">อธิบายวิธีการที่ใช้ในการกระทำผิด (สูงสุดไม่เกิน 1024 ตัวอักษร)</string>
+    <string name="report_wizard_screen_3_value_label">มูลค่าโดยประมาณ ดอลลาร์สหรัฐ</string>
+    <string name="report_wizard_screen_3_value_usd">ดอลลาร์สหรัฐ</string>
+    <string name="report_wizard_screen_3_route_label">เส้นทาง</string>
+    <string name="report_wizard_screen_3_origin_label">ต้นทาง </string>
+    <string name="report_wizard_screen_3_destination_label">ปลายทาง </string>
+    <string name="report_wizard_screen_3_vessel_label">รายละเอียดยานพาหนะ/เรือที่ใช้กระทำผิด</string>
+    <string name="report_wizard_screen_3_vessel_description_label">รายละเอียด</string>
+    <string name="report_wizard_screen_3_vessel_id_label">ป้ายทะเบียน</string>
+    <string name="report_wizard_screen_3_vessel_name_label">ชื่อของเรือขนส่ง</string>
+    <string name="report_wizard_screen_4_share_title">ตัวเลือกการแชร์ข้อมูล</string>
+    <string name="report_wizard_screen_4_add_contact">เพิ่มหน่วยงานติดต่อ</string>
+    <string name="report_wizard_screen_4_recipients_label">หน่วยงานติดต่อ</string>
+    <string name="report_wizard_screen_4_share_text">การแจ้งรายงานของท่านจะถูกส่งไปยังทีมงานไวล์ดสแกนโดยอัตโนมัติ และทีมงานฯ จะส่งต่อไปยังหน่วยงานที่เกี่ยวข้องต่อไป ท่านยังสามารถเพิ่มหน่วยงานติดต่อที่ท่านต้องการแจ้งรายงานได้อีกด้วย</string>
+    <string name="report_wizard_screen_4_share_email_label">แชร์ข้อมูลผ่านอีเมล์</string>
+    <string name="report_wizard_screen_4_share_email_text">หากเลือกช่องนี้ โปรแกรมอีเมลบนหน้าจอจะเปิดขึ้นโดยมีรายงานฉบับนี้เป็นไฟล์แนบโดยอัตโนมัติ</string>
+    <string name="report_wizard_screen_4_photos_label">ภาพถ่าย</string>
+    <string name="report_wizard_screen_4_add_photo_label">ถ่ายภาพเพื่อรวมเข้าไว้ในรายงาน กดเพื่อเพิ่มรูป (สูงสุด 3 รูป)</string>
+    <string name="report_wizard_screen_4_private_label">แจ้งรายงานเป็นการส่วนตัว</string>
+    <string name="report_wizard_screen_4_private_text">การแจ้งข้อมูลเป็นการส่วนตัวจะไม่ถูกนำไปรวมกับผู้ใช้ WildScan รายอื่น</string>
+    <string name="report_wizard_confirm_discard_title">ละทิ้งรายงานนี้?</string>
+    <string name="report_wizard_confirm_discard_message">ข้อมูลทั้งหมดจะถูกละทิ้ง</string>
+    <string name="report_wizard_warning_dialog_title">คำเตือน!</string>
+    <string name="report_wizard_warning_dialog_message">การแจ้งข้อมูลการลักลอบค้าสัตว์ป่าและการกระทำผิดกฎหมายสัตว์ป่ามีโอกาสที่จะได้รับอันตราย ผู้ใช้ WildScan ควรจะกระทำการด้วยความระมัดระวังเมื่อถ่ายภาพการกระทำผิดกฎหมายสัตว์ป่าที่น่าสงสัยและไม่ควรนำตัวเองเข้าไปเสี่ยงในกรณีที่อาจจะเกิดอันตรายจากการแจ้งข้อมูลการกระทำผิดดังกล่าว</string>
+    <string name="report_wizard_location_loading">กำลังค้นหาที่อยู่&#8230;</string>
+    <string name="report_wizard_location_hint">ป้อนข้อมูลสถานที่</string>
+    <string name="report_submit_dialog_title">ส่งการแจ้งข้อมูล</string>
+    <string name="report_submit_message">กำลังส่งรายงานไปยัง WildScan&#8230;</string>
+    <string name="report_submit_success">การแจ้งข้อมูลได้ดำเนินการส่งแล้วและจะถูกพิจารณาทบทวนโดย WildScan</string>
+    <string name="report_submit_fail">การส่งข้อมูลล้มเหลว รายงานจะถูกส่งเมื่อมีการเชื่อมต้่อครั้งต่อไป</string>
+
+    <string name="report_email_title">รายงานอัตโนมัติของแอพพลิเคชั่น WildScan [%1$s]</string>
+    <string name="report_email_section_name_datetime">วันและเวลา</string>
+    <string name="report_email_section_name_location_lat">พิกัตละติจูด</string>
+    <string name="report_email_section_name_location_lon">พิกัตลองติจูด</string>
+    <string name="report_email_section_name_description">คำบรรยายเหตุการณ์</string>
+    <string name="report_email_section_name_species">ชนิดพันธุ์</string>
+    <string name="report_email_section_name_amount">จำนวน</string>
+    <string name="report_email_section_name_condition">สภาพ</string>
+    <string name="report_email_section_name_details">ข้อมูลการกระทำผิด</string>
+    <string name="report_email_section_name_method">วิธีการ</string>
+    <string name="report_email_section_name_value">มูลค่าโดยประมาณ (ดอลลาห์สหรัฐ)</string>
+    <string name="report_email_section_name_origin_address">ที่อยู่ต้นทาง</string>
+    <string name="report_email_section_name_origin_lat">พิกัตละติจูดของต้นทาง</string>
+    <string name="report_email_section_name_origin_lon">พิกัตลองติจูดของต้นทาง</string>
+    <string name="report_email_section_name_dest_address">ที่อยู่ปลายทาง</string>
+    <string name="report_email_section_name_dest_lat">พิกัตละติจูดของปลายทาง</string>
+    <string name="report_email_section_name_dest_lon">พิกัตลองติจูดของปลายทาง</string>
+    <string name="report_email_section_name_vessel_description">คำบรรยายพาหนะขนส่ง</string>
+    <string name="report_email_section_name_vessel_id">หมายเลขอนุญาตของพาหนะขนส่ง</string>
+    <string name="report_email_section_name_vessel_name">ชื่อของเรือขนส่ง</string>
+    <string name="location_picker_map_target_title">สถานที่เกิดเหตุ</string>
+    <string name="date_time_picker_dialog_title">ตั้งค่าวันและเวลา</string>
+
+    <string name="sync_wifi_unavailable">ไม่มีสัญญาน WiFi กรุณาต่อสัญญาน Wifi เพื่อเริ่มการเชื่อมต่อ</string>
+    <string name="sync_initial_starting_message">เริ่มการเชื่อมต่อครั้งแรก ขั้นตอนนี้อาจจะใช้เวลานานขึ้นอยู่กับความเร็วของสัญญานของคุณ</string>
+    <string name="sync_starting_message">กำลังเชื่อมต่อข้อมูล</string>
+
+    <string name="sign_in_request_message">WildScan กำหนดให้ผู้ใช้แต่ละท่านทำการลงชื่อเข้าใช้แอพพลิเคชั่นเพื่อรับรองความปลอดภัยของข้อมูลภายในรายงานที่ถูกส่ง กรุณาพิสูจน์ตัวตนของท่านโดยการลงชื่อเข้าใช้ด้วย Google Account ของท่าน</string>
+    <string name="status_signing_in">กำลังลงชื่อเข้าใช้&#8230;</string>
+    <string name="status_signed_out">ออกจากระบบ</string>
+    <string name="status_signed_in_as">เข้าระบบด้วยชื่อ %1$s</string>
+    <string name="status_sign_in_hint">สถานะการเข้าระบบ</string>
+    <string name="status_play_services_error">Google Play Serivces มีข้อผิดพลาด!!</string>
+    <string name="status_retrieve_id"></string>
+    <string name="status_registration_fail">การลงทะเบียนผู้ใช้ล้มเหลว</string>
+    <string name="status_new_user_signin_fail">การลงชื่อผู้ใช้ใหม่ล้มเหลว กรุณาลองปิดเปิดแอพพลิเคชั่นอีกครั้ง</string>
+    <string name="status_login_failed">การเข้าระบบล้มเหลว</string>
+    <string name="status_server_error">เครือข่ายมีปัญหา กรุณาลองใหม่ในอีกสักครู่</string>
+    <string name="status_server_error_code">เครือข่ายมีปัญหา (%1$d)</string>
+    <string name="status_registering">กำลังลงทะเบียนผู้ใช้กับ WildScan</string>
+    <string name="status_signup_failed">การเข้าระบบล้มเหลว</string>
+    <string name="status_signin_failed_abort">การเข้าระบบล้มเหลว</string>
+    <string name="status_verification_failed">การตรวจสอบผู้ใช้ล้มเหลว</string>
+    <string name="status_verify">กำลังตรวจสอบผู้ใช้</string>
+    <string name="status_apk_exp_dl_fail_abort">การดาว์นโหลด APK expansion file ล้มเหลว </string>
+    <string name="status_apk_exp_download">กำลังดาว์นโหลด APK expansion file (%1$d%%)</string>
+
+    <string name="pref_screen_title">ตั้งค่า WildScan</string>
+    <string name="pref_label_sync">ตั้งค่าการเชื่อมต่อ</string>
+    <string name="pref_summary_sync">อนุญาตให้มีการเชื่อมต่อเมื่อโทรศัพท์ต่อกับสัญญาน WiFi</string>
+    <string name="pref_label_gallery_view">ค่าเริ่มต้นมุมมองการแสดงภาพ</string>
+    <string name="pref_summary_gallery_view">ตั้งค่าเริ่มต้นมุมมองการแสดงชนิดพันธุ์</string>
+    <string name="pref_label_language">ตั้งค่าภาษา</string>
+    <string name="pref_summary_language">เลือกภาษาสำหรับการแสดงข้อมูล</string>
+    <string name="pref_entry_device_language">ใช้ภาษามาตราฐานของเครื่อง</string>
+    <string name="pref_entry_current_supported">ตอนนี้มีเพียงภาษา %1$s ให้เลือกเท่านั้น</string>
+    <string name="pref_label_auto_contacts">ค่าเริ่มต้นผู้รับรายงาน</string>
+    <string name="pref_summary_auto_contacts">กำหนดรายชื่อสำหรับค่าเริ่มต้นผู้รับรายงาน</string>
+    <string name="pref_label_save_report">บันทึกรายงาน</string>
+    <string name="pref_summary_save_report">จัดเก็บสำเนารายงานหลังจากที่การจัดส่งรายงานเสร็จสิ้น</string>
+    <string name="pref_label_show_warning">แสดงการเตือนรายงาน</string>
+    <string name="pref_summary_show_warning">แสดงการเตือนเมื่อมีการสร้างรายงานใหม่</string>
+
+    <string name="msg_map_no_events">ไม่มีเหตุการณ์เพื่อแสดงบนแผนที่</string>
+    <string name="msg_contact_fav_empty">ไม่มีการตั้งค่าชื่นชอบไว้ แสดงรายชื่อทั้งหมด</string>
+    <string name="msg_species_lib_no_close_events">ไม่มีเหตุการณ์เร็วๆนี้ แสดงชนิดพันธุ์ทั้งหมด</string>
+    <string name="msg_species_lib_no_location">ไม่สามารถค้นหาสถานที่ปัจจุบันได้ แสดงชนิดพันธุ์ทั้งหมด</string>
+    <string name="msg_species_lib_wizard_empty">ไม่มีชนิดพันธุ์ที่ตรงกับคำตอบของค่า กรุณาลองอีกครั้งหรือทำการส่งข้อมูลชนิดพันธุ์ที่ไม่ทราบ</string>
+    <string name="msg_species_lib_filter_empty">ไม่มีชนิดพันธุ์ที่ตรงกับการกรองที่เลือก กรุณาเลือกชนิดอื่น</string>
+    <string name="msg_species_lib_list_empty">ไม่มีรายชื่อชนิดพันธุ์</string>
+    <string name="msg_species_lib_fav_empty">ไม่มีการตั้งค่าชื่นชอบไว้ แสดงชนิดพันธุ์ทั้งหมด</string>
+    <string name="msg_species_lib_search_not_found">ไม่พบชนิดพันธุ์ในรายการ (คุณมีการตั้งกลุ่มการกรอง/ชื่นชอบไว้หรือไม่)</string>
+    <string name="msg_report_contact_no_email">รายชื่อ %1$s ผู้ติดต่อดังกล่าวไม่มีอีเมลและไม่สามารถเพิ่มเข้ารายชื่อผู้รับอีเมลได้</string>
+    <string name="msg_report_gallery_photo_added">รูปเพิ่มเติมจากแกลเลอรี่ถูกเพิ่มเข้ารายงาน</string>
+    <string name="msg_no_adress_found">ไม่พบที่อยู่</string>
+    <string name="msg_no_adress_for_location">ไม่พบที่อยู่จากพิกัต (ละติจูด: %1$5.2f, ลองติจูด: %2$5.2f)</string>
+    <string name="msg_crc_check_fail">ร้ายแรง: การตรวจสอบ CRC ล้้มเหลว กำลังหยุดทำงาน</string>
+    <string name="no_network_connection_toast">ไม่พบสัญญาน</string>
+
+    <string name="OK">ตกลง</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่ใช่</string>
+    <string name="apply">ใช้</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="close">ปิด</string>
+    <string name="skip">ข้าม</string>
+    <string name="next">ถัดไป</string>
+    <string name="capture">ถ่ายภาพ</string>
+    <string name="recapture">ถ่ายภาพอื่นเพิ่มเติม</string>
+    <string name="browse">เลือกภาพถ่ายที่มีอยู่</string>
+    <string name="rebrowse">เลือกภาพอื่นที่มีอยู่เพิ่มเติม</string>
+    <string name="identify">ระบุชนิดพันธุ์สัตว์</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="submit">ส่งการแจ้งข้อมูล</string>
+    <string name="details">รายละเอียดเพิ่มเติม</string>
+    <string name="set">ตั้งค่า</string>
+    <string name="done">สำเร็จ</string>
+    <string name="discard">ตกลง</string>
+    <string name="dismiss">ยกเลิก</string>
+    <string name="do_not_show">อย่าแสดงข้อความนี้อีก</string>
+    <string name="error">ผิดพลาด</string>
+    <string name="exit">ออก</string>
+    <string name="retry">ลองใหม่</string>
+
+    <!--Region Dialog text-->
+    <string name="region_dialog_title">เลือกภูมิภาคสำหรับการรายงานของคุณ</string>
+    <string name="region_dialog_heading1">เลือกภูมิภาคสำหรับการรายงานของคุณ</string>
+    <string name="region_dialog_heading2">สายพันธุ์ และ ข้อมูลการติดต่อในภูมิภาค</string>
+    <string name="region_dialog_sub_title">ดาวน์โหลดสายพันธุ์ท้องถิ่นและข้อมูลการติดต่อของภูมิภาคอื่น</string>
+    <string name="region_dialog_global">ทั่วโลก (หน้าหลัก)</string>
+    <string name="region_dialog_south_asia">เอเชียตะวันออกเฉียงใต้</string>
+    <string name="region_dialog_africa">แอฟริกา</string>
+    <string name="region_dialog_south_america">อเมริกาใต้</string>
+    <string name="region_species">สายพันธุ์</string>
+    <string name="region_contacts">ข้อมูลการติดต่อ</string>
+	<string name="text_coming_soon">เร็วๆนี้</string>
+
+    <string name="dialog_tutorial_message">คุณสามารถดาวน์โหลด ชนิด เพิ่มเติม และรายชื่อ ที่นี่</string>
+
+
+
+</resources>

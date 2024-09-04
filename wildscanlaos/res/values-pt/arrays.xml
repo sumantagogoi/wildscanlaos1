@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_filters">
+        <item>Todos os tipos</item>
+        <item>mamíferos</item>
+        <item>aves</item>
+        <item>Peixe</item>
+        <item>répteis</item>
+        <item>anfíbios</item>
+        <item>invertebrados</item>
+        <item>plantas</item>
+        <item>produtos derivados</item>
+        <item>Fechar Espéciesc</item>
+        </string-array>
+    
+    <string-array name="species_photo_license">
+        <item></item>
+        <item>Creative commons 2.0</item>
+        <item>Creative commons 2.5</item>
+        <item>Creative commons 3.0</item>
+        <item>Licença Gnu</item>
+        <item>Domínio Público</item>
+        <item>Direitos autorais de Freeland</item>
+    </string-array>
+    
+    
+    <string-array name="id_wizard_questions">
+        <item>É um animal intacto ( vivo ou morto ) , ou um animal parte do produto / derivado?</item>
+        <item>O que é o revestimento primário do corpo do animal?</item>
+        <item>How many legs does the animal have?</item>
+        <item>Qual é a principal cor do animal?</item>
+        <item>O que é o tamanho aproximado do animal?</item>
+        <item>Será que o animal tem todas as características especiais? (Marque todas que se aplicam)</item>
+        <item>Qual é o objetivo aparente da peça / produto?</item>
+        <item>De que material é o produto feito?</item>
+        <item>Qual parte do corpo do animal é?</item>
+        <item>Qual a forma de apresentação?</item>
+        <item>Qual é o propósito?</item>
+    	</string-array>
+            
+    <string-array name="id_wizard_prod_ani">
+        <item>Animal intacto</item>
+        <item>Parte animal / Produto</item>
+    	</string-array>
+   
+    
+    
+    <string-array name="id_wizard_covering">
+        <item>Escalas</item>
+        <item>Pele</item>
+        <item>pena</item>
+        <item>pele</item>
+		<item>Outros / não tenho certeza</item>
+    	</string-array>
+   
+    
+    <string-array name="id_wizard_num_legs">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+		<item>Mais</item>
+    	</string-array>
+  
+    <string-array name="id_wizard_color">
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+		<item>azul</item>
+        <item>Roxa</item>
+		<item>cinza</item>
+        <item>Marrom</item>
+        <item>Branco</item>
+        <item>Preto</item>
+		<item>Outros / não tenho certeza</item>
+		</string-array>
+    
+    <string-array name="id_wizard_size">
+		<item>Menor do que a sua mão</item>
+		<item>Menor do que o cão médio</item>
+		<item>Menor do que você </item>
+		<item>Maior do que você</item>
+		<item>Não tenho certeza</item>
+    	</string-array>
+    
+    
+    <string-array name="id_wizard_size_orig_unused">
+		<item>Menor do que a sua mão</item>
+		<item>Larger than your hand but smaller than an average dog</item>
+		<item>Larger than an average dog but smaller than you</item>
+		<item>Maior do que você </item>
+		<item>Não tenho certeza</item>
+    	</string-array>
+    
+    <string-array name="id_wizard_features">
+        <item>Rabo</item>
+        <item>Asas</item>
+        <item>Bico</item>
+        <item>Concha</item>
+		<item>Barbatanas</item>
+<!-- 		<item>Nenhum</item>				 -->
+ 		</string-array>
+    
+    
+    <string-array name="id_wizard_purpose">
+        <item>Alimentos</item>
+        <item>Roupa</item>
+        <item>Jóias</item>
+        <item>Troféu / ornamento</item>
+		<item>Medicina</item>
+		<item>Outro / Não tenho certeza</item>
+		</string-array>
+   
+    
+    <string-array name="id_wizard_material">
+        <item>Osso</item>
+        <item>Pele/leather</item>
+        <item>Concha</item>
+        <item>Pó</item>
+		<item>Carne</item>
+		<item>Outros</item>
+		</string-array>
+  
+   
+    
+    <string-array name="id_wizard_part">
+        <item>Corno</item>
+        <item>Tusk</item>
+        <item>Pele</item>
+        <item>Pata</item>
+		<item>Dente / garra</item>
+		<item>Outro / Não tenho certeza</item>
+		</string-array>
+   
+  
+    
+    <string-array name="sync_progress">
+        <item>Verificando relatórios pendentes&#8230;</item>
+        <item>Atualizando conteúdo&#8230;</item>
+        <item>Atualizando lista de contatos&#8230;</item>
+        <item>Atualizando lista de espécies&#8230;</item>
+        <item>Atualizando lista de espécies&#8230;</item>
+        <item>Checando por novos eventos&#8230;</item>
+        <item>Atualizando traduções&#8230;</item>
+        <item>Verificando fotos&#8230;</item>
+    </string-array>
+    
+    
+    <string-array name="pref_gallery_view_entries">
+        <item>Galeria</item>
+        <item>Lista</item>
+        <item>Como eu deixei</item>
+    </string-array>
+
+    <string-array name="id_wizard_p_purpose">
+        <item>Alimento</item>
+        <item>Móvel</item>
+        <item>Ornamento</item>
+        <item>Medicina/remédio</item>
+        <item>Outro/Não sei</item>
+    </string-array>
+
+    <string-array name="id_wizard_form">
+        <item>Intacto</item>
+        <item>Madeira</item>
+        <item>Artigo/objeto/produto</item>
+        <item>Outro/Não sei</item>
+    </string-array>
+    
+    
+</resources>

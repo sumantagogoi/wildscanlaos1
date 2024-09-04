@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactListActivity" >
+
+    <RelativeLayout
+        android:id="@+id/speciesLibHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/global_header_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/speciesLibTitle"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/speciesLibHeaderBtnGallery"
+            android:background="@color/header_item_bg_dark"
+            android:gravity="center_vertical"
+            android:text="@string/species_lib_header_title"
+            android:textColor="@color/header_item_fg"
+            android:textSize="@dimen/global_header_title_text_size" />
+
+        <ImageButton
+            android:id="@id/speciesLibHeaderBtnGallery"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/speciesLibHeaderBtnFavorites"
+            android:background="@color/header_item_bg_light"
+            android:gravity="center"
+            android:onClick="onClickHeaderBtnGallery"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selector_header_gallery"
+            android:text="@string/species_lib_header_btn_gallery"
+            android:textColor="@color/header_item_fg" />
+
+        <ImageButton
+            android:id="@id/speciesLibHeaderBtnFavorites"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/speciesLibHeaderBtnSearch"
+            android:background="@color/header_item_bg_med"
+            android:gravity="center"
+            android:onClick="onClickHeaderBtnFavorites"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selector_header_fav"
+            android:text="@string/species_lib_header_btn_favorites"
+            android:textColor="@color/header_item_fg" />
+
+        <ImageButton
+            android:id="@+id/speciesLibHeaderBtnSearch"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/header_item_bg_light"
+            android:onClick="onClickHeaderBtnSearch"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_header_search"
+            android:text="@string/species_lib_header_btn_search"
+            android:textColor="@color/header_item_fg" />
+    </RelativeLayout>
+
+    <!--
+         <LinearLayout
+        android:id="@+id/speciesLibSelectAB"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/speciesLibHeaderLayout"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:background="#ffffff"
+            android:textColor="@color/item_text_fg"
+            android:onClick="onClickHeaderBtnFavorites"
+            style="?android:attr/borderlessButtonStyle" />
+        
+    </LinearLayout> -->
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/speciesLibHeaderLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp" >
+
+        <RelativeLayout
+            android:id="@+id/speciesLibDisplayLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+		<LinearLayout
+		    android:id="@+id/speciesLibSearchPopup"
+		    android:visibility="invisible"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="top|right"
+		    android:background="@color/header_item_bg_light"
+		    android:orientation="vertical" >
+		    
+		    <org.freeland.wildscanlaos.widget.SearchAutoCompleteView
+		        android:id="@+id/searchAutocomplete"
+		        android:layout_width="@dimen/search_popup_width"
+		        android:layout_height="wrap_content"
+		        android:dropDownWidth="@dimen/search_popup_width"
+		        android:dropDownHeight="@dimen/search_dropdown_height"
+		        android:singleLine="true"
+		        android:inputType="text|textNoSuggestions"
+		        android:imeOptions="actionDone"
+		        android:padding="10dp"
+		        android:textSize="@dimen/search_dropdown_text_size"
+		        android:textColor="@android:color/white"
+		        android:hint="@string/species_lib_search_by_name_hint" />
+		    
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginLeft="1dp"
+		        android:layout_marginRight="1dp"
+		        android:layout_marginTop="2dp"
+		        android:layout_marginBottom="1dp"
+		        android:background="@color/header_item_bg_dark"
+		        android:clickable="false"
+		        android:focusable="false"
+		        android:focusableInTouchMode="false"
+		        android:longClickable="false" />
+		    
+		    <Spinner
+		        android:id="@+id/searchFilter"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="1dp"
+		        android:textSize="@dimen/search_dropdown_text_size"
+		        android:textColor="@android:color/white"
+		        android:focusable="true"
+		        android:focusableInTouchMode="true"
+		        android:spinnerMode="dialog"
+		        android:hint="@string/species_lib_search_set_filter"
+		        android:entries="@array/species_filters" />
+		</LinearLayout>
+        
+    </FrameLayout>
+
+</RelativeLayout>

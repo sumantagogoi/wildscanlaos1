@@ -1,0 +1,1765 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.FileProvider
+android.support.v4.content.FileProvider: FileProvider()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.vending.expansion.downloader.R$drawable: int notify_panel_notification_icon_bg
+com.android.vending.expansion.downloader.R$id: int appIcon
+com.android.vending.expansion.downloader.R$id: int description
+com.android.vending.expansion.downloader.R$id: int notificationLayout
+com.android.vending.expansion.downloader.R$id: int progress_bar
+com.android.vending.expansion.downloader.R$id: int progress_bar_frame
+com.android.vending.expansion.downloader.R$id: int progress_text
+com.android.vending.expansion.downloader.R$id: int time_remaining
+com.android.vending.expansion.downloader.R$id: int title
+com.android.vending.expansion.downloader.R$layout: int status_bar_ongoing_event_progress_bar
+com.android.vending.expansion.downloader.R$string: int kilobytes_per_second
+com.android.vending.expansion.downloader.R$string: int notification_download_complete
+com.android.vending.expansion.downloader.R$string: int notification_download_failed
+com.android.vending.expansion.downloader.R$string: int state_completed
+com.android.vending.expansion.downloader.R$string: int state_connecting
+com.android.vending.expansion.downloader.R$string: int state_downloading
+com.android.vending.expansion.downloader.R$string: int state_failed
+com.android.vending.expansion.downloader.R$string: int state_failed_cancelled
+com.android.vending.expansion.downloader.R$string: int state_failed_fetching_url
+com.android.vending.expansion.downloader.R$string: int state_failed_sdcard_full
+com.android.vending.expansion.downloader.R$string: int state_failed_unlicensed
+com.android.vending.expansion.downloader.R$string: int state_fetching_url
+com.android.vending.expansion.downloader.R$string: int state_idle
+com.android.vending.expansion.downloader.R$string: int state_paused_by_request
+com.android.vending.expansion.downloader.R$string: int state_paused_network_setup_failure
+com.android.vending.expansion.downloader.R$string: int state_paused_network_unavailable
+com.android.vending.expansion.downloader.R$string: int state_paused_roaming
+com.android.vending.expansion.downloader.R$string: int state_paused_sdcard_unavailable
+com.android.vending.expansion.downloader.R$string: int state_paused_wifi_disabled
+com.android.vending.expansion.downloader.R$string: int state_paused_wifi_unavailable
+com.android.vending.expansion.downloader.R$string: int state_unknown
+com.android.vending.expansion.downloader.R$string: int time_remaining
+com.android.vending.expansion.downloader.R$string: int time_remaining_notification
+com.android.vending.expansion.downloader.R$style: int ButtonBackground
+com.android.vending.expansion.downloader.R$style: int NotificationText
+com.android.vending.expansion.downloader.R$style: int NotificationTextSecondary
+com.android.vending.expansion.downloader.R$style: int NotificationTextShadow
+com.android.vending.expansion.downloader.R$style: int NotificationTitle
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adSizes
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int buyButtonAppearance
+com.google.android.gms.R$attr: int buyButtonHeight
+com.google.android.gms.R$attr: int buyButtonText
+com.google.android.gms.R$attr: int buyButtonWidth
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int environment
+com.google.android.gms.R$attr: int fragmentMode
+com.google.android.gms.R$attr: int fragmentStyle
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int maskedWalletDetailsBackground
+com.google.android.gms.R$attr: int maskedWalletDetailsButtonBackground
+com.google.android.gms.R$attr: int maskedWalletDetailsButtonTextAppearance
+com.google.android.gms.R$attr: int maskedWalletDetailsHeaderTextAppearance
+com.google.android.gms.R$attr: int maskedWalletDetailsLogoImageType
+com.google.android.gms.R$attr: int maskedWalletDetailsLogoTextColor
+com.google.android.gms.R$attr: int maskedWalletDetailsTextAppearance
+com.google.android.gms.R$attr: int theme
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$color: int wallet_bright_foreground_disabled_holo_light
+com.google.android.gms.R$color: int wallet_bright_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_bright_foreground_holo_light
+com.google.android.gms.R$color: int wallet_dim_foreground_disabled_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_inverse_disabled_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_inverse_holo_dark
+com.google.android.gms.R$color: int wallet_highlighted_text_holo_dark
+com.google.android.gms.R$color: int wallet_highlighted_text_holo_light
+com.google.android.gms.R$color: int wallet_hint_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_hint_foreground_holo_light
+com.google.android.gms.R$color: int wallet_holo_blue_light
+com.google.android.gms.R$color: int wallet_link_text_light
+com.google.android.gms.R$color: int wallet_primary_text_holo_light
+com.google.android.gms.R$color: int wallet_secondary_text_holo_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$drawable: int powered_by_google_dark
+com.google.android.gms.R$drawable: int powered_by_google_light
+com.google.android.gms.R$id: int book_now
+com.google.android.gms.R$id: int buyButton
+com.google.android.gms.R$id: int buy_now
+com.google.android.gms.R$id: int buy_with_google
+com.google.android.gms.R$id: int classic
+com.google.android.gms.R$id: int grayscale
+com.google.android.gms.R$id: int holo_dark
+com.google.android.gms.R$id: int holo_light
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int match_parent
+com.google.android.gms.R$id: int monochrome
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int production
+com.google.android.gms.R$id: int sandbox
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int selectionDetails
+com.google.android.gms.R$id: int strict_sandbox
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$id: int wrap_content
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int auth_client_needs_enabling_title
+com.google.android.gms.R$string: int auth_client_needs_installation_title
+com.google.android.gms.R$string: int auth_client_needs_update_title
+com.google.android.gms.R$string: int auth_client_play_services_err_notification_msg
+com.google.android.gms.R$string: int auth_client_requested_by_msg
+com.google.android.gms.R$string: int auth_client_using_bad_version_title
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_error_notification_requested_by_msg
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_needs_enabling_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_notification_needs_installation_title
+com.google.android.gms.R$string: int common_google_play_services_notification_needs_update_title
+com.google.android.gms.R$string: int common_google_play_services_notification_ticker
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$string: int wallet_buy_button_place_holder
+com.google.android.gms.R$style: int Theme_IAPTheme
+com.google.android.gms.R$style: int WalletFragmentDefaultButtonTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultDetailsHeaderTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultDetailsTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultStyle
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.R$styleable: int[] WalletFragmentOptions
+com.google.android.gms.R$styleable: int WalletFragmentOptions_environment
+com.google.android.gms.R$styleable: int WalletFragmentOptions_fragmentMode
+com.google.android.gms.R$styleable: int WalletFragmentOptions_fragmentStyle
+com.google.android.gms.R$styleable: int WalletFragmentOptions_theme
+com.google.android.gms.R$styleable: int[] WalletFragmentStyle
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonHeight
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonText
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonWidth
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsBackground
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonBackground
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoImageType
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsTextAppearance
+com.google.android.gms.ads.AdActivity: void setContentView(android.view.View)
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.purchase.InAppPurchaseListener getInAppPurchaseListener()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.AdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.AppEventListener getAppEventListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdSizes(com.google.android.gms.ads.AdSize[])
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener(com.google.android.gms.ads.doubleclick.AppEventListener)
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.search.SearchAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.search.SearchAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.search.SearchAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a[] values()
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a valueOf(java.lang.String)
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a[] values()
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a valueOf(java.lang.String)
+com.google.android.gms.cast.ApplicationMetadata
+com.google.android.gms.cast.ApplicationMetadata: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.CastDevice
+com.google.android.gms.cast.CastDevice: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.LaunchOptions
+com.google.android.gms.cast.LaunchOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.SignInButton
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context)
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.api.Status
+com.google.android.gms.common.data.DataHolder
+com.google.android.gms.common.data.a
+com.google.android.gms.common.data.a: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.images.WebImage
+com.google.android.gms.common.images.WebImage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.drive.Contents
+com.google.android.gms.drive.Contents: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.DriveId
+com.google.android.gms.drive.DriveId: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.StorageStats
+com.google.android.gms.drive.StorageStats: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ChangeEvent
+com.google.android.gms.drive.events.ChangeEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.DriveEvent
+com.google.android.gms.drive.events.FileConflictEvent
+com.google.android.gms.drive.events.FileConflictEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ResourceEvent
+com.google.android.gms.drive.internal.AddEventListenerRequest
+com.google.android.gms.drive.internal.AddEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.AuthorizeAccessRequest
+com.google.android.gms.drive.internal.AuthorizeAccessRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CheckResourceIdsExistRequest
+com.google.android.gms.drive.internal.CheckResourceIdsExistRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsRequest
+com.google.android.gms.drive.internal.CloseContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateContentsRequest
+com.google.android.gms.drive.internal.CreateContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileRequest
+com.google.android.gms.drive.internal.CreateFileRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFolderRequest
+com.google.android.gms.drive.internal.CreateFolderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DeleteCustomPropertyRequest
+com.google.android.gms.drive.internal.DeleteCustomPropertyRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DeleteResourceRequest
+com.google.android.gms.drive.internal.DeleteResourceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DisconnectRequest
+com.google.android.gms.drive.internal.DisconnectRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetDriveIdFromUniqueIdentifierRequest
+com.google.android.gms.drive.internal.GetDriveIdFromUniqueIdentifierRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetMetadataRequest
+com.google.android.gms.drive.internal.GetMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.ListParentsRequest
+com.google.android.gms.drive.internal.ListParentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.LoadRealtimeRequest
+com.google.android.gms.drive.internal.LoadRealtimeRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnContentsResponse
+com.google.android.gms.drive.internal.OnContentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDownloadProgressResponse
+com.google.android.gms.drive.internal.OnDownloadProgressResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDriveIdResponse
+com.google.android.gms.drive.internal.OnDriveIdResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnEventResponse
+com.google.android.gms.drive.internal.OnEventResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListEntriesResponse
+com.google.android.gms.drive.internal.OnListEntriesResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListParentsResponse
+com.google.android.gms.drive.internal.OnListParentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnLoadRealtimeResponse
+com.google.android.gms.drive.internal.OnLoadRealtimeResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnMetadataResponse
+com.google.android.gms.drive.internal.OnMetadataResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnResourceIdSetResponse
+com.google.android.gms.drive.internal.OnResourceIdSetResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnStorageStatsResponse
+com.google.android.gms.drive.internal.OnStorageStatsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnSyncMoreResponse
+com.google.android.gms.drive.internal.OnSyncMoreResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenContentsRequest
+com.google.android.gms.drive.internal.OpenContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.QueryRequest
+com.google.android.gms.drive.internal.QueryRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.RemoveEventListenerRequest
+com.google.android.gms.drive.internal.RemoveEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.SetResourceParentsRequest
+com.google.android.gms.drive.internal.SetResourceParentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.TrashResourceRequest
+com.google.android.gms.drive.internal.TrashResourceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.UpdateMetadataRequest
+com.google.android.gms.drive.internal.UpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.CustomPropertyKey
+com.google.android.gms.drive.metadata.CustomPropertyKey: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.AppVisibleCustomProperties
+com.google.android.gms.drive.metadata.internal.AppVisibleCustomProperties: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.CustomProperty
+com.google.android.gms.drive.metadata.internal.CustomProperty: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.MetadataBundle
+com.google.android.gms.drive.metadata.internal.MetadataBundle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.Query
+com.google.android.gms.drive.query.Query: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.SortOrder
+com.google.android.gms.drive.query.SortOrder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.ComparisonFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.FieldWithSortOrder
+com.google.android.gms.drive.query.internal.FilterHolder
+com.google.android.gms.drive.query.internal.FilterHolder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.HasFilter
+com.google.android.gms.drive.query.internal.InFilter
+com.google.android.gms.drive.query.internal.LogicalFilter
+com.google.android.gms.drive.query.internal.LogicalFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.MatchAllFilter
+com.google.android.gms.drive.query.internal.NotFilter
+com.google.android.gms.drive.query.internal.NotFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.Operator
+com.google.android.gms.drive.query.internal.Operator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.BeginCompoundOperationRequest
+com.google.android.gms.drive.realtime.internal.BeginCompoundOperationRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.EndCompoundOperationRequest
+com.google.android.gms.drive.realtime.internal.EndCompoundOperationRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.ParcelableCollaborator
+com.google.android.gms.drive.realtime.internal.ParcelableCollaborator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.ParcelableIndexReference
+com.google.android.gms.drive.realtime.internal.ParcelableIndexReference: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableEvent
+com.google.android.gms.drive.realtime.internal.event.ParcelableEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableEventList
+com.google.android.gms.drive.realtime.internal.event.ParcelableEventList: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableObjectChangedEvent
+com.google.android.gms.drive.realtime.internal.event.ParcelableObjectChangedEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ReferenceShiftedDetails
+com.google.android.gms.drive.realtime.internal.event.ReferenceShiftedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.TextDeletedDetails
+com.google.android.gms.drive.realtime.internal.event.TextDeletedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.TextInsertedDetails
+com.google.android.gms.drive.realtime.internal.event.TextInsertedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValueChangedDetails
+com.google.android.gms.drive.realtime.internal.event.ValueChangedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesAddedDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesAddedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesRemovedDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesRemovedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesSetDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesSetDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.GameRef
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.PlayerLevel
+com.google.android.gms.games.PlayerLevelInfo
+com.google.android.gms.games.PlayerRef
+com.google.android.gms.games.event.Event
+com.google.android.gms.games.event.EventEntity
+com.google.android.gms.games.event.EventRef
+com.google.android.gms.games.internal.ConnectionInfo
+com.google.android.gms.games.internal.GamesDowngradeableSafeParcel
+com.google.android.gms.games.internal.game.ExtendedGame
+com.google.android.gms.games.internal.game.ExtendedGameEntity
+com.google.android.gms.games.internal.game.ExtendedGameRef
+com.google.android.gms.games.internal.game.GameBadge
+com.google.android.gms.games.internal.game.GameBadgeEntity
+com.google.android.gms.games.internal.game.GameBadgeRef
+com.google.android.gms.games.internal.multiplayer.ZInvitationCluster
+com.google.android.gms.games.internal.player.MostRecentGameInfo
+com.google.android.gms.games.internal.player.MostRecentGameInfoEntity
+com.google.android.gms.games.internal.player.MostRecentGameInfoRef
+com.google.android.gms.games.internal.request.GameRequestCluster
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.InvitationRef
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.ParticipantRef
+com.google.android.gms.games.multiplayer.ParticipantResult
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.RoomRef
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatch
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchRef
+com.google.android.gms.games.quest.Milestone
+com.google.android.gms.games.quest.MilestoneEntity
+com.google.android.gms.games.quest.MilestoneRef
+com.google.android.gms.games.quest.Quest
+com.google.android.gms.games.quest.QuestEntity
+com.google.android.gms.games.quest.QuestRef
+com.google.android.gms.games.request.GameRequest
+com.google.android.gms.games.request.GameRequestEntity
+com.google.android.gms.games.request.GameRequestRef
+com.google.android.gms.games.snapshot.Snapshot
+com.google.android.gms.games.snapshot.SnapshotEntity
+com.google.android.gms.games.snapshot.SnapshotMetadata
+com.google.android.gms.games.snapshot.SnapshotMetadataChange
+com.google.android.gms.games.snapshot.SnapshotMetadataEntity
+com.google.android.gms.games.snapshot.SnapshotMetadataRef
+com.google.android.gms.identity.intents.UserAddressRequest
+com.google.android.gms.identity.intents.UserAddressRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.CountrySpecification
+com.google.android.gms.identity.intents.model.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.UserAddress
+com.google.android.gms.identity.intents.model.UserAddress: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.a: com.google.android.gms.internal.a[] values()
+com.google.android.gms.internal.a: com.google.android.gms.internal.a valueOf(java.lang.String)
+com.google.android.gms.internal.aj
+com.google.android.gms.internal.am
+com.google.android.gms.internal.ax
+com.google.android.gms.internal.b: com.google.android.gms.internal.b[] values()
+com.google.android.gms.internal.b: com.google.android.gms.internal.b valueOf(java.lang.String)
+com.google.android.gms.internal.cf
+com.google.android.gms.internal.ci
+com.google.android.gms.internal.cr
+com.google.android.gms.internal.dt
+com.google.android.gms.internal.dv
+com.google.android.gms.internal.ew
+com.google.android.gms.internal.ey: void setContext(android.content.Context)
+com.google.android.gms.internal.fe
+com.google.android.gms.internal.fe: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.fh
+com.google.android.gms.internal.fj
+com.google.android.gms.internal.fl
+com.google.android.gms.internal.fn
+com.google.android.gms.internal.fq
+com.google.android.gms.internal.fs
+com.google.android.gms.internal.ge: com.google.android.gms.internal.ge[] values()
+com.google.android.gms.internal.ge: com.google.android.gms.internal.ge valueOf(java.lang.String)
+com.google.android.gms.internal.gf
+com.google.android.gms.internal.gf: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.gk
+com.google.android.gms.internal.gk: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.gz$a
+com.google.android.gms.internal.hb
+com.google.android.gms.internal.hs
+com.google.android.gms.internal.hu
+com.google.android.gms.internal.hw
+com.google.android.gms.internal.hw$a
+com.google.android.gms.internal.hz$a
+com.google.android.gms.internal.ic
+com.google.android.gms.internal.ic$a
+com.google.android.gms.internal.ic$b
+com.google.android.gms.internal.if
+com.google.android.gms.internal.ji
+com.google.android.gms.internal.jl
+com.google.android.gms.internal.jn
+com.google.android.gms.internal.jp
+com.google.android.gms.internal.jr
+com.google.android.gms.internal.jt
+com.google.android.gms.internal.jv
+com.google.android.gms.internal.jv: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jx
+com.google.android.gms.internal.kb
+com.google.android.gms.internal.ko
+com.google.android.gms.internal.kq
+com.google.android.gms.internal.kt
+com.google.android.gms.internal.kt$a
+com.google.android.gms.internal.kt$b
+com.google.android.gms.internal.kt$b$a
+com.google.android.gms.internal.kt$b$b
+com.google.android.gms.internal.kt$c
+com.google.android.gms.internal.kt$d
+com.google.android.gms.internal.kt$f
+com.google.android.gms.internal.kt$g
+com.google.android.gms.internal.kt$h
+com.google.android.gms.internal.lh
+com.google.android.gms.internal.lh: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.lj
+com.google.android.gms.internal.lj: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.w
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.location.b
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.MapFragment
+com.google.android.gms.maps.MapFragment: MapFragment()
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.StreetViewPanoramaOptions
+com.google.android.gms.maps.StreetViewPanoramaView: com.google.android.gms.maps.StreetViewPanorama getStreetViewPanorama()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.StreetViewPanoramaCamera
+com.google.android.gms.maps.model.StreetViewPanoramaLink
+com.google.android.gms.maps.model.StreetViewPanoramaLocation
+com.google.android.gms.maps.model.StreetViewPanoramaOrientation
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.internal.PlusCommonExtras
+com.google.android.gms.plus.internal.h
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a[] values()
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a[] values()
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.cd$a: com.google.android.gms.tagmanager.cd$a[] values()
+com.google.android.gms.tagmanager.cd$a: com.google.android.gms.tagmanager.cd$a valueOf(java.lang.String)
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.CountrySpecification
+com.google.android.gms.wallet.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.InstrumentInfo
+com.google.android.gms.wallet.InstrumentInfo: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.d
+com.google.android.gms.wallet.d: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentInitParams
+com.google.android.gms.wallet.fragment.WalletFragmentInitParams: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentOptions
+com.google.android.gms.wallet.fragment.WalletFragmentOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentStyle
+com.google.android.gms.wallet.fragment.WalletFragmentStyle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.CommonWalletObject
+com.google.android.gms.wallet.wobs.CommonWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.b
+com.google.android.gms.wallet.wobs.b: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.d
+com.google.android.gms.wallet.wobs.d: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.f
+com.google.android.gms.wallet.wobs.f: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.g
+com.google.android.gms.wallet.wobs.g: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.j
+com.google.android.gms.wallet.wobs.j: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.l
+com.google.android.gms.wallet.wobs.l: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.n
+com.google.android.gms.wallet.wobs.n: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.p
+com.google.android.gms.wallet.wobs.p: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.Asset
+com.google.android.gms.wearable.Asset: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.PutDataRequest
+com.google.android.gms.wearable.PutDataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.c
+com.google.android.gms.wearable.c: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.DataItemAssetParcelable
+com.google.android.gms.wearable.internal.DataItemAssetParcelable: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.af
+com.google.android.gms.wearable.internal.af: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ai
+com.google.android.gms.wearable.internal.ai: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ak
+com.google.android.gms.wearable.internal.ak: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.am
+com.google.android.gms.wearable.internal.am: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ao
+com.google.android.gms.wearable.internal.ao: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.aq
+com.google.android.gms.wearable.internal.aq: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.as
+com.google.android.gms.wearable.internal.as: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.b
+com.google.android.gms.wearable.internal.b: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.m
+com.google.android.gms.wearable.internal.m: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.p
+com.google.android.gms.wearable.internal.p: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.r
+com.google.android.gms.wearable.internal.r: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.t
+com.google.android.gms.wearable.internal.t: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.v
+com.google.android.gms.wearable.internal.v: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.x
+com.google.android.gms.wearable.internal.x: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.z
+com.google.android.gms.wearable.internal.z: android.os.Parcelable$Creator CREATOR
+com.google.android.vending.expansion.downloader.DownloadProgressInfo
+com.google.android.vending.expansion.downloader.DownloadProgressInfo: android.os.Parcelable$Creator CREATOR
+com.google.android.vending.expansion.downloader.impl.CustomIntentService: CustomIntentService(java.lang.String)
+com.google.android.vending.expansion.downloader.impl.DownloaderService: DownloaderService()
+wildscanapp.ContactListActivity
+wildscanapp.ContactListActivity: ContactListActivity()
+wildscanapp.ContactListActivity: void onClickHeaderBtnFavorites(android.view.View)
+wildscanapp.ContactListActivity: void onClickHeaderBtnSearch(android.view.View)
+wildscanapp.ContactListActivity: void onClick(android.view.View)
+wildscanapp.EventDetailsActivity
+wildscanapp.EventDetailsActivity: EventDetailsActivity()
+wildscanapp.EventInfo
+wildscanapp.EventInfo: android.os.Parcelable$Creator CREATOR
+wildscanapp.EventListActivity
+wildscanapp.EventListActivity: EventListActivity()
+wildscanapp.EventListActivity: void onClickHeaderBtnShowOnMap(android.view.View)
+wildscanapp.EventListFragment
+wildscanapp.EventListFragment: EventListFragment()
+wildscanapp.EventMapActivity
+wildscanapp.EventMapActivity: EventMapActivity()
+wildscanapp.EventMapActivity: void onClickHeaderBtnShowList(android.view.View)
+wildscanapp.EventMapActivity: void onClickHeaderBtnNext(android.view.View)
+wildscanapp.LocationPickerActivity
+wildscanapp.LocationPickerActivity: LocationPickerActivity()
+wildscanapp.LocationPickerActivity: void onClickBtnSet(android.view.View)
+wildscanapp.LocationPickerActivity: void onClickBtnCancel(android.view.View)
+wildscanapp.PrefsActivity
+wildscanapp.PrefsActivity: PrefsActivity()
+wildscanapp.R$array: int contact_labels_email
+wildscanapp.R$array: int contact_labels_lang
+wildscanapp.R$array: int contact_labels_phone
+wildscanapp.R$array: int id_wizard_color
+wildscanapp.R$array: int id_wizard_color_drawables
+wildscanapp.R$array: int id_wizard_color_filters
+wildscanapp.R$array: int id_wizard_covering
+wildscanapp.R$array: int id_wizard_covering_drawables
+wildscanapp.R$array: int id_wizard_covering_filters
+wildscanapp.R$array: int id_wizard_features
+wildscanapp.R$array: int id_wizard_features_filters
+wildscanapp.R$array: int id_wizard_material
+wildscanapp.R$array: int id_wizard_material_drawables
+wildscanapp.R$array: int id_wizard_material_filters
+wildscanapp.R$array: int id_wizard_num_legs
+wildscanapp.R$array: int id_wizard_num_legs_filters
+wildscanapp.R$array: int id_wizard_part
+wildscanapp.R$array: int id_wizard_part_drawables
+wildscanapp.R$array: int id_wizard_part_filters
+wildscanapp.R$array: int id_wizard_prod_ani
+wildscanapp.R$array: int id_wizard_prod_ani_drawables
+wildscanapp.R$array: int id_wizard_prod_ani_filters
+wildscanapp.R$array: int id_wizard_purpose
+wildscanapp.R$array: int id_wizard_purpose_filters
+wildscanapp.R$array: int id_wizard_questions
+wildscanapp.R$array: int id_wizard_size
+wildscanapp.R$array: int id_wizard_size_drawables
+wildscanapp.R$array: int id_wizard_size_filters
+wildscanapp.R$array: int id_wizard_size_orig_unused
+wildscanapp.R$array: int info_section_titles
+wildscanapp.R$array: int pref_gallery_view_entries
+wildscanapp.R$array: int pref_gallery_view_values
+wildscanapp.R$array: int report_condition
+wildscanapp.R$array: int report_units
+wildscanapp.R$array: int species_filters
+wildscanapp.R$array: int species_photo_license
+wildscanapp.R$array: int species_types
+wildscanapp.R$array: int sync_progress
+wildscanapp.R$attr: int adSize
+wildscanapp.R$attr: int adSizes
+wildscanapp.R$attr: int adUnitId
+wildscanapp.R$attr: int buyButtonAppearance
+wildscanapp.R$attr: int buyButtonHeight
+wildscanapp.R$attr: int buyButtonText
+wildscanapp.R$attr: int buyButtonWidth
+wildscanapp.R$attr: int cameraBearing
+wildscanapp.R$attr: int cameraTargetLat
+wildscanapp.R$attr: int cameraTargetLng
+wildscanapp.R$attr: int cameraTilt
+wildscanapp.R$attr: int cameraZoom
+wildscanapp.R$attr: int environment
+wildscanapp.R$attr: int fragmentMode
+wildscanapp.R$attr: int fragmentStyle
+wildscanapp.R$attr: int mapType
+wildscanapp.R$attr: int maskedWalletDetailsBackground
+wildscanapp.R$attr: int maskedWalletDetailsButtonBackground
+wildscanapp.R$attr: int maskedWalletDetailsButtonTextAppearance
+wildscanapp.R$attr: int maskedWalletDetailsHeaderTextAppearance
+wildscanapp.R$attr: int maskedWalletDetailsLogoImageType
+wildscanapp.R$attr: int maskedWalletDetailsLogoTextColor
+wildscanapp.R$attr: int maskedWalletDetailsTextAppearance
+wildscanapp.R$attr: int mode
+wildscanapp.R$attr: int ratio
+wildscanapp.R$attr: int theme
+wildscanapp.R$attr: int uiCompass
+wildscanapp.R$attr: int uiRotateGestures
+wildscanapp.R$attr: int uiScrollGestures
+wildscanapp.R$attr: int uiTiltGestures
+wildscanapp.R$attr: int uiZoomControls
+wildscanapp.R$attr: int uiZoomGestures
+wildscanapp.R$attr: int useViewLifecycle
+wildscanapp.R$attr: int zOrderOnTop
+wildscanapp.R$color: int about_btn_bg
+wildscanapp.R$color: int about_content_bg
+wildscanapp.R$color: int about_text
+wildscanapp.R$color: int about_title_bg
+wildscanapp.R$color: int action_bar_bg
+wildscanapp.R$color: int btn_submit_bg
+wildscanapp.R$color: int common_action_bar_splitter
+wildscanapp.R$color: int common_signin_btn_dark_text_default
+wildscanapp.R$color: int common_signin_btn_dark_text_disabled
+wildscanapp.R$color: int common_signin_btn_dark_text_focused
+wildscanapp.R$color: int common_signin_btn_dark_text_pressed
+wildscanapp.R$color: int common_signin_btn_default_background
+wildscanapp.R$color: int common_signin_btn_light_text_default
+wildscanapp.R$color: int common_signin_btn_light_text_disabled
+wildscanapp.R$color: int common_signin_btn_light_text_focused
+wildscanapp.R$color: int common_signin_btn_light_text_pressed
+wildscanapp.R$color: int common_signin_btn_text_dark
+wildscanapp.R$color: int common_signin_btn_text_light
+wildscanapp.R$color: int header_item_bg_dark
+wildscanapp.R$color: int header_item_bg_light
+wildscanapp.R$color: int header_item_bg_med
+wildscanapp.R$color: int header_item_fg
+wildscanapp.R$color: int list_item_text_bg
+wildscanapp.R$color: int list_item_text_bg_alt
+wildscanapp.R$color: int list_item_text_fg
+wildscanapp.R$color: int list_item_text_fg_alt
+wildscanapp.R$color: int list_item_text_fg_header
+wildscanapp.R$color: int report_btn_bg
+wildscanapp.R$color: int report_btn_bg_pressed
+wildscanapp.R$color: int report_btn_text
+wildscanapp.R$color: int report_edit_bg
+wildscanapp.R$color: int report_label_text
+wildscanapp.R$color: int search_popup_hint
+wildscanapp.R$color: int selector_id_item_text
+wildscanapp.R$color: int species_details_bg_gray
+wildscanapp.R$color: int species_details_bg_yellow
+wildscanapp.R$color: int species_details_copyright_text
+wildscanapp.R$color: int species_details_main_image_bg
+wildscanapp.R$color: int species_details_outline_green
+wildscanapp.R$color: int species_details_selected_thumb_bg
+wildscanapp.R$color: int species_details_text
+wildscanapp.R$color: int wallet_bright_foreground_disabled_holo_light
+wildscanapp.R$color: int wallet_bright_foreground_holo_dark
+wildscanapp.R$color: int wallet_bright_foreground_holo_light
+wildscanapp.R$color: int wallet_dim_foreground_disabled_holo_dark
+wildscanapp.R$color: int wallet_dim_foreground_holo_dark
+wildscanapp.R$color: int wallet_dim_foreground_inverse_disabled_holo_dark
+wildscanapp.R$color: int wallet_dim_foreground_inverse_holo_dark
+wildscanapp.R$color: int wallet_highlighted_text_holo_dark
+wildscanapp.R$color: int wallet_highlighted_text_holo_light
+wildscanapp.R$color: int wallet_hint_foreground_holo_dark
+wildscanapp.R$color: int wallet_hint_foreground_holo_light
+wildscanapp.R$color: int wallet_holo_blue_light
+wildscanapp.R$color: int wallet_link_text_light
+wildscanapp.R$color: int wallet_primary_text_holo_light
+wildscanapp.R$color: int wallet_secondary_text_holo_dark
+wildscanapp.R$dimen: int activity_horizontal_margin
+wildscanapp.R$dimen: int activity_vertical_margin
+wildscanapp.R$dimen: int contact_list_avatar_width
+wildscanapp.R$dimen: int contact_list_fav_width
+wildscanapp.R$dimen: int contact_list_item_text_size
+wildscanapp.R$dimen: int contact_list_item_website_text
+wildscanapp.R$dimen: int event_details_image_height
+wildscanapp.R$dimen: int event_list_thumbnail_width
+wildscanapp.R$dimen: int global_header_button_text_size
+wildscanapp.R$dimen: int global_header_height
+wildscanapp.R$dimen: int global_header_title_text_size
+wildscanapp.R$dimen: int home_event_list_button_text_size
+wildscanapp.R$dimen: int home_event_list_title_text_size
+wildscanapp.R$dimen: int id_answer_grid_spacing
+wildscanapp.R$dimen: int id_answer_image_width
+wildscanapp.R$dimen: int report_btn_size
+wildscanapp.R$dimen: int report_footer_small_text
+wildscanapp.R$dimen: int report_footer_text
+wildscanapp.R$dimen: int report_photo_thumbnail_height
+wildscanapp.R$dimen: int report_photo_thumbnail_margin
+wildscanapp.R$dimen: int report_radio_btn_text_size
+wildscanapp.R$dimen: int report_section_label_size
+wildscanapp.R$dimen: int report_text_size
+wildscanapp.R$dimen: int search_dropdown_height
+wildscanapp.R$dimen: int search_dropdown_text_size
+wildscanapp.R$dimen: int search_popup_width
+wildscanapp.R$dimen: int species_details_excerpt_text_size
+wildscanapp.R$dimen: int species_details_fav_width
+wildscanapp.R$dimen: int species_details_image_copyright_text_size
+wildscanapp.R$dimen: int species_details_image_height
+wildscanapp.R$dimen: int species_details_info_text_size
+wildscanapp.R$dimen: int species_details_thumbnail_height
+wildscanapp.R$dimen: int species_gallery_fav_width
+wildscanapp.R$dimen: int species_gallery_grid_spacing
+wildscanapp.R$dimen: int species_gallery_text
+wildscanapp.R$dimen: int species_gallery_thumbnail_width
+wildscanapp.R$dimen: int species_list_fav_width
+wildscanapp.R$dimen: int species_list_text
+wildscanapp.R$dimen: int species_list_thumbnail_width
+wildscanapp.R$drawable: int about_background
+wildscanapp.R$drawable: int btn_check_off
+wildscanapp.R$drawable: int btn_check_on
+wildscanapp.R$drawable: int btn_edit_location
+wildscanapp.R$drawable: int btn_edit_time
+wildscanapp.R$drawable: int btn_home_contacts
+wildscanapp.R$drawable: int btn_home_id_species
+wildscanapp.R$drawable: int btn_home_species_library
+wildscanapp.R$drawable: int btn_home_submit_report
+wildscanapp.R$drawable: int btn_id_species
+wildscanapp.R$drawable: int btn_remove_photo
+wildscanapp.R$drawable: int common_signin_btn_icon_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_disabled_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_disabled_focus_light
+wildscanapp.R$drawable: int common_signin_btn_icon_disabled_light
+wildscanapp.R$drawable: int common_signin_btn_icon_focus_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_focus_light
+wildscanapp.R$drawable: int common_signin_btn_icon_light
+wildscanapp.R$drawable: int common_signin_btn_icon_normal_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_normal_light
+wildscanapp.R$drawable: int common_signin_btn_icon_pressed_dark
+wildscanapp.R$drawable: int common_signin_btn_icon_pressed_light
+wildscanapp.R$drawable: int common_signin_btn_text_dark
+wildscanapp.R$drawable: int common_signin_btn_text_disabled_dark
+wildscanapp.R$drawable: int common_signin_btn_text_disabled_focus_dark
+wildscanapp.R$drawable: int common_signin_btn_text_disabled_focus_light
+wildscanapp.R$drawable: int common_signin_btn_text_disabled_light
+wildscanapp.R$drawable: int common_signin_btn_text_focus_dark
+wildscanapp.R$drawable: int common_signin_btn_text_focus_light
+wildscanapp.R$drawable: int common_signin_btn_text_light
+wildscanapp.R$drawable: int common_signin_btn_text_normal_dark
+wildscanapp.R$drawable: int common_signin_btn_text_normal_light
+wildscanapp.R$drawable: int common_signin_btn_text_pressed_dark
+wildscanapp.R$drawable: int common_signin_btn_text_pressed_light
+wildscanapp.R$drawable: int empty_avatar
+wildscanapp.R$drawable: int empty_photo
+wildscanapp.R$drawable: int empty_species
+wildscanapp.R$drawable: int frame_current_photo
+wildscanapp.R$drawable: int ic_action_about
+wildscanapp.R$drawable: int ic_action_add_contact
+wildscanapp.R$drawable: int ic_action_back
+wildscanapp.R$drawable: int ic_action_edit
+wildscanapp.R$drawable: int ic_action_fav
+wildscanapp.R$drawable: int ic_action_fav_set
+wildscanapp.R$drawable: int ic_action_fav_unset
+wildscanapp.R$drawable: int ic_action_header_fav_set
+wildscanapp.R$drawable: int ic_action_header_fav_unset
+wildscanapp.R$drawable: int ic_action_header_gallery
+wildscanapp.R$drawable: int ic_action_header_list
+wildscanapp.R$drawable: int ic_action_header_search
+wildscanapp.R$drawable: int ic_action_refresh
+wildscanapp.R$drawable: int ic_action_remove_contact
+wildscanapp.R$drawable: int ic_action_report
+wildscanapp.R$drawable: int ic_action_settings
+wildscanapp.R$drawable: int ic_launcher
+wildscanapp.R$drawable: int ic_map_current_location
+wildscanapp.R$drawable: int ic_plusone_medium_off_client
+wildscanapp.R$drawable: int ic_plusone_small_off_client
+wildscanapp.R$drawable: int ic_plusone_standard_off_client
+wildscanapp.R$drawable: int ic_plusone_tall_off_client
+wildscanapp.R$drawable: int id_background
+wildscanapp.R$drawable: int id_q_color_black
+wildscanapp.R$drawable: int id_q_color_blue
+wildscanapp.R$drawable: int id_q_color_brown
+wildscanapp.R$drawable: int id_q_color_gray
+wildscanapp.R$drawable: int id_q_color_green
+wildscanapp.R$drawable: int id_q_color_orange
+wildscanapp.R$drawable: int id_q_color_purple
+wildscanapp.R$drawable: int id_q_color_red
+wildscanapp.R$drawable: int id_q_color_white
+wildscanapp.R$drawable: int id_q_color_yellow
+wildscanapp.R$drawable: int id_q_cover_feathers
+wildscanapp.R$drawable: int id_q_cover_fur
+wildscanapp.R$drawable: int id_q_cover_scales
+wildscanapp.R$drawable: int id_q_cover_skin
+wildscanapp.R$drawable: int id_q_material_bone
+wildscanapp.R$drawable: int id_q_material_leather
+wildscanapp.R$drawable: int id_q_material_meat
+wildscanapp.R$drawable: int id_q_material_powder
+wildscanapp.R$drawable: int id_q_material_shell
+wildscanapp.R$drawable: int id_q_part_horn
+wildscanapp.R$drawable: int id_q_part_paw
+wildscanapp.R$drawable: int id_q_part_skin
+wildscanapp.R$drawable: int id_q_part_tooth
+wildscanapp.R$drawable: int id_q_part_tusk
+wildscanapp.R$drawable: int id_q_prod_ani_animal
+wildscanapp.R$drawable: int id_q_prod_ani_product
+wildscanapp.R$drawable: int id_q_purpose_clothing
+wildscanapp.R$drawable: int id_q_purpose_food
+wildscanapp.R$drawable: int id_q_purpose_jewelery
+wildscanapp.R$drawable: int id_q_purpose_medicine
+wildscanapp.R$drawable: int id_q_purpose_ornament
+wildscanapp.R$drawable: int id_q_size_large
+wildscanapp.R$drawable: int id_q_size_medium
+wildscanapp.R$drawable: int id_q_size_small
+wildscanapp.R$drawable: int id_q_size_tiny
+wildscanapp.R$drawable: int id_q_size_unk
+wildscanapp.R$drawable: int id_unk
+wildscanapp.R$drawable: int initial_sync_message
+wildscanapp.R$drawable: int logo_new
+wildscanapp.R$drawable: int marker
+wildscanapp.R$drawable: int missing_photo
+wildscanapp.R$drawable: int notify_panel_notification_icon_bg
+wildscanapp.R$drawable: int powered_by_google_dark
+wildscanapp.R$drawable: int powered_by_google_light
+wildscanapp.R$drawable: int report_background
+wildscanapp.R$drawable: int report_browse
+wildscanapp.R$drawable: int report_capture
+wildscanapp.R$drawable: int selector_header_fav
+wildscanapp.R$drawable: int selector_header_gallery
+wildscanapp.R$drawable: int selector_id_btn_check
+wildscanapp.R$drawable: int selector_id_item_bg
+wildscanapp.R$drawable: int selector_list_fav
+wildscanapp.R$drawable: int startup_1
+wildscanapp.R$drawable: int startup_2_header
+wildscanapp.R$drawable: int submit_fail
+wildscanapp.R$drawable: int submit_ok
+wildscanapp.R$drawable: int wildscan_logo
+wildscanapp.R$id: int RelativeLayout1
+wildscanapp.R$id: int action_about
+wildscanapp.R$id: int action_settings
+wildscanapp.R$id: int action_synchronize
+wildscanapp.R$id: int appIcon
+wildscanapp.R$id: int book_now
+wildscanapp.R$id: int bottom
+wildscanapp.R$id: int btns
+wildscanapp.R$id: int btnsBottom
+wildscanapp.R$id: int btnsTop
+wildscanapp.R$id: int buyButton
+wildscanapp.R$id: int buy_now
+wildscanapp.R$id: int buy_with_google
+wildscanapp.R$id: int checkBoxDontShow
+wildscanapp.R$id: int classic
+wildscanapp.R$id: int contactsListAvatar
+wildscanapp.R$id: int contactsListDetails
+wildscanapp.R$id: int contactsListDisplayLayout
+wildscanapp.R$id: int contactsListHeader
+wildscanapp.R$id: int contactsListHeaderBtnFavorites
+wildscanapp.R$id: int contactsListHeaderBtnSearch
+wildscanapp.R$id: int contactsListHeaderLayout
+wildscanapp.R$id: int contactsListWebsite
+wildscanapp.R$id: int credit
+wildscanapp.R$id: int currentEvent
+wildscanapp.R$id: int datePicker
+wildscanapp.R$id: int description
+wildscanapp.R$id: int dialogInfoBtnAbout
+wildscanapp.R$id: int dialogInfoBtnBack
+wildscanapp.R$id: int dialogInfoBtnContributors
+wildscanapp.R$id: int dialogInfoBtnCredits
+wildscanapp.R$id: int dialogInfoBtnCustomer
+wildscanapp.R$id: int dialogInfoBtnEula
+wildscanapp.R$id: int dialogInfoBtnLawEnf
+wildscanapp.R$id: int dialogInfoBtnLaws
+wildscanapp.R$id: int dialogInfoBtnResponder
+wildscanapp.R$id: int dialogInfoContentView
+wildscanapp.R$id: int dialogInfoLogo
+wildscanapp.R$id: int dialogInfoMain
+wildscanapp.R$id: int dialogInfoSectionHeader
+wildscanapp.R$id: int dialogInfoSectionTitle
+wildscanapp.R$id: int dialogInfoSections
+wildscanapp.R$id: int dialogInfoSectionsScroll
+wildscanapp.R$id: int dialogInfoWebContainter
+wildscanapp.R$id: int dummy
+wildscanapp.R$id: int dummy1
+wildscanapp.R$id: int dummy2
+wildscanapp.R$id: int eventCountry
+wildscanapp.R$id: int eventDate
+wildscanapp.R$id: int eventDescription
+wildscanapp.R$id: int eventDetailsInfo
+wildscanapp.R$id: int eventDetailsMainImage
+wildscanapp.R$id: int eventPhoto
+wildscanapp.R$id: int eventSpecies
+wildscanapp.R$id: int eventsListHeaderBtnFavorites
+wildscanapp.R$id: int eventsListHeaderBtnShowOnMap
+wildscanapp.R$id: int eventsListHeaderLayout
+wildscanapp.R$id: int eventsListHeaderTitle
+wildscanapp.R$id: int eventsListListFragment
+wildscanapp.R$id: int eventsMapFragment
+wildscanapp.R$id: int eventsMapHeaderBtnNext
+wildscanapp.R$id: int eventsMapHeaderBtnShowList
+wildscanapp.R$id: int eventsMapHeaderLayout
+wildscanapp.R$id: int eventsMapHeaderTitle
+wildscanapp.R$id: int excerpt
+wildscanapp.R$id: int fix_hight
+wildscanapp.R$id: int fix_width
+wildscanapp.R$id: int frame
+wildscanapp.R$id: int frameLayout
+wildscanapp.R$id: int grayscale
+wildscanapp.R$id: int holo_dark
+wildscanapp.R$id: int holo_light
+wildscanapp.R$id: int homeContactsBtn
+wildscanapp.R$id: int homeEventsHeader
+wildscanapp.R$id: int homeEventsHeaderLabel
+wildscanapp.R$id: int homeEventsListFragment
+wildscanapp.R$id: int homeEventsShowOnMap
+wildscanapp.R$id: int homeEventsViewMore
+wildscanapp.R$id: int homeSpeciesIdBtn
+wildscanapp.R$id: int homeSpeciesLibraryBtn
+wildscanapp.R$id: int homeSubmitReportBtn
+wildscanapp.R$id: int hybrid
+wildscanapp.R$id: int image
+wildscanapp.R$id: int image1
+wildscanapp.R$id: int info_version
+wildscanapp.R$id: int listBtnFav
+wildscanapp.R$id: int locationPickerBtnCancel
+wildscanapp.R$id: int locationPickerBtnSet
+wildscanapp.R$id: int locationPickerFooter
+wildscanapp.R$id: int locationPickerHeader
+wildscanapp.R$id: int locationPickerMap
+wildscanapp.R$id: int match_parent
+wildscanapp.R$id: int message
+wildscanapp.R$id: int monochrome
+wildscanapp.R$id: int none
+wildscanapp.R$id: int normal
+wildscanapp.R$id: int notificationLayout
+wildscanapp.R$id: int production
+wildscanapp.R$id: int prog
+wildscanapp.R$id: int progress
+wildscanapp.R$id: int progress_bar
+wildscanapp.R$id: int progress_bar_frame
+wildscanapp.R$id: int progress_text
+wildscanapp.R$id: int reportWizardAdditionalContacts
+wildscanapp.R$id: int reportWizardAdditionalContactsLabel
+wildscanapp.R$id: int reportWizardAmount
+wildscanapp.R$id: int reportWizardAmountKg
+wildscanapp.R$id: int reportWizardAmountLabel
+wildscanapp.R$id: int reportWizardAmountLayout
+wildscanapp.R$id: int reportWizardAmountRadio
+wildscanapp.R$id: int reportWizardAmountUnits
+wildscanapp.R$id: int reportWizardBtn2
+wildscanapp.R$id: int reportWizardBtn3
+wildscanapp.R$id: int reportWizardBtnAddContacts
+wildscanapp.R$id: int reportWizardBtnAddPhotoBrowse
+wildscanapp.R$id: int reportWizardBtnAddPhotoCapture
+wildscanapp.R$id: int reportWizardBtnBrowse
+wildscanapp.R$id: int reportWizardBtnCancel
+wildscanapp.R$id: int reportWizardBtnCapture
+wildscanapp.R$id: int reportWizardBtnDeletePhoto1
+wildscanapp.R$id: int reportWizardBtnDeletePhoto2
+wildscanapp.R$id: int reportWizardBtnDeletePhoto3
+wildscanapp.R$id: int reportWizardBtnEditDateTime
+wildscanapp.R$id: int reportWizardBtnEditDestination
+wildscanapp.R$id: int reportWizardBtnEditLocation
+wildscanapp.R$id: int reportWizardBtnEditOrigin
+wildscanapp.R$id: int reportWizardBtnIdSpecies
+wildscanapp.R$id: int reportWizardBtnNext
+wildscanapp.R$id: int reportWizardChkPrivate
+wildscanapp.R$id: int reportWizardChkShareViaEmail
+wildscanapp.R$id: int reportWizardChkShareViaEmailText
+wildscanapp.R$id: int reportWizardConditionAlive
+wildscanapp.R$id: int reportWizardConditionDead
+wildscanapp.R$id: int reportWizardConditionLabel
+wildscanapp.R$id: int reportWizardConditionLayout
+wildscanapp.R$id: int reportWizardConditionMixed
+wildscanapp.R$id: int reportWizardConditionRadio
+wildscanapp.R$id: int reportWizardContactsList
+wildscanapp.R$id: int reportWizardDateTime
+wildscanapp.R$id: int reportWizardDateTimeLabel
+wildscanapp.R$id: int reportWizardDateTimeLayout
+wildscanapp.R$id: int reportWizardDestination
+wildscanapp.R$id: int reportWizardDestinationLabel
+wildscanapp.R$id: int reportWizardDestinationLayout
+wildscanapp.R$id: int reportWizardDisplayLayout
+wildscanapp.R$id: int reportWizardFooter
+wildscanapp.R$id: int reportWizardHeader
+wildscanapp.R$id: int reportWizardLocation
+wildscanapp.R$id: int reportWizardLocationLabel
+wildscanapp.R$id: int reportWizardLocationLayout
+wildscanapp.R$id: int reportWizardMethod
+wildscanapp.R$id: int reportWizardMethodLabel
+wildscanapp.R$id: int reportWizardMethodLayout
+wildscanapp.R$id: int reportWizardOffense
+wildscanapp.R$id: int reportWizardOffenseDetails
+wildscanapp.R$id: int reportWizardOffenseDetailsLabel
+wildscanapp.R$id: int reportWizardOffenseDetailsLayout
+wildscanapp.R$id: int reportWizardOffenseLabel
+wildscanapp.R$id: int reportWizardOffenseLayout
+wildscanapp.R$id: int reportWizardOffenseValueLayout
+wildscanapp.R$id: int reportWizardOrigin
+wildscanapp.R$id: int reportWizardOriginLabel
+wildscanapp.R$id: int reportWizardOriginLayout
+wildscanapp.R$id: int reportWizardPhotoThumb1
+wildscanapp.R$id: int reportWizardPhotoThumb2
+wildscanapp.R$id: int reportWizardPhotoThumb3
+wildscanapp.R$id: int reportWizardPhotosBtnLayout
+wildscanapp.R$id: int reportWizardPhotosLabel
+wildscanapp.R$id: int reportWizardPhotosLayout
+wildscanapp.R$id: int reportWizardPrivateLayout
+wildscanapp.R$id: int reportWizardPrivateText
+wildscanapp.R$id: int reportWizardShareLayout
+wildscanapp.R$id: int reportWizardShareTitle
+wildscanapp.R$id: int reportWizardSpecies
+wildscanapp.R$id: int reportWizardSpeciesLabel
+wildscanapp.R$id: int reportWizardSpeciesLayout
+wildscanapp.R$id: int reportWizardThumbnails
+wildscanapp.R$id: int reportWizardValue
+wildscanapp.R$id: int reportWizardValueCents
+wildscanapp.R$id: int reportWizardValueLabel
+wildscanapp.R$id: int reportWizardValueUSD
+wildscanapp.R$id: int reportWizardVesselDescription
+wildscanapp.R$id: int reportWizardVesselDescriptionLabel
+wildscanapp.R$id: int reportWizardVesselDescriptionLayout
+wildscanapp.R$id: int reportWizardVesselId
+wildscanapp.R$id: int reportWizardVesselIdLabel
+wildscanapp.R$id: int reportWizardVesselIdLayout
+wildscanapp.R$id: int reportWizardVesselName
+wildscanapp.R$id: int reportWizardVesselNameLabel
+wildscanapp.R$id: int reportWizardVesselNameLayout
+wildscanapp.R$id: int request
+wildscanapp.R$id: int result
+wildscanapp.R$id: int root
+wildscanapp.R$id: int sandbox
+wildscanapp.R$id: int satellite
+wildscanapp.R$id: int sc
+wildscanapp.R$id: int searchAutocomplete
+wildscanapp.R$id: int searchFilter
+wildscanapp.R$id: int selectionDetails
+wildscanapp.R$id: int sign_in_button
+wildscanapp.R$id: int spciesIdWizardFooter
+wildscanapp.R$id: int speciesDetailsButtonFav
+wildscanapp.R$id: int speciesDetailsButtonReport
+wildscanapp.R$id: int speciesDetailsExcerpt
+wildscanapp.R$id: int speciesDetailsImageScroll
+wildscanapp.R$id: int speciesDetailsImageThumbnails
+wildscanapp.R$id: int speciesDetailsMain
+wildscanapp.R$id: int speciesDetailsSpeciesInfo
+wildscanapp.R$id: int speciesIdWizardAnswersGrid
+wildscanapp.R$id: int speciesIdWizardBtnCancel
+wildscanapp.R$id: int speciesIdWizardBtnIdentify
+wildscanapp.R$id: int speciesIdWizardDisplayLayout
+wildscanapp.R$id: int speciesIdWizardHeader
+wildscanapp.R$id: int speciesIdWizardQuestion
+wildscanapp.R$id: int speciesLibDisplayLayout
+wildscanapp.R$id: int speciesLibHeaderBtnFavorites
+wildscanapp.R$id: int speciesLibHeaderBtnGallery
+wildscanapp.R$id: int speciesLibHeaderBtnSearch
+wildscanapp.R$id: int speciesLibHeaderLayout
+wildscanapp.R$id: int speciesLibSearchPopup
+wildscanapp.R$id: int speciesLibTitle
+wildscanapp.R$id: int speciesListBtnFav
+wildscanapp.R$id: int speciesListBtnReport
+wildscanapp.R$id: int speciesListName
+wildscanapp.R$id: int speciesListThumbnail
+wildscanapp.R$id: int status
+wildscanapp.R$id: int strict_sandbox
+wildscanapp.R$id: int stub_currentEvent
+wildscanapp.R$id: int terrain
+wildscanapp.R$id: int text1
+wildscanapp.R$id: int timePicker
+wildscanapp.R$id: int time_remaining
+wildscanapp.R$id: int title
+wildscanapp.R$id: int top
+wildscanapp.R$id: int wrap_content
+wildscanapp.R$integer: int google_play_services_version
+wildscanapp.R$layout: int activity_contacts_list
+wildscanapp.R$layout: int activity_event_details
+wildscanapp.R$layout: int activity_events_list
+wildscanapp.R$layout: int activity_events_map
+wildscanapp.R$layout: int activity_launch
+wildscanapp.R$layout: int activity_location_picker
+wildscanapp.R$layout: int activity_report_wizard
+wildscanapp.R$layout: int activity_sign_in
+wildscanapp.R$layout: int activity_species_details
+wildscanapp.R$layout: int activity_species_id_wizard
+wildscanapp.R$layout: int activity_species_lib
+wildscanapp.R$layout: int activity_wildscan_main
+wildscanapp.R$layout: int dialog_date_time_picker
+wildscanapp.R$layout: int dialog_info
+wildscanapp.R$layout: int dialog_initial_sync
+wildscanapp.R$layout: int dialog_report_warning
+wildscanapp.R$layout: int dialog_startup_1
+wildscanapp.R$layout: int dialog_submit_progress
+wildscanapp.R$layout: int item_contact_list
+wildscanapp.R$layout: int item_event_list
+wildscanapp.R$layout: int item_id_q_multi
+wildscanapp.R$layout: int item_id_q_single
+wildscanapp.R$layout: int item_report_contacts
+wildscanapp.R$layout: int item_search_dropdown
+wildscanapp.R$layout: int item_species_filter_dropdown
+wildscanapp.R$layout: int item_species_gallery
+wildscanapp.R$layout: int item_species_list
+wildscanapp.R$layout: int layout_report_wizard_1
+wildscanapp.R$layout: int layout_report_wizard_2
+wildscanapp.R$layout: int layout_report_wizard_3
+wildscanapp.R$layout: int layout_report_wizard_4
+wildscanapp.R$layout: int layout_species_details_image_frame
+wildscanapp.R$layout: int status_bar_ongoing_event_progress_bar
+wildscanapp.R$menu: int wildscan_main
+wildscanapp.R$raw: int about
+wildscanapp.R$raw: int consumer_advice
+wildscanapp.R$raw: int contributors
+wildscanapp.R$raw: int credits
+wildscanapp.R$raw: int eula
+wildscanapp.R$raw: int first_responder_advice
+wildscanapp.R$raw: int help
+wildscanapp.R$raw: int law_enforcement_advice
+wildscanapp.R$raw: int national_laws
+wildscanapp.R$string: int OK
+wildscanapp.R$string: int action_info
+wildscanapp.R$string: int action_settings
+wildscanapp.R$string: int action_synchronize
+wildscanapp.R$string: int app_name
+wildscanapp.R$string: int apply
+wildscanapp.R$string: int auth_client_needs_enabling_title
+wildscanapp.R$string: int auth_client_needs_installation_title
+wildscanapp.R$string: int auth_client_needs_update_title
+wildscanapp.R$string: int auth_client_play_services_err_notification_msg
+wildscanapp.R$string: int auth_client_requested_by_msg
+wildscanapp.R$string: int auth_client_using_bad_version_title
+wildscanapp.R$string: int back
+wildscanapp.R$string: int blank
+wildscanapp.R$string: int browse
+wildscanapp.R$string: int cancel
+wildscanapp.R$string: int capture
+wildscanapp.R$string: int close
+wildscanapp.R$string: int common_google_play_services_enable_button
+wildscanapp.R$string: int common_google_play_services_enable_text
+wildscanapp.R$string: int common_google_play_services_enable_title
+wildscanapp.R$string: int common_google_play_services_error_notification_requested_by_msg
+wildscanapp.R$string: int common_google_play_services_install_button
+wildscanapp.R$string: int common_google_play_services_install_text_phone
+wildscanapp.R$string: int common_google_play_services_install_text_tablet
+wildscanapp.R$string: int common_google_play_services_install_title
+wildscanapp.R$string: int common_google_play_services_invalid_account_text
+wildscanapp.R$string: int common_google_play_services_invalid_account_title
+wildscanapp.R$string: int common_google_play_services_needs_enabling_title
+wildscanapp.R$string: int common_google_play_services_network_error_text
+wildscanapp.R$string: int common_google_play_services_network_error_title
+wildscanapp.R$string: int common_google_play_services_notification_needs_installation_title
+wildscanapp.R$string: int common_google_play_services_notification_needs_update_title
+wildscanapp.R$string: int common_google_play_services_notification_ticker
+wildscanapp.R$string: int common_google_play_services_unknown_issue
+wildscanapp.R$string: int common_google_play_services_unsupported_date_text
+wildscanapp.R$string: int common_google_play_services_unsupported_text
+wildscanapp.R$string: int common_google_play_services_unsupported_title
+wildscanapp.R$string: int common_google_play_services_update_button
+wildscanapp.R$string: int common_google_play_services_update_text
+wildscanapp.R$string: int common_google_play_services_update_title
+wildscanapp.R$string: int common_signin_button_text
+wildscanapp.R$string: int common_signin_button_text_long
+wildscanapp.R$string: int contacts_list_header_btn_favorites
+wildscanapp.R$string: int contacts_list_header_btn_search
+wildscanapp.R$string: int contacts_list_header_title
+wildscanapp.R$string: int contacts_list_label_email
+wildscanapp.R$string: int contacts_list_label_phone
+wildscanapp.R$string: int contacts_list_search_by_name_hint
+wildscanapp.R$string: int date_time_picker_dialog_title
+wildscanapp.R$string: int details
+wildscanapp.R$string: int discard
+wildscanapp.R$string: int dismiss
+wildscanapp.R$string: int do_not_show
+wildscanapp.R$string: int done
+wildscanapp.R$string: int error
+wildscanapp.R$string: int event_details_address_label
+wildscanapp.R$string: int event_details_amount_label
+wildscanapp.R$string: int event_details_condition_label
+wildscanapp.R$string: int event_details_country_label
+wildscanapp.R$string: int event_details_datetime_label
+wildscanapp.R$string: int event_details_offense_label
+wildscanapp.R$string: int event_details_species_label
+wildscanapp.R$string: int event_details_unknown
+wildscanapp.R$string: int event_hint_country
+wildscanapp.R$string: int event_hint_date
+wildscanapp.R$string: int event_hint_description
+wildscanapp.R$string: int event_hint_species
+wildscanapp.R$string: int events_list_empty_text
+wildscanapp.R$string: int events_list_fragment_tag
+wildscanapp.R$string: int events_list_fragment_tag_on_home
+wildscanapp.R$string: int events_list_fragment_title
+wildscanapp.R$string: int events_list_header_btn_favorites
+wildscanapp.R$string: int events_list_header_btn_show_on_map
+wildscanapp.R$string: int events_list_header_btn_view_more
+wildscanapp.R$string: int events_list_header_title
+wildscanapp.R$string: int events_list_loading_text
+wildscanapp.R$string: int events_map_header_btn_next
+wildscanapp.R$string: int events_map_header_btn_show_list
+wildscanapp.R$string: int events_map_header_title
+wildscanapp.R$string: int exit
+wildscanapp.R$string: int file_provider_authorities
+wildscanapp.R$string: int home_contacts_btn_desc
+wildscanapp.R$string: int home_id_species_btn_desc
+wildscanapp.R$string: int home_species_lib_btn_desc
+wildscanapp.R$string: int home_submit_report_btn_desc
+wildscanapp.R$string: int identify
+wildscanapp.R$string: int info_about
+wildscanapp.R$string: int info_consumer
+wildscanapp.R$string: int info_contributors
+wildscanapp.R$string: int info_credits
+wildscanapp.R$string: int info_eula
+wildscanapp.R$string: int info_law_enforcement
+wildscanapp.R$string: int info_national_laws
+wildscanapp.R$string: int info_responder
+wildscanapp.R$string: int info_title
+wildscanapp.R$string: int kilobytes_per_second
+wildscanapp.R$string: int location_picker_map_target_title
+wildscanapp.R$string: int msg_contact_fav_empty
+wildscanapp.R$string: int msg_crc_check_fail
+wildscanapp.R$string: int msg_map_no_events
+wildscanapp.R$string: int msg_no_adress_for_location
+wildscanapp.R$string: int msg_no_adress_found
+wildscanapp.R$string: int msg_report_contact_no_email
+wildscanapp.R$string: int msg_report_gallery_photo_added
+wildscanapp.R$string: int msg_species_lib_fav_empty
+wildscanapp.R$string: int msg_species_lib_filter_empty
+wildscanapp.R$string: int msg_species_lib_list_empty
+wildscanapp.R$string: int msg_species_lib_no_close_events
+wildscanapp.R$string: int msg_species_lib_no_location
+wildscanapp.R$string: int msg_species_lib_search_not_found
+wildscanapp.R$string: int msg_species_lib_wizard_empty
+wildscanapp.R$string: int next
+wildscanapp.R$string: int no
+wildscanapp.R$string: int no_network_connection_toast
+wildscanapp.R$string: int notification_download_complete
+wildscanapp.R$string: int notification_download_failed
+wildscanapp.R$string: int pass1
+wildscanapp.R$string: int pref_entry_current_supported
+wildscanapp.R$string: int pref_entry_device_language
+wildscanapp.R$string: int pref_label_auto_contacts
+wildscanapp.R$string: int pref_label_gallery_view
+wildscanapp.R$string: int pref_label_language
+wildscanapp.R$string: int pref_label_save_report
+wildscanapp.R$string: int pref_label_show_warning
+wildscanapp.R$string: int pref_label_sync
+wildscanapp.R$string: int pref_screen_title
+wildscanapp.R$string: int pref_summary_auto_contacts
+wildscanapp.R$string: int pref_summary_gallery_view
+wildscanapp.R$string: int pref_summary_language
+wildscanapp.R$string: int pref_summary_save_report
+wildscanapp.R$string: int pref_summary_show_warning
+wildscanapp.R$string: int pref_summary_sync
+wildscanapp.R$string: int rebrowse
+wildscanapp.R$string: int recapture
+wildscanapp.R$string: int report_email_section_name_amount
+wildscanapp.R$string: int report_email_section_name_condition
+wildscanapp.R$string: int report_email_section_name_datetime
+wildscanapp.R$string: int report_email_section_name_description
+wildscanapp.R$string: int report_email_section_name_dest_address
+wildscanapp.R$string: int report_email_section_name_dest_lat
+wildscanapp.R$string: int report_email_section_name_dest_lon
+wildscanapp.R$string: int report_email_section_name_details
+wildscanapp.R$string: int report_email_section_name_location_lat
+wildscanapp.R$string: int report_email_section_name_location_lon
+wildscanapp.R$string: int report_email_section_name_method
+wildscanapp.R$string: int report_email_section_name_origin_address
+wildscanapp.R$string: int report_email_section_name_origin_lat
+wildscanapp.R$string: int report_email_section_name_origin_lon
+wildscanapp.R$string: int report_email_section_name_species
+wildscanapp.R$string: int report_email_section_name_value
+wildscanapp.R$string: int report_email_section_name_vessel_description
+wildscanapp.R$string: int report_email_section_name_vessel_id
+wildscanapp.R$string: int report_email_section_name_vessel_name
+wildscanapp.R$string: int report_email_title
+wildscanapp.R$string: int report_submit_dialog_title
+wildscanapp.R$string: int report_submit_fail
+wildscanapp.R$string: int report_submit_message
+wildscanapp.R$string: int report_submit_success
+wildscanapp.R$string: int report_wizard_confirm_discard_message
+wildscanapp.R$string: int report_wizard_confirm_discard_title
+wildscanapp.R$string: int report_wizard_location_hint
+wildscanapp.R$string: int report_wizard_location_loading
+wildscanapp.R$string: int report_wizard_location_pick_title
+wildscanapp.R$string: int report_wizard_screen_1_browse_label
+wildscanapp.R$string: int report_wizard_screen_1_capture_label
+wildscanapp.R$string: int report_wizard_screen_1_title
+wildscanapp.R$string: int report_wizard_screen_2_amount_label
+wildscanapp.R$string: int report_wizard_screen_2_amount_unit_label
+wildscanapp.R$string: int report_wizard_screen_2_amount_weight_label
+wildscanapp.R$string: int report_wizard_screen_2_condition_alive_label
+wildscanapp.R$string: int report_wizard_screen_2_condition_dead_label
+wildscanapp.R$string: int report_wizard_screen_2_condition_label
+wildscanapp.R$string: int report_wizard_screen_2_condition_mixed_label
+wildscanapp.R$string: int report_wizard_screen_2_location_label
+wildscanapp.R$string: int report_wizard_screen_2_offense_hint
+wildscanapp.R$string: int report_wizard_screen_2_offense_label
+wildscanapp.R$string: int report_wizard_screen_2_species_hint
+wildscanapp.R$string: int report_wizard_screen_2_species_label
+wildscanapp.R$string: int report_wizard_screen_2_time_label
+wildscanapp.R$string: int report_wizard_screen_2_title
+wildscanapp.R$string: int report_wizard_screen_3_destination_label
+wildscanapp.R$string: int report_wizard_screen_3_method_hint
+wildscanapp.R$string: int report_wizard_screen_3_method_label
+wildscanapp.R$string: int report_wizard_screen_3_offense_details_hint
+wildscanapp.R$string: int report_wizard_screen_3_offense_details_label
+wildscanapp.R$string: int report_wizard_screen_3_origin_label
+wildscanapp.R$string: int report_wizard_screen_3_route_label
+wildscanapp.R$string: int report_wizard_screen_3_title
+wildscanapp.R$string: int report_wizard_screen_3_value_label
+wildscanapp.R$string: int report_wizard_screen_3_value_usd
+wildscanapp.R$string: int report_wizard_screen_3_vessel_description_label
+wildscanapp.R$string: int report_wizard_screen_3_vessel_id_label
+wildscanapp.R$string: int report_wizard_screen_3_vessel_label
+wildscanapp.R$string: int report_wizard_screen_3_vessel_name_label
+wildscanapp.R$string: int report_wizard_screen_3_zero_cents
+wildscanapp.R$string: int report_wizard_screen_4_add_contact
+wildscanapp.R$string: int report_wizard_screen_4_add_photo_label
+wildscanapp.R$string: int report_wizard_screen_4_photos_label
+wildscanapp.R$string: int report_wizard_screen_4_private_label
+wildscanapp.R$string: int report_wizard_screen_4_private_text
+wildscanapp.R$string: int report_wizard_screen_4_recipients_label
+wildscanapp.R$string: int report_wizard_screen_4_share_email_label
+wildscanapp.R$string: int report_wizard_screen_4_share_email_text
+wildscanapp.R$string: int report_wizard_screen_4_share_text
+wildscanapp.R$string: int report_wizard_screen_4_share_title
+wildscanapp.R$string: int report_wizard_screen_4_title
+wildscanapp.R$string: int report_wizard_warning_dialog_message
+wildscanapp.R$string: int report_wizard_warning_dialog_title
+wildscanapp.R$string: int retry
+wildscanapp.R$string: int set
+wildscanapp.R$string: int sign_in_request_message
+wildscanapp.R$string: int skip
+wildscanapp.R$string: int species_details_failed_set_fav
+wildscanapp.R$string: int species_details_label_aka
+wildscanapp.R$string: int species_details_label_cites
+wildscanapp.R$string: int species_details_label_cites_appendix_1
+wildscanapp.R$string: int species_details_label_cites_appendix_2
+wildscanapp.R$string: int species_details_label_cites_appendix_3
+wildscanapp.R$string: int species_details_label_common_methods
+wildscanapp.R$string: int species_details_label_consumer
+wildscanapp.R$string: int species_details_label_diseases
+wildscanapp.R$string: int species_details_label_distribution
+wildscanapp.R$string: int species_details_label_enforcement
+wildscanapp.R$string: int species_details_label_habitat
+wildscanapp.R$string: int species_details_label_id_clues
+wildscanapp.R$string: int species_details_label_notes
+wildscanapp.R$string: int species_details_label_responder
+wildscanapp.R$string: int species_details_label_similar
+wildscanapp.R$string: int species_details_label_size
+wildscanapp.R$string: int species_details_label_status
+wildscanapp.R$string: int species_details_label_status_cr
+wildscanapp.R$string: int species_details_label_status_en
+wildscanapp.R$string: int species_details_label_status_ew
+wildscanapp.R$string: int species_details_label_status_ex
+wildscanapp.R$string: int species_details_label_status_lc
+wildscanapp.R$string: int species_details_label_status_na
+wildscanapp.R$string: int species_details_label_status_nt
+wildscanapp.R$string: int species_details_label_status_vu
+wildscanapp.R$string: int species_details_label_traded_as
+wildscanapp.R$string: int species_details_label_warning
+wildscanapp.R$string: int species_details_label_warning_dangerous
+wildscanapp.R$string: int species_details_label_warning_disease_risk
+wildscanapp.R$string: int species_details_label_warning_disease_risk_high
+wildscanapp.R$string: int species_details_label_warning_disease_risk_low
+wildscanapp.R$string: int species_details_label_warning_disease_risk_medium
+wildscanapp.R$string: int species_details_label_warning_nocturnal
+wildscanapp.R$string: int species_details_label_warning_poisonous
+wildscanapp.R$string: int species_details_photo_license
+wildscanapp.R$string: int species_id_wizard_header_title
+wildscanapp.R$string: int species_lib_header_btn_favorites
+wildscanapp.R$string: int species_lib_header_btn_gallery
+wildscanapp.R$string: int species_lib_header_btn_search
+wildscanapp.R$string: int species_lib_header_title
+wildscanapp.R$string: int species_lib_search_by_name_hint
+wildscanapp.R$string: int species_lib_search_set_filter
+wildscanapp.R$string: int species_lib_select_dlg_btn_details
+wildscanapp.R$string: int species_lib_select_dlg_btn_select
+wildscanapp.R$string: int species_lib_select_dlg_text
+wildscanapp.R$string: int state_completed
+wildscanapp.R$string: int state_connecting
+wildscanapp.R$string: int state_downloading
+wildscanapp.R$string: int state_failed
+wildscanapp.R$string: int state_failed_cancelled
+wildscanapp.R$string: int state_failed_fetching_url
+wildscanapp.R$string: int state_failed_sdcard_full
+wildscanapp.R$string: int state_failed_unlicensed
+wildscanapp.R$string: int state_fetching_url
+wildscanapp.R$string: int state_idle
+wildscanapp.R$string: int state_paused_by_request
+wildscanapp.R$string: int state_paused_network_setup_failure
+wildscanapp.R$string: int state_paused_network_unavailable
+wildscanapp.R$string: int state_paused_roaming
+wildscanapp.R$string: int state_paused_sdcard_unavailable
+wildscanapp.R$string: int state_paused_wifi_disabled
+wildscanapp.R$string: int state_paused_wifi_unavailable
+wildscanapp.R$string: int state_unknown
+wildscanapp.R$string: int status_apk_exp_dl_fail_abort
+wildscanapp.R$string: int status_apk_exp_download
+wildscanapp.R$string: int status_login_failed
+wildscanapp.R$string: int status_new_user_signin_fail
+wildscanapp.R$string: int status_play_services_error
+wildscanapp.R$string: int status_registering
+wildscanapp.R$string: int status_registration_fail
+wildscanapp.R$string: int status_retrieve_id
+wildscanapp.R$string: int status_server_error
+wildscanapp.R$string: int status_server_error_code
+wildscanapp.R$string: int status_sign_in_hint
+wildscanapp.R$string: int status_signed_in_as
+wildscanapp.R$string: int status_signed_out
+wildscanapp.R$string: int status_signin_failed_abort
+wildscanapp.R$string: int status_signing_in
+wildscanapp.R$string: int status_signup_failed
+wildscanapp.R$string: int status_verification_failed
+wildscanapp.R$string: int status_verify
+wildscanapp.R$string: int submit
+wildscanapp.R$string: int sync_account_type
+wildscanapp.R$string: int sync_initial_starting_message
+wildscanapp.R$string: int sync_provider_authorities
+wildscanapp.R$string: int sync_starting_message
+wildscanapp.R$string: int sync_wifi_unavailable
+wildscanapp.R$string: int time_remaining
+wildscanapp.R$string: int time_remaining_notification
+wildscanapp.R$string: int wallet_buy_button_place_holder
+wildscanapp.R$string: int yes
+wildscanapp.R$style: int AboutButtonStyle
+wildscanapp.R$style: int AppBaseTheme
+wildscanapp.R$style: int AppTheme
+wildscanapp.R$style: int ButtonBackground
+wildscanapp.R$style: int CustomActionBarStyle
+wildscanapp.R$style: int ListStyle
+wildscanapp.R$style: int NoTitleText
+wildscanapp.R$style: int NotificationText
+wildscanapp.R$style: int NotificationTextSecondary
+wildscanapp.R$style: int NotificationTextShadow
+wildscanapp.R$style: int NotificationTitle
+wildscanapp.R$style: int ReportImageButtonStyle
+wildscanapp.R$style: int SpinnerItem
+wildscanapp.R$style: int SpinnerItem_DropDownItem
+wildscanapp.R$style: int Theme_IAPTheme
+wildscanapp.R$style: int WalletFragmentDefaultButtonTextAppearance
+wildscanapp.R$style: int WalletFragmentDefaultDetailsHeaderTextAppearance
+wildscanapp.R$style: int WalletFragmentDefaultDetailsTextAppearance
+wildscanapp.R$style: int WalletFragmentDefaultStyle
+wildscanapp.R$styleable: int[] AdsAttrs
+wildscanapp.R$styleable: int AdsAttrs_adSize
+wildscanapp.R$styleable: int AdsAttrs_adSizes
+wildscanapp.R$styleable: int AdsAttrs_adUnitId
+wildscanapp.R$styleable: int[] FixedAspect
+wildscanapp.R$styleable: int FixedAspect_mode
+wildscanapp.R$styleable: int FixedAspect_ratio
+wildscanapp.R$styleable: int[] MapAttrs
+wildscanapp.R$styleable: int MapAttrs_cameraBearing
+wildscanapp.R$styleable: int MapAttrs_cameraTargetLat
+wildscanapp.R$styleable: int MapAttrs_cameraTargetLng
+wildscanapp.R$styleable: int MapAttrs_cameraTilt
+wildscanapp.R$styleable: int MapAttrs_cameraZoom
+wildscanapp.R$styleable: int MapAttrs_mapType
+wildscanapp.R$styleable: int MapAttrs_uiCompass
+wildscanapp.R$styleable: int MapAttrs_uiRotateGestures
+wildscanapp.R$styleable: int MapAttrs_uiScrollGestures
+wildscanapp.R$styleable: int MapAttrs_uiTiltGestures
+wildscanapp.R$styleable: int MapAttrs_uiZoomControls
+wildscanapp.R$styleable: int MapAttrs_uiZoomGestures
+wildscanapp.R$styleable: int MapAttrs_useViewLifecycle
+wildscanapp.R$styleable: int MapAttrs_zOrderOnTop
+wildscanapp.R$styleable: int[] WalletFragmentOptions
+wildscanapp.R$styleable: int WalletFragmentOptions_environment
+wildscanapp.R$styleable: int WalletFragmentOptions_fragmentMode
+wildscanapp.R$styleable: int WalletFragmentOptions_fragmentStyle
+wildscanapp.R$styleable: int WalletFragmentOptions_theme
+wildscanapp.R$styleable: int[] WalletFragmentStyle
+wildscanapp.R$styleable: int WalletFragmentStyle_buyButtonAppearance
+wildscanapp.R$styleable: int WalletFragmentStyle_buyButtonHeight
+wildscanapp.R$styleable: int WalletFragmentStyle_buyButtonText
+wildscanapp.R$styleable: int WalletFragmentStyle_buyButtonWidth
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsBackground
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonBackground
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoImageType
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+wildscanapp.R$styleable: int WalletFragmentStyle_maskedWalletDetailsTextAppearance
+wildscanapp.R$xml: int authenticator
+wildscanapp.R$xml: int filepaths
+wildscanapp.R$xml: int preferences
+wildscanapp.R$xml: int syncadapter
+wildscanapp.Report
+wildscanapp.Report: android.os.Parcelable$Creator CREATOR
+wildscanapp.Report$RecipientInfo
+wildscanapp.Report$RecipientInfo: android.os.Parcelable$Creator CREATOR
+wildscanapp.ReportWizardActivity
+wildscanapp.ReportWizardActivity: ReportWizardActivity()
+wildscanapp.ReportWizardActivity: void onClickBtnCapture(android.view.View)
+wildscanapp.ReportWizardActivity: void onClickBtnBrowse(android.view.View)
+wildscanapp.ReportWizardActivity: void onClickBtnCancel(android.view.View)
+wildscanapp.SignInActivity
+wildscanapp.SignInActivity: SignInActivity()
+wildscanapp.SignInActivity: void onClick(android.view.View)
+wildscanapp.SpeciesDetailsActivity
+wildscanapp.SpeciesDetailsActivity: SpeciesDetailsActivity()
+wildscanapp.SpeciesDetailsActivity: void showLicense(android.view.View)
+wildscanapp.SpeciesDetailsActivity: void onClick(android.view.View)
+wildscanapp.SpeciesDetailsActivity: void onClickButtonFav(android.view.View)
+wildscanapp.SpeciesDetailsActivity: void onClickButtonReport(android.view.View)
+wildscanapp.SpeciesIdWizardActivity
+wildscanapp.SpeciesIdWizardActivity: SpeciesIdWizardActivity()
+wildscanapp.SpeciesIdWizardActivity: void onClickBtnCancel(android.view.View)
+wildscanapp.SpeciesIdWizardActivity: void onClickBtnIdentify(android.view.View)
+wildscanapp.SpeciesLibActivity
+wildscanapp.SpeciesLibActivity: SpeciesLibActivity()
+wildscanapp.SpeciesLibActivity: void onClickHeaderBtnFavorites(android.view.View)
+wildscanapp.SpeciesLibActivity: void onClickHeaderBtnGallery(android.view.View)
+wildscanapp.SpeciesLibActivity: void onClickHeaderBtnSearch(android.view.View)
+wildscanapp.SpeciesLibActivity: void onClickItemFav(android.view.View)
+wildscanapp.SpeciesLibActivity: void onClickItemReport(android.view.View)
+wildscanapp.WildscanLaunchActivity
+wildscanapp.WildscanLaunchActivity: WildscanLaunchActivity()
+wildscanapp.WildscanMainActivity
+wildscanapp.WildscanMainActivity: WildscanMainActivity()
+wildscanapp.WildscanMainActivity: void onClickIdSpecies(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickSubmitReport(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickContacts(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickViewMore(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickShowOnMap(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickSpeciesLibrary(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickMenuSync(android.view.MenuItem)
+wildscanapp.WildscanMainActivity: void onClickMenuSettings(android.view.MenuItem)
+wildscanapp.WildscanMainActivity: void onClickMenuInfo(android.view.MenuItem)
+wildscanapp.WildscanMainActivity: void onClickInfoBtn(android.view.View)
+wildscanapp.WildscanMainActivity: void onClickInfoSectionBack(android.view.View)
+wildscanapp.authenticator.WildscanAuthenticator$AuthenticatorService
+wildscanapp.authenticator.WildscanAuthenticator$AuthenticatorService: WildscanAuthenticator$AuthenticatorService()
+wildscanapp.data.WildscanDataManager$AppReplacedReciever
+wildscanapp.data.WildscanDataManager$AppReplacedReciever: WildscanDataManager$AppReplacedReciever()
+wildscanapp.data.WildscanDownloaderService
+wildscanapp.data.WildscanDownloaderService: WildscanDownloaderService()
+wildscanapp.data.provider.StubSyncProvider
+wildscanapp.data.provider.StubSyncProvider: StubSyncProvider()
+wildscanapp.data.provider.WildscanDataProvider
+wildscanapp.data.provider.WildscanDataProvider: WildscanDataProvider()
+wildscanapp.data.sync.WildscanSyncAdapter$SyncService
+wildscanapp.data.sync.WildscanSyncAdapter$SyncService: WildscanSyncAdapter$SyncService()
+wildscanapp.imagecache.AsyncTask$Status: wildscanapp.imagecache.AsyncTask$Status[] values()
+wildscanapp.imagecache.AsyncTask$Status: wildscanapp.imagecache.AsyncTask$Status valueOf(java.lang.String)
+wildscanapp.view.FixedAspectViewPager
+wildscanapp.view.FixedAspectViewPager: FixedAspectViewPager(android.content.Context,android.util.AttributeSet)
+wildscanapp.view.FixedAspectViewPager: void setRatio(float)
+wildscanapp.widget.FixedAspectImageView
+wildscanapp.widget.FixedAspectImageView: FixedAspectImageView(android.content.Context)
+wildscanapp.widget.FixedAspectImageView: FixedAspectImageView(android.content.Context,android.util.AttributeSet)
+wildscanapp.widget.FixedAspectImageView: FixedAspectImageView(android.content.Context,android.util.AttributeSet,int)
+wildscanapp.widget.FixedAspectImageView: void setRatio(float)
+wildscanapp.widget.SearchAutoCompleteView
+wildscanapp.widget.SearchAutoCompleteView: SearchAutoCompleteView(android.content.Context,android.util.AttributeSet)
+wildscanapp.widget.SearchAutoCompleteView: SearchAutoCompleteView(android.content.Context)
+wildscanapp.widget.SearchAutoCompleteView: SearchAutoCompleteView(android.content.Context,android.util.AttributeSet,int)
