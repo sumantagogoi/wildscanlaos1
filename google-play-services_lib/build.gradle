@@ -6,6 +6,7 @@ dependencies {
 
 android {
     compileSdkVersion 28
+    namespace 'com.android.library'
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'

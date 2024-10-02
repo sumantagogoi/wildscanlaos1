@@ -5,7 +5,8 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 34
+    namespace 'com.android.library'
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -31,7 +32,7 @@ android {
     }
     defaultConfig {
         useLibrary 'org.apache.http.legacy'
-        targetSdkVersion 28
+        targetSdkVersion 34
         minSdkVersion 21
     }
     configurations.all { exclude group: 'org.apache.http', module: 'HttpHeaders' }
@@ -39,7 +40,7 @@ android {
     productFlavors {
     }
     compileOptions {
-        sourceCompatibility = 1.7
-        targetCompatibility = 1.7
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
     }
 }

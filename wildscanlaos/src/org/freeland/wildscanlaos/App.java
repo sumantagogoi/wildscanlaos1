@@ -2,7 +2,7 @@ package org.freeland.wildscanlaos;
 
 import android.app.Application;
 
-import com.firebase.*;
+//import com.firebase.*;
 import com.crashlytics.android.Crashlytics;
 
 import io.fabric.sdk.android.Fabric;
